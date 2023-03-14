@@ -1,0 +1,1693 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* First Navigation Bar ******************** */
+.foundation-name {
+    padding: 0 0 0 70px;
+    display: flex;
+    grid-template-columns: auto auto auto;
+}
+
+.foundation-name img {
+    width: 90px;
+}
+
+.org-name h1 {
+    font-size: 20px;
+    padding: 15px 0 0 10px;
+    /* color: #2d538d; */
+    color: rgb(18, 73, 130);
+    font-weight: bold;
+}
+
+.org-name p {
+    padding: 0 0 0 10px;
+    /* color: #2d538d; */
+    color: rgb(18, 73, 130);
+}
+
+#hamburger {
+    color: white;
+    display: none;
+    font-size: 23px;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+#hamburgerMenu {
+    /* background-color: #2d538d; */
+    background-color: rgb(18, 73, 130);
+}
+
+.hamburgerLogo {
+    top: 17px;
+    right: 24px;
+    display: none;
+}
+
+#navigation {
+    display: flex;
+    justify-content: end;
+}
+
+#navigation li {
+    list-style: none;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav ul {
+    background-color: #ffff;
+}
+
+.nav ul li {
+    text-align: left;
+}
+
+.nav-links i {
+    font-size: 25px;
+}
+
+
+.nav-links {
+    font-family: sans-serif;
+    padding-top: 34px;
+    padding-right: 22px;
+}
+
+
+.nav-links ul li {
+    font-size: 14px;
+    padding: 7px;
+}
+
+.nav-links ul {
+    gap: 10px;
+    width: 100%;
+}
+
+.nav-links ul li a {
+    text-decoration: none;
+    /* color: #2d538d; */
+    color: rgb(18, 73, 130);
+}
+
+ul li a {
+    color: black;
+}
+
+.nav-links ul li select option:hover {
+    color: rgb(106, 2, 58);
+    font-weight: bold;
+}
+
+.nav-links ul li a:hover {
+    color: #db1313;
+}
+
+#list-item {
+    position: relative;
+    display: inline-block;
+}
+
+.list {
+    display: none;
+    position: absolute;
+    min-width: 190px;
+    z-index: 1;
+    list-style: none;
+    text-align: left;
+    box-shadow: 0px 0px 20px #b6aeae;
+    border-radius: 10px;
+}
+
+.list li a {
+    font-size: 13px;
+    line-height: 1;
+    border-bottom: 1px solid rgb(215 209 209);
+}
+
+#list-item:hover .list {
+    display: block;
+}
+
+.list1 {
+    display: none;
+    position: absolute;
+    min-width: 165px;
+    padding: 12px 16px;
+    z-index: 1;
+    list-style: none;
+    text-align: left;
+    border: 1px solid white;
+}
+
+.list1 li a {
+    font-size: 13px;
+    display: block;
+}
+
+/* ****************************************************** */
+
+
+/* Second navigation Bar */
+#navi {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    color: #0c0c0c;
+    list-style: none;
+    gap: 10px;
+    text-align: left;
+    padding: 0px 115px 78px 25px;
+}
+
+#navi a {
+    /* color: #2d538d; */
+    color: rgb(18, 73, 130);
+    text-decoration: none;
+}
+
+#navi li a {
+    font-size: 14px;
+}
+
+.nav-bar {
+    display: flex;
+    gap: 114px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 20px;
+    background-color: #fff;
+    box-shadow: 5px 3px 8px #888888;
+}
+
+#about-item {
+    position: relative;
+    display: inline-block;
+}
+
+#about-item:hover .list1 {
+    display: block;
+}
+
+#list-item #drop-icon1 {
+    font-size: 17px;
+    padding-left: 7px;
+}
+
+#about-item #drop-icon1 {
+    font-size: 17px;
+    padding-left: 7px;
+}
+
+
+/*  Second navigation bar dropdown ******* */
+#event-drop {
+    position: relative;
+    display: inline-block;
+}
+
+.list2 {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    list-style: none;
+    text-align: left;
+    border: 1px solid white;
+    background-color: #fff;
+}
+
+.list2 li a {
+    font-size: 13px;
+    display: block;
+}
+
+.second-drop li a {
+    border-bottom: 1px solid rgb(215 209 209);
+    padding-top: 5px;
+}
+
+#event-drop:hover .list2 {
+    display: block;
+}
+
+#about-drop {
+    position: relative;
+    display: inline-block;
+}
+
+.list3 {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    padding: 12px 16px;
+    z-index: 1;
+    list-style: none;
+    text-align: left;
+    border: 1px solid white;
+    background-color: #fff;
+}
+
+.list3 li a {
+    font-size: 13px;
+    display: block;
+}
+
+#about-drop:hover .list3 {
+    display: block;
+}
+
+/* ************************************************************** */
+
+
+/* Carousal */
+.carousal-container {
+    background-color: #ffff;
+}
+
+.carousal-container {
+    padding: 0;
+}
+
+.carousel-inner {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.carousel-control-next {
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    margin-top: 33%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background-color: #0c0c0c;
+    text-align: center;
+    border: 0;
+}
+
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    transition: opacity .15s ease;
+}
+
+.carousel-control-prev {
+    right: 0px;
+    height: 50px;
+    width: 50px;
+    margin-top: 33%;
+}
+
+/* ************************************************* */
+
+/*  Our Story  */
+.our-story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(253, 251, 251);
+    margin-bottom: 20px;
+}
+
+.founder-pic img {
+    width: 300px;
+}
+
+.story {
+    margin-left: 20px;
+    text-align: center;
+    /* color: #174351e3; */
+    /* color: rgb(18, 73, 130); */
+    width: 500px;
+}
+
+.story h1 {
+    font-weight: bold;
+    font-size: 27px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.story p {
+    font-size: 15px;
+    font-style: italic;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+/* *********************************************** */
+
+
+/*  What we do  */
+.what-we-do {
+    margin-top: 50px;
+}
+
+.what h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+#work {
+    padding-left: 165px;
+    padding-right: 140px;
+}
+
+#work li {
+    list-style: none;
+}
+
+.what-we-do h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.our-work {
+    padding-left: 10px;
+}
+
+.our-work li {
+    padding-top: 10px;
+}
+
+/* ************************************************** */
+
+/* advocacy-networking */
+.advocacy-container {
+    margin: 30px 120px;
+}
+
+.card-container {
+    background-color: rgb(61, 71, 86);
+    padding: 40px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: rgb(61, 71, 86);
+    border: none;
+    height: 600px;
+}
+
+.card p {
+    color: aliceblue;
+    text-align: start;
+}
+
+/* 
+.card img {
+    width: 100%;
+    max-width: 288px;
+} */
+
+.card-title {
+    color: aliceblue;
+}
+
+.image-jpg {
+    max-height: 288px;
+    max-width: 288px;
+}
+
+#advocacy {
+    font-size: 27px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+/* ****************************************************** */
+
+
+/* Gallery  */
+.gallery h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.gallery {
+    padding: 80px 0px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery-item {
+    height: 233px;
+    /* width: 360px; */
+    width: 450px;
+}
+
+.gallery-container .col img {
+    border-radius: 5px;
+}
+
+.row {
+    row-gap: 25px;
+}
+
+.gallery-container {
+    margin: 30px 120px;
+}
+
+/* *********************************************************** */
+
+/*  Media & Resource Center */
+.media-resource {
+    padding-left: 10px;
+}
+
+.media-resource h1 {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.media-links ul li {
+    list-style: none;
+    padding: 11px 0 0 0;
+}
+
+.media-links {
+    padding-left: 25px;
+}
+
+.media-links ul li a {
+    text-decoration: none;
+    border-bottom: 1px solid rgb(215 209 209);
+    font-size: 16px;
+    color: #db1313;
+}
+
+.media-links ul li a:hover {
+    color: #282727;
+}
+
+.media-container {
+    margin: 0 0 0 120px;
+}
+
+/* **************************************************************** */
+
+
+/*  footer  */
+footer {
+    background-color: #2d538d;
+    /* background-color: #30566c; */
+    /* background-color: rgb(23, 78, 120); */
+    /* background-color: #124982; */
+    /* background-color: rgb(0, 237, 255); */
+    /* background-color: rgb(18, 73, 130); */
+    padding: 40px 85px 0 85px;
+}
+
+.footer-col {
+    /* color: #ffff; */
+}
+
+.footer-col h5 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffff;
+    margin-left: 7px;
+}
+
+.name {
+    padding-left: 55px;
+}
+
+.address {
+    padding-right: 55px;
+}
+
+.footer-col p {
+    font-size: 15px;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-between;
+    line-height: 1.7;
+}
+
+.logo img {
+    height: 40px;
+    margin: 10px 0px 15px 0px;
+}
+
+.footer-down {
+    color: #ffff;
+    padding: 10px 0;
+    line-height: 1.7;
+    font-size: 15px;
+}
+
+.footer-icon {
+    display: flex;
+    flex-direction: column;
+    padding-left: 63px;
+    color: #fff;
+}
+
+.footer-icon p {
+    margin: 0;
+}
+
+#email {
+    padding-bottom: 20px;
+}
+
+.footer-icon i {
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.footer-icon1 {
+    display: flex;
+    flex-direction: row;
+    padding-right: 63px;
+}
+
+.footer-icon1 i {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 9px;
+}
+
+.footer-icon1 a {
+    text-decoration: none;
+    color: #ffff;
+    /* color: #0c0c0c; */
+}
+
+.footer-icon1 a:hover {
+    color: rgb(173, 28, 28);
+
+}
+
+.footer-info-down {
+    display: flex;
+    justify-content: space-around;
+    background-color: #243946;
+    /* background-color: rgb(47, 84, 151); */
+}
+
+#right {
+    font-size: 14px;
+    padding-left: 20px;
+    color: #fff;
+}
+
+
+
+/* ****************************************** */
+
+@media screen and (max-width: 320px) {
+    .foss-logo img {
+        height: 80px;
+    }
+
+    .nav-bar {
+        padding-right: 0;
+    }
+
+    #hamburger {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .org-name h1 {
+        font-size: 15px;
+    }
+
+    .org-name p {
+        font-size: 12;
+    }
+
+    .foundation-name img {
+        width: 80px;
+    }
+
+    .media-resource h1 {
+        font-size: 22px;
+    }
+
+    .gallery h1 {
+        font-size: 22px;
+    }
+
+    .what h1 {
+        font-size: 22px;
+    }
+
+    .story h1 {
+        font-size: 22px;
+    }
+
+    #advocacy {
+        font-size: 22px;
+    }
+
+    .card-body p {
+        font-size: 13.5px;
+    }
+
+    .image-jpg {
+        max-width: 240px;
+        max-height: 240px;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .media-container {
+        margin: 0;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .our-work {
+        margin: 0;
+        padding: 0;
+    }
+
+    .advocacy-container {
+        margin: 0;
+    }
+
+    .footer-icon {
+        padding-left: 0;
+    }
+
+    .footer-col h5 {
+        padding-left: 0;
+    }
+
+    #work {
+        padding: 0 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 375px) {
+    .foundation-name img {
+        width: 80px;
+    }
+
+    #hamburger {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .org-name h1 {
+        font-size: 15px;
+    }
+
+    .org-name p {
+        font-size: 12;
+    }
+
+    .media-resource h1 {
+        font-size: 22px;
+    }
+
+    .what-we-do h1 {
+        font-size: 22px;
+    }
+
+    .gallery h1 {
+        font-size: 22px;
+    }
+
+    .story h1 {
+        font-size: 22px;
+    }
+
+    #advocacy {
+        font-size: 22px;
+    }
+
+    .card-body p {
+        font-size: 13.5px;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .media-container {
+        margin: 0;
+    }
+
+    .our-work {
+        margin: 0;
+        padding: 0;
+    }
+
+    .advocacy-container {
+        margin: 0;
+    }
+
+    .footer-icon {
+        padding-left: 0;
+    }
+
+    .footer-col h5 {
+        padding-left: 0;
+    }
+
+    #work {
+        padding: 0 15px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .foundation-name img {
+        width: 80px;
+    }
+
+    #hamburger {
+        font-size: 18px;
+        padding: 5px;
+    }
+
+    .org-name h1 {
+        font-size: 15px;
+    }
+
+    .org-name p {
+        font-size: 12;
+    }
+
+    .media-resource h1 {
+        font-size: 22px;
+    }
+
+    .gallery h1 {
+        font-size: 22px;
+    }
+
+    .what-we-do h1 {
+        font-size: 22px;
+    }
+
+    .story h1 {
+        font-size: 22px;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .media-container {
+        margin: 0;
+    }
+
+    .our-work {
+        margin: 0;
+        padding: 0;
+    }
+
+    .advocacy-container {
+        margin: 0;
+    }
+
+    .footer-icon {
+        padding-left: 0;
+    }
+
+    .footer-col h5 {
+        padding-left: 0;
+    }
+
+    #work {
+        padding: 0 15px;
+    }
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    footer {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .footer-col {
+        padding-bottom: 10px;
+    }
+
+    .footer-info {
+        display: block;
+        flex-direction: row;
+    }
+
+    .footer-icon1 a {
+        align-items: center;
+    }
+
+    .hamburgerLogo {
+        display: block;
+        position: absolute;
+        margin-left: 90%;
+    }
+
+    .foss-logo {
+        padding-left: 0;
+    }
+
+    #list-item {
+        display: none;
+    }
+
+    #about-item {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .footer {
+        cursor: pointer;
+    }
+
+    .text p {
+        font-size: 17px;
+    }
+
+    .row section {
+        flex-wrap: wrap;
+    }
+
+    .course-container {
+        padding: 0 10px;
+    }
+
+    .foundation-name {
+        padding: 0;
+    }
+
+    .grid {
+        margin: 0;
+    }
+
+    #navi {
+        font-size: 18px;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .container-fluid {
+        flex-wrap: wrap;
+    }
+
+    #work {
+        padding-left: 10px;
+    }
+
+    .media-resource h1 {
+        font-size: 22px;
+    }
+
+    .gallery h1 {
+        font-size: 22px;
+    }
+
+    .what-we-do h1 {
+        font-size: 22px;
+    }
+
+    .story h1 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    #advocacy {
+        font-size: 22px;
+    }
+
+    .card-body p {
+        font-size: 13.5px;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .media-container {
+        margin: 0;
+    }
+
+    .our-work {
+        margin: 0;
+        padding: 0;
+    }
+
+    .advocacy-container {
+        margin: 0;
+    }
+
+    .footer-icon {
+        padding-left: 0;
+    }
+
+    .footer-col h5 {
+        padding-left: 0;
+    }
+
+    #work {
+        padding: 0 15px;
+    }
+
+    .our-story {
+        padding-left: 0;
+    }
+}
+
+
+
+@media screen and (min-width:769px) and (max-width:929px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    .hamburgerLogo {
+        display: block;
+        position: absolute;
+        margin-left: 90%;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    #navi {
+        font-size: 18px;
+    }
+
+    .media-resource h1 {
+        font-size: 22px;
+    }
+
+    .gallery h1 {
+        font-size: 22px;
+    }
+
+    .what-we-do h1 {
+        font-size: 22px;
+    }
+
+    .story h1 {
+        font-size: 22px;
+    }
+}
+
+
+
+@media screen and (min-width:930px) and (max-width:993px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    .hamburgerLogo {
+        display: block;
+        position: absolute;
+        margin-left: 90%;
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    #navi {
+        font-size: 18px;
+    }
+
+    .media-resource h1 {
+        font-size: 22px;
+    }
+
+    .gallery h1 {
+        font-size: 22px;
+    }
+
+    .what-we-do h1 {
+        font-size: 22px;
+    }
+
+    .story h1 {
+        font-size: 22px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .nav-links {
+        padding-top: 25px;
+        padding-right: 5px;
+    }
+
+    .nav-links ul li a {
+        font-size: 13px;
+    }
+
+    .media-links ul li a {
+        font-size: 13px;
+    }
+
+    .foundation-name {
+        padding: 0;
+    }
+
+    .org-name h1 {
+        font-size: 15px;
+    }
+
+    .org-name p {
+        font-size: 12px;
+    }
+
+    .nav-links ul li {
+        padding: 7px 5px;
+    }
+
+    .nav-bar {
+        gap: 0;
+    }
+
+    .nav-links ul li a {
+        font-size: 13px;
+    }
+
+    .media-resource h1 {
+        font-size: 22px;
+    }
+
+    .gallery h1 {
+        font-size: 22px;
+    }
+
+    .what-we-do h1 {
+        font-size: 22px;
+    }
+
+    .story h1 {
+        font-size: 22px;
+        padding-top: 20px;
+    }
+
+    #advocacy {
+        font-size: 22px;
+    }
+
+    .card-body p {
+        font-size: 13.5px;
+    }
+
+    .our-work {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .media-container {
+        margin: 0;
+    }
+
+    .advocacy-container {
+        margin: 0;
+    }
+
+    .footer-icon {
+        padding-left: 0;
+    }
+
+    .footer-col h5 {
+        padding-left: 0;
+    }
+
+    #work {
+        padding: 0 15px;
+    }
+}
+
+
+
+@media screen and (min-width:1025px) and (max-width:1031px) {
+    .nav-links {
+        padding-top: 25px;
+        padding-right: 5px;
+    }
+
+    .nav-links ul li a {
+        font-size: 15px;
+    }
+
+    .foundation-name {
+        padding: 0;
+    }
+
+    .org-name h1 {
+        font-size: 18px;
+    }
+
+    .org-name p {
+        font-size: 15px;
+    }
+
+    .nav-links ul li {
+        padding: 7px 5px;
+    }
+
+    .nav-bar {
+        gap: 0;
+    }
+
+    .foundation-name img {
+        width: 100px;
+    }
+
+    .nav-links ul li a {
+        font-size: 13px;
+    }
+
+    .our-work {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .media-container {
+        margin: 0;
+    }
+
+    .advocacy-container {
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (min-width:1025px) and (max-width:1400px) {
+    .nav-links {
+        padding-top: 25px;
+        padding-right: 5px;
+    }
+
+    .nav-links ul li a {
+        font-size: 15px;
+    }
+
+    .foundation-name {
+        padding: 0;
+    }
+
+    .org-name h1 {
+        font-size: 18px;
+    }
+
+    .org-name p {
+        font-size: 15px;
+    }
+
+    .nav-links ul li {
+        padding: 7px 5px;
+    }
+
+    .nav-bar {
+        gap: 0;
+    }
+
+    .foundation-name img {
+        width: 100px;
+    }
+
+    .nav-links ul li a {
+        font-size: 13px;
+    }
+
+    .our-work {
+        margin: 0;
+        padding: 0;
+    }
+
+    .gallery-container {
+        margin: 0;
+    }
+
+    .media-container {
+        margin: 0;
+    }
+
+    .advocacy-container {
+        margin: 0;
+    }
+
+}
+
+
+@media screen and (min-width:1265px) and (max-width:1322px) {
+    .nav-links {
+        padding-top: 25px;
+        padding-right: 5px;
+    }
+
+    .nav-links ul li a {
+        font-size: 15px;
+    }
+
+    .foundation-name {
+        padding: 0;
+    }
+
+    .org-name h1 {
+        font-size: 18px;
+    }
+
+    .org-name p {
+        font-size: 15px;
+    }
+
+    .nav-links ul li {
+        padding: 7px 5px;
+    }
+
+    .nav-bar {
+        gap: 0;
+    }
+
+    .foundation-name img {
+        width: 100px;
+    }
+
+    .nav-links ul li a {
+        font-size: 13px;
+    }
+}
+
+/*  Media Querry end ******************************** */
+
+.about-container {
+    padding: 50px 0;
+}
+
+/* About Us */
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 
+.about-text {
+    text-align: center;
+} */
+#about-us {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    padding: 40px 0 0 0;
+}
+
+#quote {
+    text-align: center;
+}
+
+#about-org {
+    padding: 0 162px;
+    text-align: justify;
+}
+
+.advisory-container {
+    margin: 30px 120px;
+}
+
+.critic-name {
+    text-align: center;
+    padding-left: 233px;
+}
+
+/* vision-mission */
+.vision-mission {
+    display: flex;
+    justify-content: space-around;
+}
+
+.MissionVision {
+    background-color: rgb(0, 237, 255);
+    max-height: 400px;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.MissionVision h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    /* color: #fff; */
+    font-family: 'Rubik', sans-serif;
+    padding-top: 20px;
+}
+
+.MissionVision p {
+    text-align: justify;
+    padding: 15px;
+    /* color: #fff; */
+}
+
+@media screen and (max-width: 768px) {
+    #about-org {
+        padding: 0 15px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #about-org {
+        padding: 0 15px;
+    }
+}
+
+/* @media screen and (max-width: 1400px) {
+    #about-org {
+        padding: 0 149px;
+    }
+} */
+
+/* *********************************************** */
+
+/* Advisory board member */
+.board-members {
+    background-image: url(./photo/background.avif);
+}
+
+#Board-Members {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-top: 20px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.team-image {
+    border-radius: 100%;
+    /* height: 200px; */
+    /* width: 300px; */
+    border: none;
+    padding: 20px;
+}
+
+.vijay {
+    /* height: 360px;
+    width: 360px; */
+}
+
+.members-name {
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+}
+
+.member-intro {
+    font-style: italic;
+    text-align: center;
+}
+
+.card-img,
+.card-img-top {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-radius: 50%;
+}
+
+.board-members-container {
+    background-color: rgb(47, 82, 151);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.advisory-col {
+    padding-bottom: 20px;
+}
+
+.board-member-card {
+    height: 100%;
+    background-color: rgb(47, 82, 151);
+    padding-bottom: 20px;
+}
+
+.advisory-card-body {
+    /* height: 100%; */
+    height: 700px;
+}
+
+@media screen and (max-width: 320px) {
+    .vision-mission {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+}
+
+/* @media screen and (max-width: 320px) {
+    .advisory-card-body {
+        height: 700px;
+    }
+} */
+
+@media screen and (max-width: 375px) {
+    .vision-mission {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+    .vision-mission {
+        flex-wrap: wrap;
+        padding: 0 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .vision-mission {
+        /* flex-wrap: wrap; */
+        padding: 0 10px;
+    }
+
+    .MissionVision {
+        /* padding: 10px; */
+        margin: 10px;
+    }
+
+    .about {
+        padding: 0 10px;
+    }
+
+    .critic-name {
+        padding: 0;
+    }
+
+    /* 
+    .advisory-card-body {
+        height: 550px;
+    } */
+}
+
+
+@media screen and (max-width: 1024px) {
+    .advisory-container {
+        margin: 0;
+    }
+
+    .board-members {
+        padding: 0;
+    }
+
+    .vijay {
+        height: 311.33px;
+        width: 311.33px;
+    }
+
+    .team-image {
+        height: 311.33px;
+        width: 311.33px;
+    }
+}
+
+/*  our team **************************************** */
+.our-team {
+    background-color: rgb(113, 138, 138);
+}
+
+.team-container {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #fff; */
+}
+
+.team-item {
+    margin: 10px;
+    background-color: #fff;
+}
+
+/*  board-member-image */
+.board-member-image img {
+    height: 200px;
+    max-width: 200px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.board-member-image {
+    padding-top: 20px;
+}
+
+.carousel-control-prev {
+    margin-top: 200px;
+    max-height: 40px;
+    max-width: 40px;
+    background-color: #837e7e;
+}
+
+.carousel-control-next {
+    margin-top: 200px;
+    max-height: 40px;
+    max-width: 40px;
+    background-color: #837e7e;
+
+}
+
+/* .carousel-control-next {
+    background-color: wheat;
+} */
+
+.about-board-member {
+    text-align: justify;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-board-member h5 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#board-memb {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.board-carousal {
+    background-image: url(./photo/background.avif);
+}
+
+@media screen and (max-width: 1024px) {
+    .about-board-member p {
+        padding: 0 15px;
+    }
+}

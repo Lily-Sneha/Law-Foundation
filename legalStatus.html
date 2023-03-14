@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leagal | Law Foundation</title>
+    <link rel="icon" href="./logo/site-logo.jpeg">
+    <link rel="stylesheet" href="FossUnited.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+<body>
+    <!-- <div> -->
+
+    <div class="header">
+        <nav class="nav-bar">
+            <div class="foundation-name">
+                <div class="foss-logo grid">
+                    <img src="/logo/law-logo.jpeg" alt="Law Foundation">
+                </div>
+
+                <div class="org-name grid">
+                    <h1>LAW foundation</h1>
+                    <p>A pathway to Justice</p>
+                </div>
+
+                <!-- Hamburger ********* -->
+                <div class="hamburgerLogo grid">
+                    <button onclick="myFunction()" id="hamburgerMenu">
+                        <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                    </button>
+                </div>
+            </div>
+
+            <div class="nav-links" id="navLinks">
+                <ul id="navigation">
+
+                    <li class="nav" id="list-item"><a href="/index.html" target="_blank">HOME<i
+                                class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a href="/about.html" target="_blank">About Us</a></li>
+                            <li><a href="/ourTeam.html" target="_blank">Our Team</a></li>
+                            <li><a href="#">Legal Status</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav" id="list-item"><a href="#">INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a href="#">CLAP</a></li>
+                            <li><a href="#">Socio Legal Aid</a></li>
+                            <li><a href="#">Dalit & Minority Rights</a></li>
+                            <li><a href="#">Nomadic & De-Notified Tribes</a></li>
+                            <li><a href="#">Reintegration & Livelihood</a></li>
+                            <li><a href="#">Covid-19 Response</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav" id="list-item"><a href="#">EDUCATION & OUTREACH<i
+                                class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a href="#">Collaboration and Networking</a></li>
+                            <li><a href="#">Journal Publication</a></li>
+                            <li><a href="#">News & Media</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav"><a href="#">JOIN US</a></li>
+                    <li class="nav"><a href="#">DONATE NOW</a></li>
+                    <!-- <li class="nav"><a href="#">MORE</a></li> -->
+                    <li class="nav" id="list-item"><a href="#">MORE<i class="fa-sharp fa-solid fa-caret-down"
+                                id="drop-icon1"></i></a>
+                        <ul class="list">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Anual Reports</a></li>
+                        </ul>
+                    </li>
+
+
+                    <!-- <li class="nav" id="about-item"><a href="#">About<i class="fa-sharp fa-solid fa-caret-down"
+                                    id="drop-icon1"></i></a>
+                            <ul class="list1">
+                                <li><a href="#">About FOSS United</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Forum</a></li>
+                            </ul>
+                        </li> -->
+                </ul>
+            </div>
+            <!-- <div class="hamburgerLogo">
+                    <button onclick="myFunction()" id="hamburgerMenu">
+                        <i class="fa-sharp fa-solid fa-bars" id="hamburger"></i>
+                    </button>
+                </div> -->
+
+
+            <!-- ############## Second nav dropdownmenu navbar ################ -->
+            <ul id="navi" style="display: none;">
+                <li class="navi2" id="about-drop"><a href="#">HOME<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list3 second-drop">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Legal Status</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a href="#">INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
+                            id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a href="#">CLAP</a></li>
+                        <li><a href="#">Socio Legal Aid</a></li>
+                        <li><a href="#">Dalit & Minority Rights</a></li>
+                        <li><a href="#">Nomadic & De-Notified Tribes</a></li>
+                        <li><a href="#">Reintegration & Livelihood</a></li>
+                        <li><a href="#">Covid-19 Response</a></li>
+                    </ul>
+                </li>
+
+                <li class="navi2" id="event-drop"><a href="#">EDUCATION & OUTREACH<i
+                            class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
+                    <ul class="list2 second-drop">
+                        <li><a href="#">Collaboration and Networking</a></li>
+                        <li><a href="#">Journal Publication</a></li>
+                        <li><a href="#">News & Media</a></li>
+                    </ul>
+                </li>
+
+                <li><a href="#">JOIN US</a></li>
+                <li><a href="#">DONATE</a></li>
+                <li><a href="#">MORE</a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+    <!-- ########################## course ################################### -->
+
+    <!-- carousal ************ -->
+
+
+    <!-- ########################### Our Story Start ###################### -->
+
+
+    <!-- ########################### Our Story End ###################### -->
+
+
+
+    <!-- ####################### footer ############################### -->
+    <footer>
+        <div class="footer">
+            <div class="footer-info">
+
+                <div class="footer-col">
+                    <h5 class="address">LAW Foundation</h5>
+                    <div class="footer-icon">
+                        <p><i class="fa-sharp fa-solid fa-location-dot"></i> Budh Nagar Road No-1, Near
+                            Jagat
+                            Press,
+                            <br>
+                            Beriyar
+                            Path, Postal Park , Patna, Bihar 800001.
+                        </p>
+                        <p><i class="fa-regular fa-envelope"></i> admin@lawfoundation.org.in</p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h5 class="address">Follow Us </h5>
+                    <div class="footer-icon1">
+                        <a href="https://www.facebook.com/profile.php?id=100078340625520" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/search/results/all/?keywords=law%20foundation%20bihar&origin=TYPEAHEAD_ESCAPE_HATCH&sid=ygJ"
+                            target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://instagram.com/lawfoundationpatna?igshid=ZDdkNTZiNTM=" target="_blank"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- <div class="footer-info-down">
+                    <div class="footer-down">
+                        <p>© FOSS United Foundation. CC-BY-SA.</p>
+                        <p>CIN – U74999MH2016NPL288653.</p>
+                        <p>D-324 Neelkanth Business Park, Vidyavihar, Mumbai.</p>
+                        <a href="foundation@fossunited.org">foundation@fossunited.org</a>
+                    </div>
+                </div>
+            </div> -->
+    </footer>
+
+    <div class="footer-info-down">
+        <div class="footer-down">
+            <p id="right">
+                ©2020 LAW Foundation Patna All rights reserved.</p>
+            <!-- <p>© FOSS United Foundation. CC-BY-SA.</p> -->
+            <!-- <p>CIN – U74999MH2016NPL288653.</p> -->
+            <!-- <p>D-324 Neelkanth Business Park, Vidyavihar, Mumbai.</p> -->
+            <!-- <a href="foundation@fossunited.org">foundation@fossunited.org</a> -->
+        </div>
+        <!-- </div> -->
+        <script src="FossUnited.js"> </script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+            crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
