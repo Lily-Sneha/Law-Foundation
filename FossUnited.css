@@ -1691,3 +1691,34 @@ footer {
         padding: 0 15px;
     }
 }
+
+/* who we are ****************** */
+.who-we-are-container {
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.who-we-are-text {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 150px;
+    text-align: justify;
+}
+
+.who-we-are-text h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .who-we-are-text {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .who-we-are-text {
+        padding: 15px;
+    }
+}
