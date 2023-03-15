@@ -180,6 +180,10 @@ ul li a {
     text-decoration: none;
 }
 
+#navi li a:hover {
+    color: #db1313;
+}
+
 #navi li a {
     font-size: 14px;
 }
@@ -201,6 +205,7 @@ ul li a {
 
 #about-item:hover .list1 {
     display: block;
+    /* color: #db1313; */
 }
 
 #list-item #drop-icon1 {
