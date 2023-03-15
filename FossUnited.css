@@ -1550,11 +1550,6 @@ footer {
 
 }
 
-/* @media screen and (max-width: 320px) {
-    .advisory-card-body {
-        height: 700px;
-    }
-} */
 
 @media screen and (max-width: 375px) {
     .vision-mission {
@@ -1647,14 +1642,14 @@ footer {
     padding-top: 20px;
 }
 
-.carousel-control-prev {
+.carousel-control-prev.img {
     margin-top: 200px;
     max-height: 40px;
     max-width: 40px;
     background-color: #837e7e;
 }
 
-.carousel-control-next {
+.carousel-control-next.img {
     margin-top: 200px;
     max-height: 40px;
     max-width: 40px;
