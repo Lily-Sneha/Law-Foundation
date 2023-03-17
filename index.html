@@ -23,48 +23,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
     <style>
-        .card {
-
-            display: -ms-flexbox;
-            display: flex;
-            background-color: transparent;
-            border: none;
-            border-radius: 0;
-            justify-content: center;
-        }
-
-        .carousel-control-prev,
-        .carousel-control-next {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            display: -ms-flexbox;
-            display: flex;
-            -ms-flex-align: center;
-            align-items: center;
-            -ms-flex-pack: center;
-            justify-content: center;
-            padding: 0;
-            text-align: center;
-            border: 0;
-            opacity: 10;
-            background-color: rgb(169 168 168 / 59%);
-            /* width: 50px; */
-            max-height: 40px;
-            max-width: 40px;
-        }
-
-        .carousel-item img {
-            margin-left: auto;
-            margin-right: auto;
-
-        }
-
-        .carousel-inner {
-            align-items: center;
-            box-shadow: 5px 0 27px 0 #888888;
-        }
-
         @media (min-width: 1200px) {
 
             .container,
@@ -131,9 +89,9 @@
                     <li class="nav" id="list-item"><a href="#">HOME<i class="fa-sharp fa-solid fa-caret-down"
                                 id="drop-icon1"></i></a>
                         <ul class="list">
-                            <li><a href="./about.html" target="_blank">About Us</a></li>
-                            <li><a href="./ourTeam.html" target="_blank">Our Team</a></li>
-                            <li><a href="./legalStatus.html" target="_blank">Legal Status</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./ourTeam.html">Our Team</a></li>
+                            <li><a href="./legalStatus.html">Legal Status</a></li>
                         </ul>
                     </li>
 
@@ -144,8 +102,7 @@
                             <li><a href="#">Socio Legal Aid</a></li>
                             <li><a href="#">Sustainable Mental Health in Prison</a></li>
                             <li><a href="#">Gender Justice</a></li>
-                            <li><a href="#">Project Innocence</a></li>
-                            <li><a href="#">RRR</a></li>
+                            <li><a href="#">Release Rehabilitation Reintegration</a></li>
                         </ul>
                     </li>
 
@@ -156,6 +113,8 @@
                             <li><a href="#">Community Awareness</a></li>
                             <li><a href="#">Legal Literacy</a></li>
                             <li><a href="#">Emergency Support</a></li>
+                            <li><a href="#">Home Visit</a></li>
+
                         </ul>
                     </li>
 
@@ -198,8 +157,7 @@
                         <li><a href="#">Socio Legal Aid</a></li>
                         <li><a href="#">Sustainable Mental Health in Prison</a></li>
                         <li><a href="#">Gender Justice</a></li>
-                        <li><a href="#">Project Innocence</a></li>
-                        <li><a href="#">RRR</a></li>
+                        <li><a href="#">Release Rehabilitation Reintegration</a></li>
                     </ul>
                 </li>
 
@@ -226,47 +184,6 @@
         </nav>
     </div>
 
-    <!-- Animation background -->
-    <!-- <div class="animation-container">
-        <div class="outer">
-            <div class="details">
-                <h1>A Pathway to Justice</h1>
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- carousal ************ -->
-    <div class="container">
-        <div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-
-            <div class="carousel-inner image">
-                <div class="carousel-item active" data-interval="10000">
-                    <img src="./photo/photo1.jpeg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-interval="2000">
-                    <img src="./photo/photo2.png" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./photo/photo3.jpeg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-
-            <button class="carousel-control-prev" type="button" data-target="#carouselExampleInterval"
-                data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-target="#carouselExampleInterval"
-                data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </button>
-
-        </div>
-    </div>
-
 
     <!-- Our Story****************** -->
     <div class="container-fluid our-story">
@@ -275,20 +192,6 @@
         </div>
         <div class="story">
             <h1>Our Story</h1>
-            <!-- <h1>Our Story</h1> -->
-            <!-- <p>
-                "Our organisation was envisaged during the post-graduation years of our founder, Mr. Praveen Kumar when
-                he visited the district prison of Kalyan, Maharashtra as a part of his field visit while pursuing his MA
-                in Social Work, Criminology and Justice from TISS, Mumbai.
-
-                He conducted a preliminary research and comprehended the importance of working within Criminal Justice
-                Systems in his home State of Bihar. He was awarded a Criminal Justice Fellowship, TISS when he shared
-                his idea with his mentor Prof. Vijay Raghavan.
-
-                He initiated the work in 2016 and consequently received permission from the Chief Justice of Patna High
-                Court Justice Iqbal Ahmed Ansari, to work inside the prison. Further, he collaborated with our
-                co-founder Mr. Shubhendu Shekhar and Mr. Santosh Kumar to commence the organisation 'LAW Foundation".
-            </p> -->
             <p>"Our organisation was envisaged during the post-graduation years of our founder, Mr. Praveen Kumar when
                 he visited the district prison of Kalyan, Maharashtra as a part of his field visit while pursuing his MA
                 in Social Work, Criminology and Justice from TISS, Mumbai.
@@ -305,52 +208,89 @@
     </div>
 
 
+    <!-- Our Journey *************************** -->
 
-    <!--  What we Do **************************** -->
-    <!-- <div class="container what-we-do">
-        <h1>What We Do</h1>
-        <ul id="work" class="our-work">
-            <li><b>Socio-Legal Aid: </b> To provide free socio-legal aid services to the custodial population.
-            </li>
+    <div class="container journey-container">
+        <h1 class="card-title Our-Journey">Our Journey</h1>
 
-            <li><b>Child Protection: </b>to promote and support the optimal education, development and social wellbeing
-                of children in the socio-legal arena.
-            </li>
+        <div class="row">
+            <div class="card text">
+                <div class="card-body card-back">
+                    <!-- <h6 class="card-title timeline">Our Journey</h6> -->
+                    <div id="content">
+                        <ul class="timeline">
+                            <li class="event" data-date="2016-18">
+                                <h3>2016-2018</h3>
+                                <p>Facilitated socio-legal aid
+                                    services to UTPs in the Patna
+                                    District as a Criminal Justice
+                                    Fellow of TISS, Mumbai.</p>
+                            </li>
+                            <li class="event" data-date="2019">
+                                <h3>2019</h3>
+                                <p>Under the Indian Trust
+                                    Act of 1882, LAW
+                                    Foundation was
+                                    registered as a trust.</p>
+                            </li>
+                            <li class="event" data-date="2020">
+                                <h3>2020</h3>
+                                <p>Constitutional
+                                    compliances have been
+                                    prepared.</p>
+                                <p>During the Covid-19 Lockdown,
+                                    we provided dry ration kits to the
+                                    families of around 150 prisoners.</p>
+                                <p>60 Inmates were released from
+                                    Jail on P.R. Bail Bonds.</p>
+                            </li>
 
-            <li><b>Livelihood and Skill Development: </b> To promote livelihood, skill development and entrepreneurship
-                among the custodial population, vulnerable communities, sexually exploited and destitute population
-                moving them from subsistence to sustainable levels.
-            </li>
+                            <li class="event" data-date="2021">
+                                <h3>2021</h3>
+                                <p>During the second phase of
+                                    COVID-19, dry ration kits were
+                                    provided to about 300 families
+                                    of Prisoners.</p>
+                                <p>Assisted victims of
+                                    domestic violence with
+                                    counselling and mental
+                                    health support.</p>
+                            </li>
+                            <li class="event" data-date="2022">
+                                <h3>2022</h3>
+                                <p>Intervened in 212 cases.
+                                    Finalist for the AGAMI
+                                    Idea Award in 2022.</p>
+                                <p>Collaborated with several
+                                    organizations.
+                                    Initiated Sustainable
+                                    Mental Health Program
+                                    inside Prison.</p>
+                            </li>
+                            <li class="event" data-date="2023">
+                                <h3>2023</h3>
+                                <p>Developing Legal Literacy
+                                    Programs in various Communities.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
 
-            <li><b>Health and Sanitation: </b> to make consistent efforts to facilitate quality healthcare services for
-                marginalized communities' wellbeing, sanitation, and social determinants.
-            </li>
 
-            <li><b>Advocacy and Governance: </b>To collaborate with key stakeholders and government institutions,
-                enabling effective implementation of policies and programs.
-            </li>
-
-            <li><b>Research and Impact: </b> To ameliorate community social wellbeing by promoting local research and
-                implementing evidence-based public development programs that respect and leverage community resources.
-            </li>
-
-            <li><b>Training and Workshops:</b> To organize awareness programs, vocational training, legal boot campaign
-                and assistance camps at the grass-roots level.
-            </li>
-        </ul>
-    </div> -->
-
-
-    <!-- Advocacy and Networking *********************** -->
+    <!-- What We Do *********************** -->
     <div class="container-fluid advocacy-networking">
-        <h1 id="advocacy">Advocacy and networking</h1>
+        <h1 id="advocacy">What We Do</h1>
         <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 advocacy-container">
             <div class="col">
                 <div class="card-container">
-                    <div class="card" style="width: 18rem;">
-                        <img src="./cards/img7.JPG" class="card-img-top image-jpg" alt="Socio-Legal Aid / Prison Visit">
+                    <div class="card back" style="width: 18rem;">
+                        <img src="./cards/img1.jpg" class="card-img-top" alt="Socio-Legal Aid / Prison Visit">
                         <div class="card-body">
-                            <h5 class="card-title">Socio-Legal Aid / Prison Visit</h5>
+                            <h5 class="card-title">Socio-Legal Aid Services</h5>
                             <p class="card-text">At LAW Foundation, we are dedicated to stepping up our efforts in
                                 addressing legal issue.We provide free socio legal aid services to the marginalised and
                                 vulnerable under-trial prisoners.</p>
@@ -361,10 +301,10 @@
             <div class="col">
                 <div class="card-container">
                     <div class="card" style="width: 18rem;">
-                        <img src="./cards/img2.webp" class="card-img-top" alt="Legal Counselling">
+                        <img src="./cards/img2.jpg" class="card-img-top image-jpg" alt="Legal Counselling">
                         <div class="card-body">
                             <h5 class="card-title">
-                                Legal Counselling</h5>
+                                Socio-Legal Counselling</h5>
                             <p class="card-text">Our organisation provides quality legal advice for prisoners as well as
                                 their families to ensure speedy justice by way of securing bails, and assistance with
                                 respect to procedural legal intricacies, on a case to case basis.</p>
@@ -376,7 +316,7 @@
             <div class="col">
                 <div class="card-container">
                     <div class="card" style="width: 18rem;">
-                        <img src="./cards/img3.JPG" class="card-img-top image-jpg" alt=" Home Visit">
+                        <img src="./cards/img3.jpg" class="card-img-top" alt=" Home Visit">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Home Visit</h5>
@@ -392,7 +332,7 @@
             <div class="col">
                 <div class="card-container">
                     <div class="card" style="width: 18rem;">
-                        <img src="./cards/img4.webp" class="card-img-top" alt="Emergency Support Program">
+                        <img src="./cards/img4.jpg" class="card-img-top" alt="Emergency Support Program">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Emergency Support Program</h5>
@@ -405,7 +345,8 @@
             <div class="col">
                 <div class="card-container">
                     <div class="card" style="width: 18rem;">
-                        <img src="./cards/img5.webp" class="card-img-top" alt="Rehabilitation and Social Reintegration">
+                        <img src="./cards/img5.jpg" class="card-img-top image-jpg"
+                            alt="Rehabilitation and Social Reintegration">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Rehabilitation and Social Reintegration</h5>
@@ -419,7 +360,7 @@
             <div class="col">
                 <div class="card-container">
                     <div class="card" style="width: 18rem;">
-                        <img src="./cards/img6.webp" class="card-img-top" alt="Advocacy and Networking">
+                        <img src="./cards/img6.jpg" class="card-img-top" alt="Advocacy and Networking">
                         <div class="card-body">
                             <h5 class="card-title">
                                 Advocacy and Networking</h5>
@@ -431,6 +372,41 @@
             </div>
         </div>
     </div>
+
+
+    <!--  Our Impact -->
+    <section class="impact">
+        <div class="container-fluid">
+            <h1 id="our-impact">Our Impact</h1>
+            <div class="row gy-4 row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-4 impact-container">
+                <div class="col impact-col">
+                    <i class="fa fa-briefcase m-b-1"></i>
+                    <h2 class="statistic-counter">200</h2>
+                    <span></span>
+                    <p>Study</p>
+                </div>
+
+                <div class="col impact-col">
+                    <i class="fa fa-check m-b-1"></i>
+                    <h2 class="statistic-counter">1000</h2>
+                    <p>Checked</p>
+                </div>
+
+                <div class="col impact-col">
+                    <i class="fa fa-coffee m-b-1"></i>
+                    <h2 class="statistic-counter">500</h2>
+                    <p>Coffee </p>
+                </div>
+
+                <div class="col impact-col">
+                    <i class="fa fa-beer m-b-1"></i>
+                    <h2 class="statistic-counter">400</h2>
+                    <p>Pizzas</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ********************* -->
 
 
     <!--  Gallery ************************ -->
@@ -515,7 +491,7 @@
                             Sports
                             <br> Complex Kankarbagh Patna Bihar 800020
                         </p>
-                        <p><i class="fa-solid fa-square-phone"></i></i> [Office] +91-9801040773, 9801040773</p>
+                        <p><i class="fa-solid fa-square-phone"></i></i> [Office] +91-9801040773</p>
                         <p id="email"><i class="fa-solid fa-envelope"></i> admin@lawfoundation.org.in</p>
                         <!-- <a href="www.lawfoundationpatna.org" target="_blank"><i class="fa-solid fa-globe"></i></a> -->
                     </div>
@@ -544,14 +520,13 @@
             <p id="right">
                 ©2020 LAW Foundation Patna All rights reserved.</p>
         </div>
-        <!-- </div> -->
         <script src="FossUnited.js"> </script>
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-            crossorigin="anonymous"></script>
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+            </script>
     </div>
 </body>
 
