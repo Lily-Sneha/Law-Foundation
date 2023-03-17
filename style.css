@@ -530,13 +530,19 @@ img {
 /* *********************************************************** */
 
 /*  Media & Resource Center */
-.media-resource {
-    padding-left: 10px;
+
+.media-links-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
 }
 
 .media-resource h1 {
     font-size: 27px;
     font-weight: bold;
+    /* text-align: center; */
+    padding-left: 147px;
 }
 
 .media-links ul li {
@@ -545,7 +551,7 @@ img {
 }
 
 .media-links {
-    padding-left: 25px;
+    padding-left: 15px;
 }
 
 .media-links ul li a {
@@ -559,9 +565,9 @@ img {
     color: #282727;
 }
 
-.media-container {
+/* .media-container {
     margin: 0 0 0 120px;
-}
+} */
 
 /* **************************************************************** */
 
@@ -569,16 +575,7 @@ img {
 /*  footer  */
 footer {
     background-color: #2d538d;
-    /* background-color: #30566c; */
-    /* background-color: rgb(23, 78, 120); */
-    /* background-color: #124982; */
-    /* background-color: rgb(0, 237, 255); */
-    /* background-color: rgb(18, 73, 130); */
     padding: 40px 85px 0 85px;
-}
-
-.footer-col {
-    /* color: #ffff; */
 }
 
 .footer-col h5 {
@@ -665,7 +662,6 @@ footer {
     display: flex;
     justify-content: space-around;
     background-color: #243946;
-    /* background-color: rgb(47, 84, 151); */
 }
 
 #right {
@@ -765,6 +761,15 @@ footer {
     #work {
         padding: 0 15px;
     }
+
+    .media-resource h1 {
+        padding-left: 10px;
+    }
+
+    /* 
+    .media-links {
+        padding-left: 10px;
+    } */
 }
 
 
@@ -904,6 +909,18 @@ footer {
 
     #work {
         padding: 0 15px;
+    }
+
+    .media-links-container {
+        flex-wrap: wrap;
+    }
+
+    /* .media-links {
+        padding-left: 15px;
+    } */
+
+    .media-resource h1 {
+        padding: 10px;
     }
 
 }
@@ -1238,11 +1255,20 @@ footer {
 
     .footer-col h5 {
         padding-left: 0;
+        margin-left: 0;
     }
 
     #work {
         padding: 0 15px;
     }
+
+    .media-resource h1 {
+        padding-left: 32px;
+    }
+
+    /* .media-links {
+        padding-left: 32px;
+    } */
 }
 
 
