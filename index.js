@@ -63,3 +63,17 @@ document.addEventListener("click", function (e) {
 
     }
 })
+
+
+// ***************
+// document.addEventListener("click", function (e) {
+//     if (e.target.classList.contains("gallery-item")) {
+//         const text = e.target.getElementsByClassName("text")
+//         console.log(text)
+//         document.querySelector(".modal-img").text = text;
+//         const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'))
+//         myModal.show();
+
+
+//     }
+// })

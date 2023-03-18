@@ -361,7 +361,7 @@ ul li a {
     align-items: center;
     /* background-color: rgb(253, 251, 251); */
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .founder-pic img {
@@ -484,7 +484,9 @@ ul li a {
 #advocacy {
     font-size: 27px;
     text-align: center;
-    margin-top: 50px;
+    /* margin-top: 50px; */
+    padding-top: 80px;
+    margin-bottom: 30px;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;
 
@@ -498,6 +500,8 @@ ul li a {
     font-size: 27px;
     font-weight: bold;
     text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
     font-family: 'Rubik', sans-serif;
 }
 
@@ -533,15 +537,17 @@ img {
 
 .media-links-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
-    align-items: center;
+    /* padding-left: 140px; */
+    padding-left: 133px;
+    padding-bottom: 80px;
 }
+
 
 .media-resource h1 {
     font-size: 27px;
     font-weight: bold;
-    /* text-align: center; */
     padding-left: 147px;
 }
 
@@ -763,7 +769,8 @@ footer {
     }
 
     .media-resource h1 {
-        padding-left: 10px;
+        /* padding-left: 10px; */
+        /* padding-left: 0; */
     }
 
     /* 
@@ -919,9 +926,9 @@ footer {
         padding-left: 15px;
     } */
 
-    .media-resource h1 {
+    /* .media-resource h1 {
         padding: 10px;
-    }
+    } */
 
 }
 
@@ -1182,6 +1189,10 @@ footer {
         font-size: 13px;
     }
 
+    .media-links {
+        padding-left: 0;
+    }
+
     .foundation-name {
         padding: 0;
     }
@@ -1208,6 +1219,7 @@ footer {
 
     .media-resource h1 {
         font-size: 22px;
+        padding: 20px;
     }
 
     .gallery h1 {
@@ -1262,13 +1274,10 @@ footer {
         padding: 0 15px;
     }
 
-    .media-resource h1 {
-        padding-left: 32px;
+    .media-links-container {
+        padding-left: 20px;
+        padding-right: 20px;
     }
-
-    /* .media-links {
-        padding-left: 32px;
-    } */
 }
 
 
@@ -1431,7 +1440,7 @@ footer {
 /*  Media Querry end ******************************** */
 
 .about-container {
-    padding: 50px 0;
+    padding: 50px 0 80px 0;
 }
 
 /* About Us */
@@ -1441,10 +1450,6 @@ footer {
     align-items: center;
 }
 
-/* 
-.about-text {
-    text-align: center;
-} */
 #about-us {
     text-align: center;
     font-size: 27px;
@@ -1520,6 +1525,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    padding-bottom: 80px;
 }
 
 .mission-vision-div {
@@ -1561,6 +1567,10 @@ footer {
 /* Advisory board member */
 .board-members {
     background-image: url(./photo/background.avif);
+}
+
+.carousal-container {
+    padding-bottom: 80px;
 }
 
 #Board-Members {
@@ -1713,12 +1723,13 @@ footer {
 .team-container {
     display: flex;
     flex-direction: row;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
 }
 
 #our-team {
     text-align: center;
     font-size: 27px;
+    padding-bottom: 30px;
     font-weight: bold;
 
 }
@@ -1792,7 +1803,7 @@ footer {
 .who-we-are-text {
     margin-left: auto;
     margin-right: auto;
-    padding: 20px 150px;
+    padding: 50px 150px;
     text-align: justify;
 }
 
@@ -1800,6 +1811,7 @@ footer {
     text-align: center;
     font-size: 27px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1843,7 +1855,8 @@ footer {
     color: #0c0c0c;
     font-size: 27px;
     font-weight: bold;
-    padding-top: 50px;
+    padding-top: 80px;
+    margin-bottom: 30px;
 }
 
 .text p {
@@ -1929,6 +1942,12 @@ footer {
     }
 }
 
+@media (max-width: 1024px) {
+    .Our-Journey {
+        font-size: 22px;
+    }
+}
+
 .rtl .timeline {
     border-left: 0;
     text-align: right;
@@ -1978,7 +1997,6 @@ footer {
 
 /* ************************ */
 .impact {
-    /* padding: 80px 0px; */
     background-color: #fff;
 
 }
@@ -2024,6 +2042,7 @@ footer {
     }
 }
 
+
 @media (min-width: 992px) {
     .row-cols-lg-4>* {
         -ms-flex: 0 0 25%;
@@ -2032,6 +2051,13 @@ footer {
     }
 
 }
+
+@media screen and (max-width: 425px) {
+    .impact-col {
+        margin: 0;
+    }
+}
+
 
 /* our Team ***************** */
 .team-container img {
@@ -2103,4 +2129,143 @@ footer {
     border-bottom: 1px solid #dee2e6;
     border-top-left-radius: calc(0.3rem - 1px);
     border-top-right-radius: calc(0.3rem - 1px);
+}
+
+
+/* legal status ******************/
+.legal-status-container {
+    padding: 50px 0 80px 0;
+    margin: 0 83px;
+}
+
+.legal {
+    text-align: justify;
+    padding: 0 42px 0 52px;
+
+}
+
+#Legal-Status {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.legal ul li {
+    list-style: none;
+    font-size: 18px;
+    word-spacing: 1px;
+}
+
+.bullet-point {
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 1024px) {
+    .legal {
+        padding: 0 15px;
+    }
+
+    .legal ul li {
+        font-size: 15px;
+    }
+
+    .legal-status-container {
+        margin: 0;
+    }
+}
+
+
+
+/* CLAP-container *********************** */
+.CLAP-container {
+    padding: 50px 0 80px 0;
+}
+
+#CLAP {
+    font-size: 27px;
+    font-weight: bold;
+    /* text-align: center; */
+    text-align: start;
+    padding: 0 147px;
+}
+
+
+#about-CLAP {
+    padding: 0 147px;
+    text-align: justify;
+}
+
+
+
+@media only screen and (max-width: 1024px) {
+    #about-CLAP {
+        padding: 0 20px;
+    }
+
+    #CLAP {
+        font-size: 22px;
+        padding: 0 20px;
+    }
+
+    .Children-Conflict-text h1 {
+        font-size: 22px;
+    }
+
+    /* .Children-Conflict-Container {
+        flex-wrap: wrap;
+    } */
+
+    .Children-Conflict-Container {
+        padding-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .Children-Conflict-Container {
+        flex-wrap: wrap;
+    }
+
+    .Children-Conflict-text h1 {
+        font-size: 22px;
+    }
+}
+
+/* Children-Conflict-Container */
+.Conflict-container {
+    padding-bottom: 80px;
+}
+
+.Children-Conflict-Container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 30px 30px 30px 13px;
+    background: #f0f8ff4d;
+}
+
+.Children-Conflict-text {
+    max-width: 700px;
+    width: 100%;
+}
+
+.Children-Conflict-text h1 {
+    font-size: 27px;
+    font-weight: bold;
+    /* text-align: center; */
+    text-align: start;
+    /* padding: 0 148px;     */
+
+}
+
+.Children-Conflict-text p {
+    text-align: justify;
+}
+
+#clap-img img {
+    max-width: 300px;
+    width: 100%;
+    max-height: 250px;
 }
