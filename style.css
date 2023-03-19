@@ -1027,6 +1027,11 @@ footer {
         font-size: 22px;
     }
 
+    .gallery {
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+
     .gallery h1 {
         font-size: 22px;
     }
@@ -1689,6 +1694,10 @@ footer {
 
     .mission-vision-container {
         flex-wrap: wrap;
+        padding-bottom: 50px;    }
+
+    .carousal-container {
+        padding-bottom: 50px;
     }
 }
 
@@ -1867,6 +1876,10 @@ footer {
     .timeline {
         max-width: 98%;
         padding: 25px;
+    }
+
+    .Our-Journey {
+        padding-top: 35px;
     }
 }
 
@@ -2197,6 +2210,10 @@ footer {
     text-align: justify;
 }
 
+#clap-img img {
+    padding: 0 20px;
+}
+
 
 
 @media only screen and (max-width: 1024px) {
@@ -2213,15 +2230,12 @@ footer {
         font-size: 22px;
     }
 
-    /* .Children-Conflict-Container {
-        flex-wrap: wrap;
-    } */
-
     .Children-Conflict-Container {
         padding-left: 20px;
     }
 
 }
+
 
 @media screen and (max-width: 768px) {
     .Children-Conflict-Container {
@@ -2231,7 +2245,17 @@ footer {
     .Children-Conflict-text h1 {
         font-size: 22px;
     }
+
+    .CLAP-container {
+        padding-bottom: 20px;
+    }
+
+    #clap-img img {
+        padding: 0;
+    }
 }
+
+
 
 /* Children-Conflict-Container */
 .Conflict-container {
@@ -2273,7 +2297,6 @@ footer {
 
 
 /* socio legal aid services */
-
 .socio-img-container {
     padding: 50px 148px;
 }
@@ -2304,6 +2327,199 @@ footer {
     }
 
     .socio-img-container {
-        padding:20px;
+        padding: 20px;
+    }
+}
+
+
+
+/* Gender Justice Page ***************** */
+.gender-justice-container {
+    padding: 50px 148px;
+}
+
+#gender-justice {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.gender-justice-container p {
+    text-align: justify;
+}
+
+.legal-aid-services {
+    padding-bottom: 80px;
+}
+
+/* Legal Aid Services **************** */
+/* .Legal-Aid-Services-Container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 148px;
+}
+
+.Legal-Aid-text h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Legal-Aid-text p {
+    text-align: justify;
+}
+
+#legal-aid-img img {
+    padding: 0 20px;
+} */
+
+/* Counselling *************** */
+/* .Counselling {
+    padding: 50px 148px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Counselling-text h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Counselling-text p {
+    text-align: justify;
+}
+
+#Counselling-img {
+    padding: 0 20px;
+} */
+
+
+/* Rehabilitation ******************** */
+/* .Rehabilitation {
+    padding: 50px 148px;
+}
+
+.Rehabilitation-text h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.Rehabilitation-text p {
+    text-align: justify;
+} */
+
+
+
+/* .legal-aid-services {
+    margin: 30px 120px;
+} */
+
+.card-container-legal {
+    background-color: #2a5666;
+    padding: 17px 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 580px;
+}
+
+.card .back {
+    background: none;
+    border: none;
+}
+
+.card-title-name {
+    color: #0c0c0c;
+    text-align: center;
+    font-weight: bold;
+    font-size: 27px;
+    padding-bottom: 30px;
+
+}
+
+.gender-justice-img {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-radius: 10px;
+    max-height: 250px;
+    /* max-width: 250px; */
+    max-width: 100%;
+    padding: 15px;
+}
+
+.card-text-p {
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .gender-justice-container {
+        padding: 50px 20px 30px 20px;
+    }
+
+    .card-title-name {
+        font-size: 22px;
+    }
+
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        padding: 0 10px;
+    }
+
+    .card-text-p {
+        font-size: 16px;
+    }
+
+    /* .Legal-Aid-Services-Container {
+        flex-wrap: wrap;
+        padding: 50px 20px;
+    }
+
+    .Legal-Aid-text h1 {
+        font-size: 22px;
+    }
+
+    .Counselling {
+        flex-wrap: wrap;
+        padding: 50px 20px 30px 20px;
+    }
+
+    .Counselling-text h1 {
+        font-size: 22px;
+    }
+
+    .Rehabilitation {
+        padding: 50px 20px 30px 20px;
+    }
+
+    .Rehabilitation-text h1 {
+        font-size: 22px;
+    } */
+
+}
+
+@media only screen and (max-width: 768px) {
+    .card-title-name {
+        padding: 30px 0 10px 0;
+    }
+
+    .legal-aid-services {
+        padding-bottom: 50px;
+    }
+
+    .media-links-container {
+        padding-bottom: 70px;
     }
 }
