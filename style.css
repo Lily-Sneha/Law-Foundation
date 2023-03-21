@@ -767,16 +767,6 @@ footer {
     #work {
         padding: 0 15px;
     }
-
-    .media-resource h1 {
-        /* padding-left: 10px; */
-        /* padding-left: 0; */
-    }
-
-    /* 
-    .media-links {
-        padding-left: 10px;
-    } */
 }
 
 
@@ -921,14 +911,6 @@ footer {
     .media-links-container {
         flex-wrap: wrap;
     }
-
-    /* .media-links {
-        padding-left: 15px;
-    } */
-
-    /* .media-resource h1 {
-        padding: 10px;
-    } */
 
 }
 
@@ -1083,7 +1065,13 @@ footer {
     }
 
     .our-story {
-        padding-left: 0;
+        /* padding-left: 0; */
+        padding: 0;
+    }
+
+    .card-container img {
+        height: 200px;
+        width: 200px;
     }
 }
 
@@ -1245,7 +1233,6 @@ footer {
     }
 
     .card-body p {
-        /* font-size: 13.5px; */
         font-size: 14px;
     }
 
@@ -1283,9 +1270,24 @@ footer {
         padding-left: 20px;
         padding-right: 20px;
     }
+
+    .our-story {
+        padding: 0;
+    }
+
 }
 
+@media only screen and (max-width: 1024px) {
 
+    .container,
+    .container-fluid,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        padding: 0;
+    }
+}
 
 @media screen and (min-width:1025px) and (max-width:1031px) {
     .nav-links {
@@ -1444,6 +1446,8 @@ footer {
 
 /*  Media Querry end ******************************** */
 
+
+
 .about-container {
     padding: 50px 0 80px 0;
 }
@@ -1460,7 +1464,6 @@ footer {
     font-size: 27px;
     font-weight: bold;
     font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;
-    /* padding: 40px 0 0 0; */
 }
 
 #quote {
@@ -1487,44 +1490,6 @@ footer {
 }
 
 /* vision-mission ************************/
-
-/* .vision-mission {
-    display: flex;
-    justify-content: space-around;
-}
-
-.MissionVision {
-    background-color: rgb(0, 237, 255);
-    max-height: 400px;
-    max-width: 400px;
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.MissionVision h1 {
-    text-align: center;
-    font-size: 27px;
-    font-weight: bold;
-    font-family: 'Rubik', sans-serif;
-    padding-top: 20px;
-}
-
-.MissionVision p {
-    text-align: justify;
-    padding: 15px;
-}
-
-@media screen and (max-width: 768px) {
-    #about-org {
-        padding: 0 15px;
-    }
-}
-
-@media screen and (max-width: 1024px) {
-    #about-org {
-        padding: 0 15px;
-    }
-} */
 .mission-vision-container {
     display: flex;
     justify-content: center;
@@ -1694,7 +1659,8 @@ footer {
 
     .mission-vision-container {
         flex-wrap: wrap;
-        padding-bottom: 50px;    }
+        padding-bottom: 50px;
+    }
 
     .carousal-container {
         padding-bottom: 50px;
@@ -2048,11 +2014,13 @@ footer {
 
     .impact-container {
         margin: 30px 0;
+        /* padding: 0 5px; */
     }
 
     .impact h1 {
         font-size: 22px;
     }
+
 }
 
 
@@ -2065,10 +2033,20 @@ footer {
 
 }
 
+/* @media screen and (max-width: 768px) {
+    .impact-container {
+        padding: 0 5px;
+    }
+} */
+
 @media screen and (max-width: 425px) {
     .impact-col {
         margin: 0;
     }
+
+    /* .impact-container {
+        padding: 0 15px;
+    } */
 }
 
 
