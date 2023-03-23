@@ -359,7 +359,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(253, 251, 251); */
+
     margin-bottom: 20px;
     margin-top: 60px;
 }
@@ -371,7 +371,6 @@ ul li a {
 .story {
     margin-left: 20px;
     text-align: center;
-    /* width: 500px; */
     width: 600px;
 }
 
@@ -425,6 +424,8 @@ ul li a {
     padding-top: 10px;
 }
 
+
+
 /* ************************************************** */
 
 /* advocacy-networking */
@@ -434,27 +435,28 @@ ul li a {
 
 .card-container {
     background-color: rgb(61, 71, 86);
-    padding: 17px 10px 0 10px;
+    padding: 30px 10px 20px 10px;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
     border-radius: 10px;
-    height: 600px;
+    max-width: 800px;
+    height: 100%;
+    width: 100%;
 }
 
 .card .back {
     background-color: rgb(61, 71, 86);
     background: none;
     border: none;
+
 }
 
 .card {
     display: -ms-flexbox;
     display: flex;
-    /* background-color: transparent; */
+    align-items: center;
     border: none;
     border-radius: 0;
-    /* justify-content: center; */
     background: none;
 }
 
@@ -476,6 +478,11 @@ ul li a {
     font-weight: bold;
 }
 
+.card .card-body .card-text {
+    font-size: 17px;
+    text-align: justify;
+}
+
 .card-img-top {
     max-height: 250px;
     max-width: 250px;
@@ -484,7 +491,6 @@ ul li a {
 #advocacy {
     font-size: 27px;
     text-align: center;
-    /* margin-top: 50px; */
     padding-top: 80px;
     margin-bottom: 30px;
     font-weight: bold;
@@ -515,7 +521,6 @@ img {
 
 .gallery-item {
     height: 233px;
-    /* width: 360px; */
     width: 450px;
 }
 
@@ -539,7 +544,6 @@ img {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    /* padding-left: 140px; */
     padding-left: 133px;
     padding-bottom: 80px;
 }
@@ -571,9 +575,6 @@ img {
     color: #282727;
 }
 
-/* .media-container {
-    margin: 0 0 0 120px;
-} */
 
 /* **************************************************************** */
 
@@ -656,7 +657,6 @@ footer {
 .footer-icon1 a {
     text-decoration: none;
     color: #ffff;
-    /* color: #0c0c0c; */
 }
 
 .footer-icon1 a:hover {
@@ -1027,6 +1027,10 @@ footer {
         padding-top: 20px;
     }
 
+    .story p {
+        padding-right: 18px;
+    }
+
     #advocacy {
         font-size: 22px;
     }
@@ -1065,13 +1069,16 @@ footer {
     }
 
     .our-story {
-        /* padding-left: 0; */
-        padding: 0;
+        flex-wrap: wrap;
     }
 
     .card-container img {
         height: 200px;
         width: 200px;
+    }
+
+    .founder-pic img {
+        padding: 0 15px;
     }
 }
 
@@ -1267,27 +1274,15 @@ footer {
     }
 
     .media-links-container {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding: 0 25px;
     }
 
     .our-story {
-        padding: 0;
+        padding: 0 15px;
     }
 
 }
 
-@media only screen and (max-width: 1024px) {
-
-    .container,
-    .container-fluid,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        padding: 0;
-    }
-}
 
 @media screen and (min-width:1025px) and (max-width:1031px) {
     .nav-links {
@@ -1499,7 +1494,7 @@ footer {
 }
 
 .mission-vision-div {
-    background-color: #ecdede3d;
+    /* background-color: #ecdede3d; */
     width: 100%;
     max-width: 550px;
     /* max-height: 400px; */
@@ -1514,14 +1509,15 @@ footer {
 }
 
 .mission-vision-div p {
-    text-align: start;
+    /* text-align: start; */
+    text-align: justify;
     padding-top: 10px;
     word-spacing: 2px;
 }
 
 .mission-vision-img {
     max-height: 100px;
-    max-width: 100px;
+    max-width: 170px;
     width: 100%;
     padding-top: 15px;
 }
@@ -1553,8 +1549,6 @@ footer {
 
 .team-image {
     border-radius: 100%;
-    /* height: 200px; */
-    /* width: 300px; */
     border: none;
     padding: 20px;
 }
@@ -1597,7 +1591,6 @@ footer {
 }
 
 .advisory-card-body {
-    /* height: 100%; */
     height: 700px;
 }
 
@@ -1606,7 +1599,6 @@ footer {
         flex-wrap: wrap;
         padding: 0 10px;
     }
-
 }
 
 
@@ -1615,7 +1607,6 @@ footer {
         flex-wrap: wrap;
         padding: 0 10px;
     }
-
 }
 
 @media screen and (max-width: 425px) {
@@ -1623,17 +1614,14 @@ footer {
         flex-wrap: wrap;
         padding: 0 10px;
     }
-
 }
 
 @media screen and (max-width: 768px) {
     .vision-mission {
-        /* flex-wrap: wrap; */
         padding: 0 10px;
     }
 
     .MissionVision {
-        /* padding: 10px; */
         margin: 10px;
     }
 
@@ -1646,7 +1634,7 @@ footer {
     }
 
     #about-org {
-        padding: 0 15px;
+        padding: 0 25px;
     }
 
     .mission-vision-div {
@@ -1686,6 +1674,10 @@ footer {
         height: 311.33px;
         width: 311.33px;
     }
+
+    #about-org {
+        padding: 0 25px;
+    }
 }
 
 
@@ -1714,7 +1706,8 @@ footer {
     background-color: #fff;
 }
 
-/*  board-member-image ********* */
+
+/*  Out Mentor ***************** */
 .board-member-image img {
     height: 200px;
     max-width: 200px;
@@ -1770,9 +1763,10 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .about-board-member p {
-        padding: 0 15px;
+        padding: 0 25px;
     }
 }
+
 
 /* who we are ****************** */
 .who-we-are-text {
@@ -1787,25 +1781,161 @@ footer {
     font-size: 27px;
     font-weight: bold;
     padding-bottom: 20px;
+    padding: 50px 0 20px 0;
 }
 
 @media screen and (max-width: 1024px) {
     .who-we-are-text {
-        padding: 15px;
+        padding: 0 25px;
     }
 }
 
-@media screen and (max-width: 425px) {
-    .who-we-are-text {
-        padding: 15px;
+
+/* ********************************************************* */
+
+.buttons-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.buttons-preview {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.content {
+    width: 600px;
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    /* flex-direction: row; */
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: 0.3rem;
+    outline: 0;
+    /* width: 600px; */
+    max-width: 800px;
+}
+
+.modal-message .modal-dialog {
+    max-width: 800px;
+}
+
+.modal-message .modal-body,
+.modal-message .modal-footer,
+.modal-message .modal-header,
+.modal-message .modal-title {
+    background: 0 0;
+    border: none;
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+}
+
+.modal-message .modal-title {
+    font-size: 20px;
+    color: black;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.modal-message .modal-body {
+    color: black;
+}
+
+.modal-message .modal-header {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.modal-message .modal-header .fa,
+.modal-message .modal-header .glyphicon,
+.modal-message .modal-header .typcn,
+.modal-message .modal-header .wi {
+    font-size: 30px;
+}
+
+.modal-message .modal-footer {
+    margin: 10px 0 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+}
+
+.modal-backdrop.in {
+    zoom: 1;
+    filter: alpha(opacity=75);
+    -webkit-opacity: .75;
+    -moz-opacity: .75;
+    opacity: .75;
+}
+
+.modal-backdrop {
+    background-color: #fff;
+}
+
+.modal-message.modal-success .modal-header {
+    color: #53a93f;
+    border-bottom: 3px solid #a0d468;
+}
+
+.modal-message.modal-info .modal-header {
+    color: #57b5e3;
+    border-bottom: 3px solid #57b5e3;
+}
+
+.modal-message.modal-danger .modal-header {
+    color: #d73d32;
+    border-bottom: 3px solid #e46f61;
+}
+
+.modal-message.modal-warning .modal-header {
+    color: #f4b400;
+    border-bottom: 3px solid #ffce55;
+}
+
+.modal-pic {
+    max-width: 280px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .modal-message .modal-dialog {
+        max-width: 700px;
+    }
+
+    .team-background {
+        padding: 0 16px;
     }
 }
+
+@media screen and (max-width: 1024px) {
+    .buttons-preview {
+        flex-wrap: wrap;
+    }
+}
+
+/* ************************************************************ */
 
 
 
 
 
 /* Our Journey ************************************** */
+
+.journey-row {
+    display: block;
+}
 
 .timeline {
     border-left: 3px solid #727cf5;
@@ -1838,17 +1968,6 @@ footer {
     color: #0c0c0c;
 }
 
-@media (max-width: 767px) {
-    .timeline {
-        max-width: 98%;
-        padding: 25px;
-    }
-
-    .Our-Journey {
-        padding-top: 35px;
-    }
-}
-
 .timeline h1 {
     font-weight: 300;
     font-size: 1.4em;
@@ -1866,12 +1985,6 @@ footer {
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative;
-}
-
-@media (max-width: 767px) {
-    .timeline .event {
-        padding-top: 30px;
-    }
 }
 
 .timeline .event:last-of-type {
@@ -1896,13 +2009,6 @@ footer {
     min-width: 120px;
 }
 
-@media (max-width: 767px) {
-    .timeline .event:before {
-        left: 0px;
-        text-align: left;
-    }
-}
-
 .timeline .event:after {
     -webkit-box-shadow: 0 0 0 3px #727cf5;
     box-shadow: 0 0 0 3px #727cf5;
@@ -1915,17 +2021,6 @@ footer {
     top: 5px;
 }
 
-@media (max-width: 767px) {
-    .timeline .event:after {
-        left: -31.8px;
-    }
-}
-
-@media (max-width: 1024px) {
-    .Our-Journey {
-        font-size: 22px;
-    }
-}
 
 .rtl .timeline {
     border-left: 0;
@@ -1947,6 +2042,49 @@ footer {
     right: -55.8px;
 }
 
+
+@media (max-width: 767px) {
+    .timeline {
+        max-width: 100%;
+        /* padding: 25px; */
+    }
+
+    .Our-Journey {
+        padding-top: 35px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .timeline .event {
+        /* padding-top: 30px; */
+    }
+}
+
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: right;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        /* left: -31.8px; */
+    }
+}
+
+@media (max-width: 1024px) {
+    .Our-Journey {
+        font-size: 22px;
+    }
+
+    .journey-container {
+        padding: 0;
+    }
+}
 
 
 /* Our Impact *********************** */
@@ -2014,7 +2152,7 @@ footer {
 
     .impact-container {
         margin: 30px 0;
-        /* padding: 0 5px; */
+        /* padding: 0 15px; */
     }
 
     .impact h1 {
@@ -2033,27 +2171,27 @@ footer {
 
 }
 
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
+
     .impact-container {
-        padding: 0 5px;
+        padding: 0 15px;
     }
-} */
+
+    .impact-main-container {
+        padding: 0;
+    }
+
+}
 
 @media screen and (max-width: 425px) {
     .impact-col {
         margin: 0;
     }
-
-    /* .impact-container {
-        padding: 0 15px;
-    } */
 }
 
 
 /* our Team ***************** */
 .team-container img {
-    /* background-color: #fff; */
-    /* padding: 15px; */
     border-radius: 10px;
     max-height: 288px;
     /* max-width: 288px; */
@@ -2061,17 +2199,15 @@ footer {
 
 #gallery-modal .modal-img {
     width: 100%;
-    max-width: max-content;
 }
 
 .team-background {
-    /* background-color: beige; */
-    /* padding: 47px 47px 84px 47px; */
-    /* margin: 10px; */
-    /* border-radius: 10px; */
+    text-align: center;
+    display: inline-block;
+    /* padding: 0; */
 }
 
-.modal-content {
+/* .modal-content {
     position: relative;
     display: -ms-flexbox;
     display: flex;
@@ -2085,8 +2221,7 @@ footer {
     border-radius: 0.3rem;
     outline: 0;
     max-width: 600px;
-    /* padding: 40px; */
-}
+} */
 
 .modal-dialog-centered {
     display: -ms-flexbox;
@@ -2099,24 +2234,14 @@ footer {
 
 .modal-header .close {
     padding: 1rem 1rem;
-    /* margin: -1rem -1rem -1rem auto; */
     margin: 0;
 }
-
-/* .modal-header {
-    display: flex;
-    justify-content: end;
-} */
 
 .modal-header {
     display: -ms-flexbox;
     display: flex;
-    /* justify-content: end; */
-    /* -ms-flex-align: start; */
-    /* align-items: flex-start; */
     -ms-flex-pack: justify;
     justify-content: space-between;
-    /* padding: 1rem 1rem; */
     border-bottom: 1px solid #dee2e6;
     border-top-left-radius: calc(0.3rem - 1px);
     border-top-right-radius: calc(0.3rem - 1px);
@@ -2131,7 +2256,7 @@ footer {
 
 .legal {
     text-align: justify;
-    padding: 0 42px 0 52px;
+    padding: 0 42px 0 70px;
 
 }
 
@@ -2143,7 +2268,7 @@ footer {
 }
 
 .legal ul li {
-    list-style: none;
+    /* list-style: none; */
     font-size: 18px;
     word-spacing: 1px;
 }
@@ -2155,7 +2280,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .legal {
-        padding: 0 15px;
+        padding: 0 25px;
     }
 
     .legal ul li {
@@ -2177,31 +2302,61 @@ footer {
 #CLAP {
     font-size: 27px;
     font-weight: bold;
-    /* text-align: center; */
-    text-align: start;
-    padding: 0 147px;
+    text-align: center;
+    padding: 0 0 30px;
 }
 
 
-#about-CLAP {
+.about-CLAP {
     padding: 0 147px;
     text-align: justify;
 }
 
+
+/* Children-Conflict-Container */
+.Conflict-container {
+    padding-bottom: 80px;
+}
+
+.Children-Conflict-Container {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* padding: 30px 20px 30px 20px; */
+    padding: 30px 20px 30px 63px;
+}
+
+.Children-Conflict-text {
+    max-width: 700px;
+    width: 100%;
+}
+
+.Children-Conflict-text h1 {
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 30px;
+}
+
+.Children-Conflict-text p {
+    text-align: justify;
+}
+
 #clap-img img {
-    padding: 0 20px;
+    /* max-width: 300px; */
+    width: 100%;
+    /* max-height: 250px; */
+    padding: 130px 0 0 0;
 }
 
 
-
 @media only screen and (max-width: 1024px) {
-    #about-CLAP {
+    .about-CLAP {
         padding: 0 20px;
     }
 
     #CLAP {
         font-size: 22px;
-        padding: 0 20px;
     }
 
     .Children-Conflict-text h1 {
@@ -2210,6 +2365,10 @@ footer {
 
     .Children-Conflict-Container {
         padding-left: 20px;
+    }
+
+    .CLAP-container {
+        padding-bottom: 50px;
     }
 
 }
@@ -2225,51 +2384,16 @@ footer {
     }
 
     .CLAP-container {
-        padding-bottom: 20px;
+        padding-bottom: 50px;
     }
 
     #clap-img img {
         padding: 0;
     }
-}
 
-
-
-/* Children-Conflict-Container */
-.Conflict-container {
-    padding-bottom: 80px;
-}
-
-.Children-Conflict-Container {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 30px 20px 30px 20px;
-    background: #f0f8ff4d;
-}
-
-.Children-Conflict-text {
-    max-width: 700px;
-    width: 100%;
-}
-
-.Children-Conflict-text h1 {
-    font-size: 27px;
-    font-weight: bold;
-    /* text-align: center; */
-    text-align: start;
-    /* padding: 0 148px;     */
-
-}
-
-.Children-Conflict-text p {
-    text-align: justify;
-}
-
-#clap-img img {
-    max-width: 300px;
-    width: 100%;
-    max-height: 250px;
+    .Conflict-container {
+        padding-bottom: 50px;
+    }
 }
 
 
@@ -2297,7 +2421,7 @@ footer {
 
 @media only screen and (max-width: 1024px) {
     .Socio-Legal-container {
-        padding: 50px 20px;
+        padding: 50px 20px 30px 20px;
     }
 
     #Socio-Legal {
@@ -2379,27 +2503,6 @@ footer {
 
 
 /* Rehabilitation ******************** */
-/* .Rehabilitation {
-    padding: 50px 148px;
-}
-
-.Rehabilitation-text h1 {
-    font-size: 27px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.Rehabilitation-text p {
-    text-align: justify;
-} */
-
-
-
-/* .legal-aid-services {
-    margin: 30px 120px;
-} */
-
 .card-container-legal {
     background-color: #2a5666;
     padding: 17px 10px 0 10px;
@@ -2440,7 +2543,7 @@ footer {
 
 @media only screen and (max-width: 1024px) {
     .gender-justice-container {
-        padding: 50px 20px 30px 20px;
+        padding: 50px 25px 30px 25px;
     }
 
     .card-title-name {
@@ -2460,32 +2563,6 @@ footer {
         font-size: 16px;
     }
 
-    /* .Legal-Aid-Services-Container {
-        flex-wrap: wrap;
-        padding: 50px 20px;
-    }
-
-    .Legal-Aid-text h1 {
-        font-size: 22px;
-    }
-
-    .Counselling {
-        flex-wrap: wrap;
-        padding: 50px 20px 30px 20px;
-    }
-
-    .Counselling-text h1 {
-        font-size: 22px;
-    }
-
-    .Rehabilitation {
-        padding: 50px 20px 30px 20px;
-    }
-
-    .Rehabilitation-text h1 {
-        font-size: 22px;
-    } */
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -2499,5 +2576,32 @@ footer {
 
     .media-links-container {
         padding-bottom: 70px;
+    }
+}
+
+
+/*  Sustainable Mental Health ****************/
+.Sustainable-mental-health-container {
+    padding: 50px 148px;
+}
+
+#Sustainable-heading {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.Sustainable-mental-health-container p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Sustainable-mental-health-container {
+        padding: 50px 25px 30px 25px;
+    }
+
+    #Sustainable-heading {
+        font-size: 22px;
     }
 }
