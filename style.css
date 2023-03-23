@@ -2605,3 +2605,83 @@ footer {
         font-size: 22px;
     }
 }
+
+
+/* PAHEL Feloowship ********************************* */
+.PAHEL-Fellowship-container {
+    padding: 50px 148px;
+}
+
+#PAHEL-heading {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.PAHEL-Fellowship-container p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+    .PAHEL-Fellowship-container {
+        padding: 50px 25px 30px 25px;
+    }
+
+    #PAHEL-heading {
+        font-size: 22px;
+    }
+}
+
+
+/* Community awareness **************** */
+.Community-awareness-container {
+    padding: 50px 148px;
+}
+
+#Community-awareness-heading {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.Community-awareness-container p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+    .Community-awareness-container {
+        padding: 50px 25px 30px 25px;
+    }
+
+    #Community-awareness-heading {
+        font-size: 22px;
+    }
+}
+
+/* Legal Literacy ******************** */
+.main-container {
+    padding: 50px 148px;
+}
+
+#sub-heading {
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.main-container .paragraph {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+    .main-container {
+        padding: 50px 25px 30px 25px;
+    }
+
+    #sub-heading {
+        font-size: 22px;
+    }
+}
