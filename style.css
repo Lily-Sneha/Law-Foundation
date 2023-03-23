@@ -553,6 +553,7 @@ img {
     font-size: 27px;
     font-weight: bold;
     padding-left: 147px;
+    padding-bottom: 20px;
 }
 
 .media-links ul li {
@@ -608,6 +609,7 @@ footer {
     display: flex;
     justify-content: space-between;
     line-height: 1.7;
+    padding-bottom: 34px;
 }
 
 .logo img {
@@ -626,6 +628,11 @@ footer {
     display: flex;
     flex-direction: column;
     padding-left: 63px;
+    color: #fff;
+}
+
+#email {
+    /* text-decoration: none; */
     color: #fff;
 }
 
@@ -1219,7 +1226,7 @@ footer {
 
     .media-resource h1 {
         font-size: 22px;
-        padding: 20px;
+        padding: 20px 25px;
     }
 
     .gallery h1 {
@@ -1274,7 +1281,7 @@ footer {
     }
 
     .media-links-container {
-        padding: 0 25px;
+        padding: 0 25px 50px;
     }
 
     .our-story {
@@ -1458,6 +1465,7 @@ footer {
     text-align: center;
     font-size: 27px;
     font-weight: bold;
+    padding-bottom: 20px;
     font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;
 }
 
@@ -1607,6 +1615,10 @@ footer {
         flex-wrap: wrap;
         padding: 0 10px;
     }
+
+    #quote {
+        padding: 0 20px;
+    }
 }
 
 @media screen and (max-width: 425px) {
@@ -1647,7 +1659,7 @@ footer {
 
     .mission-vision-container {
         flex-wrap: wrap;
-        padding-bottom: 50px;
+        /* padding-bottom: 50px; */
     }
 
     .carousal-container {
@@ -1677,6 +1689,18 @@ footer {
 
     #about-org {
         padding: 0 25px;
+    }
+
+    #about-us {
+        font-size: 22px;
+    }
+
+    .about-container {
+        padding-bottom: 50px;
+    }
+
+    .mission-vision-container {
+        padding-bottom: 50px;
     }
 }
 
@@ -1781,12 +1805,16 @@ footer {
     font-size: 27px;
     font-weight: bold;
     padding-bottom: 20px;
-    padding: 50px 0 20px 0;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width: 1024px) {
     .who-we-are-text {
         padding: 0 25px;
+    }
+
+    .who-we-are-text h1 {
+        padding-top: 50px;
     }
 }
 
@@ -2264,11 +2292,11 @@ footer {
     font-size: 27px;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .legal ul li {
-    /* list-style: none; */
+    list-style: square;
     font-size: 18px;
     word-spacing: 1px;
 }
@@ -2290,6 +2318,10 @@ footer {
     .legal-status-container {
         margin: 0;
     }
+
+    #Legal-Status {
+        padding-top: 50px;
+    }
 }
 
 
@@ -2303,7 +2335,7 @@ footer {
     font-size: 27px;
     font-weight: bold;
     text-align: center;
-    padding: 0 0 30px;
+    padding: 0 0 20px;
 }
 
 
@@ -2335,7 +2367,7 @@ footer {
     font-size: 27px;
     font-weight: bold;
     text-align: center;
-    padding: 0 0 30px;
+    padding: 0 0 20px;
 }
 
 .Children-Conflict-text p {
@@ -2352,7 +2384,7 @@ footer {
 
 @media only screen and (max-width: 1024px) {
     .about-CLAP {
-        padding: 0 20px;
+        padding: 0 25px;
     }
 
     #CLAP {
@@ -2416,12 +2448,12 @@ footer {
     font-size: 27px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 @media only screen and (max-width: 1024px) {
     .Socio-Legal-container {
-        padding: 50px 20px 30px 20px;
+        padding: 50px 25px 30px 25px;
     }
 
     #Socio-Legal {
@@ -2444,7 +2476,7 @@ footer {
     font-size: 27px;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .gender-justice-container p {
@@ -2453,6 +2485,12 @@ footer {
 
 .legal-aid-services {
     padding-bottom: 80px;
+}
+
+@media only screen and (max-width: 1024px) {
+    #gender-justice {
+        font-size: 22px;
+    }
 }
 
 /* Legal Aid Services **************** */
@@ -2589,7 +2627,7 @@ footer {
     text-align: center;
     font-size: 27px;
     font-weight: bold;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .Sustainable-mental-health-container p {
@@ -2669,7 +2707,7 @@ footer {
     text-align: center;
     font-size: 27px;
     font-weight: bold;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
 }
 
 .main-container .paragraph {
