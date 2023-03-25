@@ -2143,7 +2143,12 @@ footer {
 /* ************************ */
 .impact {
     background-color: #fff;
+    padding: 50px 20px;
 
+}
+
+.impact-main-container {
+    padding: 50px 133px;
 }
 
 .impact-container {
@@ -2159,6 +2164,11 @@ footer {
 
 }
 
+/* table {
+    margin: 30px 0;
+    width: 100%;
+    max-width: 400px;
+} */
 
 .impact h1 {
     text-align: center;
@@ -2169,6 +2179,42 @@ footer {
 
 .impact-col h2 {
     font-size: 22px;
+}
+
+.small-screen-impact-container {
+    padding: 50px 20px;
+}
+
+.small-screen-table {
+    border: 1px solid grey;
+}
+
+.small-screen-table .t-head tr,
+td,
+th {
+    border: 1px solid grey;
+}
+
+.small-screen-table .t-head tr th {
+    font-size: 15px;
+    font-weight: normal;
+    padding: 10px;
+}
+
+
+.small-screen-table tbody tr th {
+    font-size: 15px;
+    font-weight: normal;
+    text-align: center;
+}
+
+
+.small-screen-table tbody tr td {
+    text-align: center;
+}
+
+.small-screen-impact {
+    display: none;
 }
 
 
@@ -2215,14 +2261,23 @@ footer {
     .impact-col {
         margin: 0;
     }
+
+    .impact {
+        display: none;
+    }
+
+    .small-screen-impact {
+        display: block;
+        padding: 50px 25px;
+    }
 }
+
 
 
 /* our Team ***************** */
 .team-container img {
     border-radius: 10px;
     max-height: 288px;
-    /* max-width: 288px; */
 }
 
 #gallery-modal .modal-img {
@@ -2722,4 +2777,30 @@ footer {
     #sub-heading {
         font-size: 22px;
     }
+}
+
+
+
+
+/*  Truncate *************************** */
+#check {
+    display: none;
+}
+
+.text-p {
+    display: none;
+}
+
+label {
+    display: inline-block;
+    margin-top: 5px;
+    color: rgb(110, 28, 28);
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: start;
+}
+
+#check :checked~.text-p {
+    display: block;
 }
