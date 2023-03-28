@@ -24,31 +24,28 @@ function myFunction() {
 
 
 // Our Impact ********************
-window.onload = function () {
-    var counters = document.getElementsByClassName('statistic-counter');
+document.addEventListener('DOMContentLoaded', function () {
+    var counters = document.querySelectorAll('.statistic-counter');
+    var delay = 10;
+    var time = 2000;
 
-    function startCounters() {
-        for (var i = 0; i < counters.length; i++) {
-            var counter = counters[i];
-            var endValue = parseInt(counter.innerHTML, 10);
-            var startValue = 0;
-            var delay = 10;
-            var increment = Math.ceil(endValue / (2000 / delay));
-            var currentValue = startValue;
+    counters.forEach(function (counter) {
+        var targetValue = parseInt(counter.innerText);
+        var startValue = 0;
+        var increment = targetValue / (time / delay);
+        var current = startValue;
 
-            var timer = setInterval(function () {
-                currentValue += increment;
-                counter.innerHTML = currentValue;
-                if (currentValue >= endValue) {
-                    clearInterval(timer);
-                    counter.innerHTML = endValue;
-                }
-            }, delay);
-        }
-    }
-    startCounters();
-}
+        var timer = setInterval(function () {
+            current += increment;
+            counter.innerText = Math.round(current);
 
+            if (current >= targetValue) {
+                clearInterval(timer);
+                counter.innerText = targetValue;
+            }
+        }, delay);
+    });
+});
 
 
 // Modal ******************
@@ -63,15 +60,22 @@ document.addEventListener("click", function (e) {
 })
 
 
-// ***************
-// document.addEventListener("click", function (e) {
-//     if (e.target.classList.contains("gallery-item")) {
-//         const text = e.target.getElementsByClassName("text")
-//         console.log(text)
-//         document.querySelector(".modal-img").text = text;
-//         const myModal = new bootstrap.Modal(document.getElementById('gallery-modal'))
-//         myModal.show();
 
 
-//     }
-// })
+// swiper ***************
+var swiper = new Swiper(".mySwiper", {
+    effect: "coverflow",
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    coverflowEffect: {
+      rotate: 50,
+      stretch: 0,
+      depth: 100,
+      modifier: 1,
+      slideShadows: true,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+  });

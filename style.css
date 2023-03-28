@@ -1,13 +1,19 @@
 * {
     box-sizing: border-box;
-    /* font-family: sans-serif; */
-    font-family: 'Rubik', sans-serif;
+    /* font-family: 'Rubik', sans-serif; */
     padding: 0;
     margin: 0;
 }
 
+p {
+    font-family: 'Alkatra';
+    font-size: 20px;
+}
+
 body {
     overflow-x: hidden;
+    /* background-color: #E9F1FA; */
+    background-color: #f0f0f0;
 }
 
 
@@ -23,9 +29,8 @@ body {
 }
 
 .org-name h1 {
-    font-size: 20px;
+    font-size: 27px;
     padding: 15px 0 0 10px;
-    /* color: #2d538d; */
     color: rgb(18, 73, 130);
     font-weight: bold;
     margin: 0;
@@ -35,7 +40,6 @@ body {
 .org-name p {
     padding: 0 0 0 45px;
     text-align: end;
-    /* color: #2d538d; */
     color: rgb(18, 73, 130);
     font-style: italic;
 }
@@ -50,7 +54,6 @@ body {
 }
 
 #hamburgerMenu {
-    /* background-color: #2d538d; */
     background-color: rgb(18, 73, 130);
 }
 
@@ -85,6 +88,10 @@ body {
     font-size: 25px;
 }
 
+.nav.donate a {
+    color: red;
+}
+
 
 .nav-links {
     font-family: sans-serif;
@@ -105,7 +112,6 @@ body {
 
 .nav-links ul li a {
     text-decoration: none;
-    /* color: #2d538d; */
     color: rgb(18, 73, 130);
 }
 
@@ -180,7 +186,6 @@ ul li a {
 }
 
 #navi a {
-    /* color: #2d538d; */
     color: rgb(18, 73, 130);
     text-decoration: none;
 }
@@ -210,7 +215,6 @@ ul li a {
 
 #about-item:hover .list1 {
     display: block;
-    /* color: #db1313; */
 }
 
 #list-item #drop-icon1 {
@@ -287,7 +291,7 @@ ul li a {
 
 /* Carousal */
 .carousal-container {
-    background-color: #ffff;
+    /* background-color: #ffff; */
 }
 
 .carousal-container {
@@ -359,13 +363,12 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-bottom: 20px;
-    margin-top: 60px;
+    background-color: aliceblue;
+    padding: 80px 20px;
 }
 
 .founder-pic img {
-    width: 300px;
+    /* width: 300px; */
 }
 
 .story {
@@ -375,13 +378,11 @@ ul li a {
 }
 
 .story h1 {
-    font-weight: bold;
-    font-size: 27px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Shrikhand', cursive;
 }
 
 .story p {
-    font-size: 15px;
+    font-size: 20px;
     font-style: italic;
     line-height: 1.7;
     text-align: justify;
@@ -390,7 +391,11 @@ ul li a {
 /* *********************************************** */
 
 
-/*  What we do  */
+/*  What we do  ************************/
+#what-we-do-section {
+    background-color: #ebe7e0;
+}
+
 .what-we-do {
     margin-top: 50px;
 }
@@ -424,17 +429,17 @@ ul li a {
     padding-top: 10px;
 }
 
-
-
 /* ************************************************** */
+.advocacy-networking {
+    padding-bottom: 80px;
+}
 
-/* advocacy-networking */
 .advocacy-container {
     margin: 30px 120px;
 }
 
 .card-container {
-    background-color: rgb(61, 71, 86);
+    background-color: #feffff;
     padding: 30px 10px 20px 10px;
     display: flex;
     justify-content: center;
@@ -445,10 +450,8 @@ ul li a {
 }
 
 .card .back {
-    background-color: rgb(61, 71, 86);
     background: none;
     border: none;
-
 }
 
 .card {
@@ -461,7 +464,6 @@ ul li a {
 }
 
 .card p {
-    color: aliceblue;
     text-align: start;
 }
 
@@ -473,13 +475,17 @@ ul li a {
 
 
 .card-title {
-    color: aliceblue;
     text-align: center;
     font-weight: bold;
+
+}
+
+.card-head {
+    font-size: 27px;
 }
 
 .card .card-body .card-text {
-    font-size: 17px;
+    font-size: 20px;
     text-align: justify;
 }
 
@@ -489,13 +495,10 @@ ul li a {
 }
 
 #advocacy {
-    font-size: 27px;
     text-align: center;
     padding-top: 80px;
-    margin-bottom: 30px;
-    font-weight: bold;
-    font-family: 'Rubik', sans-serif;
-
+    padding-bottom: 30px;
+    font-family: 'Shrikhand', cursive;
 }
 
 /* ****************************************************** */
@@ -503,16 +506,15 @@ ul li a {
 
 /* Gallery  */
 .gallery h1 {
-    font-size: 27px;
-    font-weight: bold;
     text-align: center;
     padding-bottom: 20px;
     margin-bottom: 0;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Shrikhand', cursive;
 }
 
 .gallery {
-    padding: 80px 0px;
+    padding: 80px 0px 50px;
+    background-color: aliceblue;
 }
 
 img {
@@ -536,24 +538,33 @@ img {
     margin: 30px 120px;
 }
 
+/* gallery carousal ************** */
+.gallery-carousal {
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
 /* *********************************************************** */
 
+
+
 /*  Media & Resource Center */
+.media-resource {
+    background-color: #ebe7e0;
+}
 
 .media-links-container {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     padding-left: 133px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 
 .media-resource h1 {
-    font-size: 27px;
-    font-weight: bold;
-    padding-left: 147px;
-    padding-bottom: 20px;
+    padding: 50px 0 20px 147px;
+    font-family: 'Shrikhand', cursive;
 }
 
 .media-links ul li {
@@ -568,8 +579,9 @@ img {
 .media-links ul li a {
     text-decoration: none;
     border-bottom: 1px solid rgb(215 209 209);
-    font-size: 16px;
+    font-size: 20px;
     color: #db1313;
+    font-family: 'Alkatra';
 }
 
 .media-links ul li a:hover {
@@ -587,10 +599,11 @@ footer {
 }
 
 .footer-col h5 {
-    font-size: 16px;
+    font-size: 22px;
     font-weight: bold;
     color: #ffff;
     margin-left: 7px;
+    font-family: 'Alkatra';
 }
 
 .name {
@@ -602,7 +615,7 @@ footer {
 }
 
 .footer-col p {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .footer-info {
@@ -632,7 +645,6 @@ footer {
 }
 
 #email {
-    /* text-decoration: none; */
     color: #fff;
 }
 
@@ -713,9 +725,9 @@ footer {
         width: 80px;
     }
 
-    .media-resource h1 {
+    /* .media-resource h1 {
         font-size: 22px;
-    }
+    } */
 
     .gallery h1 {
         font-size: 22px;
@@ -723,18 +735,6 @@ footer {
 
     .what h1 {
         font-size: 22px;
-    }
-
-    .story h1 {
-        font-size: 22px;
-    }
-
-    #advocacy {
-        font-size: 22px;
-    }
-
-    .card-body p {
-        font-size: 13.5px;
     }
 
     .image-jpg {
@@ -796,9 +796,9 @@ footer {
         font-size: 12;
     }
 
-    .media-resource h1 {
+    /* .media-resource h1 {
         font-size: 22px;
-    }
+    } */
 
     .what-we-do h1 {
         font-size: 22px;
@@ -810,14 +810,6 @@ footer {
 
     .story h1 {
         font-size: 22px;
-    }
-
-    #advocacy {
-        font-size: 22px;
-    }
-
-    .card-body p {
-        font-size: 13.5px;
     }
 
     .gallery-container {
@@ -870,9 +862,9 @@ footer {
         font-size: 12;
     }
 
-    .media-resource h1 {
+    /* .media-resource h1 {
         font-size: 22px;
-    }
+    } */
 
     .gallery h1 {
         font-size: 22px;
@@ -1012,9 +1004,9 @@ footer {
         padding-left: 10px;
     }
 
-    .media-resource h1 {
+    /* .media-resource h1 {
         font-size: 22px;
-    }
+    } */
 
     .gallery {
         padding-top: 35px;
@@ -1036,14 +1028,6 @@ footer {
 
     .story p {
         padding-right: 18px;
-    }
-
-    #advocacy {
-        font-size: 22px;
-    }
-
-    .card-body p {
-        font-size: 13.5px;
     }
 
     .gallery-container {
@@ -1118,9 +1102,10 @@ footer {
         font-size: 18px;
     }
 
+    /* 
     .media-resource h1 {
         font-size: 22px;
-    }
+    } */
 
     .gallery h1 {
         font-size: 22px;
@@ -1164,9 +1149,9 @@ footer {
         font-size: 18px;
     }
 
-    .media-resource h1 {
+    /* .media-resource h1 {
         font-size: 22px;
-    }
+    } */
 
     .gallery h1 {
         font-size: 22px;
@@ -1193,7 +1178,11 @@ footer {
     }
 
     .media-links ul li a {
-        font-size: 13px;
+        font-size: 17px;
+    }
+
+    .event p {
+        font-size: 20px;
     }
 
     .media-links {
@@ -1224,11 +1213,6 @@ footer {
         font-size: 13px;
     }
 
-    .media-resource h1 {
-        font-size: 22px;
-        padding: 20px 25px;
-    }
-
     .gallery h1 {
         font-size: 22px;
     }
@@ -1242,12 +1226,8 @@ footer {
         padding-top: 20px;
     }
 
-    #advocacy {
-        font-size: 22px;
-    }
-
     .card-body p {
-        font-size: 14px;
+        font-size: 17px;
     }
 
     .our-work {
@@ -1265,6 +1245,7 @@ footer {
 
     .advocacy-container {
         margin: 0;
+        padding-bottom: 60px;
     }
 
     .footer-icon {
@@ -1449,12 +1430,11 @@ footer {
 /*  Media Querry end ******************************** */
 
 
-
+/* About Us *********************/
 .about-container {
     padding: 50px 0 80px 0;
 }
 
-/* About Us */
 .about-us {
     display: flex;
     justify-content: center;
@@ -1463,10 +1443,8 @@ footer {
 
 #about-us {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
     padding-bottom: 20px;
-    font-family: futura-lt-w01-book, futura-lt-w05-book, sans-serif;
+    font-family: 'Shrikhand', cursive;
 }
 
 #quote {
@@ -1493,19 +1471,23 @@ footer {
 }
 
 /* vision-mission ************************/
+
+.mission-vision-section {
+    background-color: #ebe7e0;
+}
+
 .mission-vision-container {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
+    padding: 20px;
 }
 
 .mission-vision-div {
-    /* background-color: #ecdede3d; */
     width: 100%;
     max-width: 550px;
-    /* max-height: 400px; */
     margin: 20px;
     padding: 20px;
 }
@@ -1517,7 +1499,6 @@ footer {
 }
 
 .mission-vision-div p {
-    /* text-align: start; */
     text-align: justify;
     padding-top: 10px;
     word-spacing: 2px;
@@ -1540,11 +1521,11 @@ footer {
 
 /* Advisory board member */
 .board-members {
-    background-image: url(./photo/background.avif);
+    background-image: url(./photo/background4.jpeg);
 }
 
 .carousal-container {
-    padding-bottom: 80px;
+    /* padding-bottom: 80px; */
 }
 
 #Board-Members {
@@ -1653,17 +1634,8 @@ footer {
         padding: 0;
     }
 
-    .mission-vision-div p {
-        padding: 15px;
-    }
-
     .mission-vision-container {
         flex-wrap: wrap;
-        /* padding-bottom: 50px; */
-    }
-
-    .carousal-container {
-        padding-bottom: 50px;
     }
 }
 
@@ -1689,10 +1661,6 @@ footer {
 
     #about-org {
         padding: 0 25px;
-    }
-
-    #about-us {
-        font-size: 22px;
     }
 
     .about-container {
@@ -1745,14 +1713,14 @@ footer {
 }
 
 .carousel-control-prev.img {
-    margin-top: 200px;
+    margin-top: 286px;
     max-height: 40px;
     max-width: 40px;
     background-color: #837e7e;
 }
 
 .carousel-control-next.img {
-    margin-top: 200px;
+    margin-top: 286px;
     max-height: 40px;
     max-width: 40px;
     background-color: #837e7e;
@@ -1771,18 +1739,18 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 #board-memb {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
     padding-top: 20px;
+    font-family: 'Shrikhand', cursive;
 }
 
 .board-carousal {
-    background-image: url(./photo/background.avif);
+    /* background-image: url(./photo/background2.jpeg); */
+    background-image: url(./photo/background4.jpeg);
 }
 
 @media screen and (max-width: 1024px) {
@@ -1802,10 +1770,10 @@ footer {
 
 .who-we-are-text h1 {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
     padding-bottom: 20px;
     padding-bottom: 20px;
+    font-family: 'Shrikhand', cursive;
+
 }
 
 @media screen and (max-width: 1024px) {
@@ -1850,7 +1818,6 @@ footer {
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 0.3rem;
     outline: 0;
-    /* width: 600px; */
     max-width: 800px;
 }
 
@@ -1960,6 +1927,10 @@ footer {
 
 
 /* Our Journey ************************************** */
+.journey-container {
+    /* background-color: #f7f6f3; */
+    padding-bottom: 80px;
+}
 
 .journey-row {
     display: block;
@@ -1986,10 +1957,10 @@ footer {
 
 .Our-Journey {
     color: #0c0c0c;
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     padding-top: 80px;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
 }
 
 .text p {
@@ -2032,8 +2003,8 @@ footer {
     left: -207px;
     content: attr(data-date);
     text-align: right;
-    font-weight: 100;
-    font-size: 0.9em;
+    font-weight: bold;
+    font-size: 25px;
     min-width: 120px;
 }
 
@@ -2068,6 +2039,10 @@ footer {
 .rtl .timeline .event::after {
     left: 0;
     right: -55.8px;
+}
+
+.event p {
+    padding: 20px 0 0 0;
 }
 
 
@@ -2106,11 +2081,13 @@ footer {
 
 @media (max-width: 1024px) {
     .Our-Journey {
-        font-size: 22px;
+        font-size: 30px;
     }
+}
 
-    .journey-container {
-        padding: 0;
+@media (max-width: 425px) {
+    .event p {
+        padding: 20px 0 0 0;
     }
 }
 
@@ -2142,8 +2119,8 @@ footer {
 
 /* ************************ */
 .impact {
-    background-color: #fff;
-    padding: 50px 20px;
+    /* background-color: #f7f6f3; */
+    /* padding: 50px 20px; */
 
 }
 
@@ -2164,57 +2141,15 @@ footer {
 
 }
 
-/* table {
-    margin: 30px 0;
-    width: 100%;
-    max-width: 400px;
-} */
-
 .impact h1 {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     padding-top: 80px;
+    padding-bottom: 10px;
 }
 
 .impact-col h2 {
     font-size: 22px;
-}
-
-.small-screen-impact-container {
-    padding: 50px 20px;
-}
-
-.small-screen-table {
-    border: 1px solid grey;
-}
-
-.small-screen-table .t-head tr,
-td,
-th {
-    border: 1px solid grey;
-}
-
-.small-screen-table .t-head tr th {
-    font-size: 15px;
-    font-weight: normal;
-    padding: 10px;
-}
-
-
-.small-screen-table tbody tr th {
-    font-size: 15px;
-    font-weight: normal;
-    text-align: center;
-}
-
-
-.small-screen-table tbody tr td {
-    text-align: center;
-}
-
-.small-screen-impact {
-    display: none;
 }
 
 
@@ -2226,13 +2161,7 @@ th {
 
     .impact-container {
         margin: 30px 0;
-        /* padding: 0 15px; */
     }
-
-    .impact h1 {
-        font-size: 22px;
-    }
-
 }
 
 
@@ -2261,15 +2190,6 @@ th {
     .impact-col {
         margin: 0;
     }
-
-    .impact {
-        display: none;
-    }
-
-    .small-screen-impact {
-        display: block;
-        padding: 50px 25px;
-    }
 }
 
 
@@ -2287,24 +2207,8 @@ th {
 .team-background {
     text-align: center;
     display: inline-block;
-    /* padding: 0; */
 }
 
-/* .modal-content {
-    position: relative;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    width: 100%;
-    pointer-events: auto;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: 0.3rem;
-    outline: 0;
-    max-width: 600px;
-} */
 
 .modal-dialog-centered {
     display: -ms-flexbox;
@@ -2344,16 +2248,16 @@ th {
 }
 
 #Legal-Status {
-    font-size: 27px;
-    font-weight: bold;
     text-align: center;
     padding-bottom: 20px;
+    font-family: 'Shrikhand', cursive;
 }
 
 .legal ul li {
     list-style: square;
-    font-size: 18px;
+    font-size: 20px;
     word-spacing: 1px;
+    font-family: 'Alkatra';
 }
 
 .bullet-point {
@@ -2387,10 +2291,9 @@ th {
 }
 
 #CLAP {
-    font-size: 27px;
-    font-weight: bold;
     text-align: center;
     padding: 0 0 20px;
+    font-family: 'Shrikhand', cursive;
 }
 
 
@@ -2400,7 +2303,7 @@ th {
 }
 
 
-/* Children-Conflict-Container */
+/* Children-Conflict-Container ************** */
 .Conflict-container {
     padding-bottom: 80px;
 }
@@ -2419,10 +2322,9 @@ th {
 }
 
 .Children-Conflict-text h1 {
-    font-size: 27px;
-    font-weight: bold;
     text-align: center;
     padding: 0 0 20px;
+    font-family: 'Shrikhand', cursive;
 }
 
 .Children-Conflict-text p {
@@ -2430,9 +2332,7 @@ th {
 }
 
 #clap-img img {
-    /* max-width: 300px; */
     width: 100%;
-    /* max-height: 250px; */
     padding: 130px 0 0 0;
 }
 
@@ -2500,8 +2400,7 @@ th {
 }
 
 #Socio-Legal {
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -2528,8 +2427,7 @@ th {
 }
 
 #gender-justice {
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     text-align: center;
     padding-bottom: 20px;
 }
@@ -2624,7 +2522,6 @@ th {
     border-top-right-radius: 0;
     border-radius: 10px;
     max-height: 250px;
-    /* max-width: 250px; */
     max-width: 100%;
     padding: 15px;
 }
@@ -2680,8 +2577,7 @@ th {
 
 #Sustainable-heading {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     padding-bottom: 20px;
 }
 
@@ -2707,8 +2603,7 @@ th {
 
 #PAHEL-heading {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     padding-bottom: 30px;
 }
 
@@ -2734,8 +2629,7 @@ th {
 
 #Community-awareness-heading {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     padding-bottom: 30px;
 }
 
@@ -2753,15 +2647,15 @@ th {
     }
 }
 
+
 /* Legal Literacy ******************** */
 .main-container {
     padding: 50px 148px;
 }
 
-#sub-heading {
+#legal-heading {
     text-align: center;
-    font-size: 27px;
-    font-weight: bold;
+    font-family: 'Shrikhand', cursive;
     padding-bottom: 20px;
 }
 
@@ -2779,6 +2673,110 @@ th {
     }
 }
 
+
+/*  paragraph and heading font size ************* */
+@media only screen and (max-width: 1024px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .story h1 {
+        font-size: 30px;
+    }
+
+    .impact h1 {
+        font-size: 30px;
+    }
+
+    .media-resource h1 {
+        font-size: 30px;
+        padding: 20px 25px;
+    }
+
+    #about-us {
+        font-size: 30px;
+    }
+
+    #board-memb {
+        font-size: 30px;
+    }
+
+    #advocacy {
+        font-size: 30px;
+    }
+
+    .about-board-member h5 {
+        font-size: 23px;
+    }
+
+    .card-head {
+        font-size: 23px;
+    }
+
+    .impact h1 {
+        padding-top: 20px;
+    }
+
+    .story p {
+        font-size: 17px;
+    }
+
+    .card .card-body .card-text {
+        font-size: 17px;
+    }
+
+    .impact-col p {
+        font-size: 17px;
+    }
+
+    #about-org {
+        font-size: 17px;
+    }
+
+    .mission-vision-div p {
+        font-size: 17px;
+    }
+
+    .who-we-are-text p {
+        font-size: 17px;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 822px;
+    }
+}
+
+
+@media (max-width:768px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 500px;
+    }
+}
+
+
+@media (max-width:1024px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl {
+        max-width: 600px;
+    }
+}
 
 
 
@@ -2804,3 +2802,133 @@ label {
 #check :checked~.text-p {
     display: block;
 }
+
+
+
+/* ********************************* */
+/* @media only screen and (max-width: 1024px) { */
+#summary {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#summary #collapseSummary.collapse:not(.show) {
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* #summary #collapseSummary.collapsing {
+    min-height: 42px !important;
+} */
+
+#summary a.collapsed:after {
+    content: '+ Read More';
+}
+
+#summary a:not(.collapsed):after {
+    content: '- Read Less';
+}
+
+
+/* second truncate *************/
+#summary-two {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#summary-two #collapseSummary-two.collapse-two:not(.show) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* #summary-two #collapseSummary-two.collapsing {
+    min-height: 42px !important;
+} */
+
+#summary-two a.collapsed-two:after {
+    content: '+ Read More';
+}
+
+#summary-two a:not(.collapsed-two):after {
+    content: '- Read Less';
+}
+
+
+/* third truncate *************/
+#summary-three {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#summary-three #collapseSummary-three.collapse-three:not(.show) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+#summary-three #collapseSummary-three.collapsing {
+    min-height: 42px !important;
+}
+
+#summary-three a.collapsed-three:after {
+    content: '+ Read More';
+}
+
+#summary-three a:not(.collapsed-three):after {
+    content: '- Read Less';
+}
+
+
+
+
+/* swiper *************** */
+.swiper {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
+
+/* ************** */
+/* #summary-one {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#summary-one #collapseSummary-one.collapse-one:not(.show) {
+    height: 42px !important;
+    overflow: hidden;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+#summary-one #collapseSummary-one.collapsing {
+    min-height: 42px !important;
+}
+
+#summary-one a.collapsed-one:after {
+    content: '+ Read More';
+}
+
+#summary-one a:not(.collapsed-one):after {
+    content: '- Read Less';
+} */
