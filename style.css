@@ -2253,20 +2253,14 @@ footer {
     margin: 30px 118px 30px 130px;
 }
 
-.impact-col {
-    padding: 50px;
-    text-align: center;
-    color: #fff;
-    background: #000000;
-    margin: 10px;
-
+.row-container {
+    padding: 0;
 }
 
 .impact h1 {
     text-align: center;
     font-family: 'Shrikhand', cursive;
-    padding-top: 80px;
-    padding-bottom: 10px;
+    padding: 33px 0 50px 0;
 }
 
 .impact-col h2 {
@@ -2276,12 +2270,16 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .impact-col {
-        padding: 30px;
+        /* padding: 30px; */
         text-align: center;
     }
 
     .impact-container {
         margin: 30px 0;
+    }
+
+    #last-impact-card {
+        margin-bottom: 40px;
     }
 }
 
@@ -2308,9 +2306,9 @@ footer {
 }
 
 @media screen and (max-width: 425px) {
-    .impact-col {
+    /* .impact-col {
         margin: 0;
-    }
+    } */
 }
 
 
@@ -2426,6 +2424,8 @@ footer {
 .about-CLAP {
     padding: 0 147px;
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 
@@ -2455,6 +2455,8 @@ footer {
 
 .Children-Conflict-text p {
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 #clap-img img {
@@ -2510,8 +2512,7 @@ footer {
 }
 
 
-
-/* socio legal aid services */
+/* socio legal aid services *******************/
 .socio-img-container {
     padding: 50px 148px;
 }
@@ -2523,6 +2524,8 @@ footer {
 
 .Socio-Legal-container p {
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 #Socio-Legal {
@@ -2560,6 +2563,8 @@ footer {
 
 .gender-justice-container p {
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 .legal-aid-services {
@@ -2571,52 +2576,6 @@ footer {
         font-size: 22px;
     }
 }
-
-/* Legal Aid Services **************** */
-/* .Legal-Aid-Services-Container {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 50px 148px;
-}
-
-.Legal-Aid-text h1 {
-    font-size: 27px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.Legal-Aid-text p {
-    text-align: justify;
-}
-
-#legal-aid-img img {
-    padding: 0 20px;
-} */
-
-/* Counselling *************** */
-/* .Counselling {
-    padding: 50px 148px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.Counselling-text h1 {
-    font-size: 27px;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 30px;
-}
-
-.Counselling-text p {
-    text-align: justify;
-}
-
-#Counselling-img {
-    padding: 0 20px;
-} */
 
 
 /* Rehabilitation ******************** */
@@ -2709,6 +2668,8 @@ footer {
 
 .Sustainable-mental-health-container p {
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2735,6 +2696,8 @@ footer {
 
 .PAHEL-Fellowship-container p {
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2761,6 +2724,8 @@ footer {
 
 .Community-awareness-container p {
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2787,6 +2752,8 @@ footer {
 
 .main-container .paragraph {
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3011,50 +2978,56 @@ label {
 }
 
 
-
-
-/* swiper *************** */
-.swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
+/* impact counter ****************** */
+.counter {
+    color: #628900;
+    background: linear-gradient(to bottom, #628900 49%, transparent 50%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 25px 15px 35px;
+    margin: 0 auto;
+    border: 18px solid #628900;
+    border-radius: 100% 100%;
+    box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.3);
 }
 
-.swiper-slide {
-    background-position: center;
-    background-size: cover;
-    width: 300px;
-    height: 300px;
-}
-
-.swiper-slide img {
+.counter .statistic-counter {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
     display: block;
-    width: 100%;
+    margin: 0 0 25px;
 }
 
-/* ************** */
-/* #summary-one {
-    font-size: 14px;
-    line-height: 1.5;
+.counter h3 {
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
 }
 
-#summary-one #collapseSummary-one.collapse-one:not(.show) {
-    height: 42px !important;
-    overflow: hidden;
-
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
+.counter.red {
+    color: #e3213c;
+    background: linear-gradient(to bottom, #e3213c 49%, transparent 50%);
+    border-color: #e3213c;
 }
 
-#summary-one #collapseSummary-one.collapsing {
-    min-height: 42px !important;
+.counter.orange {
+    color: #fb8603;
+    background: linear-gradient(to bottom, #fb8603 49%, transparent 50%);
+    border-color: #fb8603;
 }
 
-#summary-one a.collapsed-one:after {
-    content: '+ Read More';
+.counter.blue {
+    color: #1f8bc1;
+    background: linear-gradient(to bottom, #1f8bc1 49%, transparent 50%);
+    border-color: #1f8bc1;
 }
 
-#summary-one a:not(.collapsed-one):after {
-    content: '- Read Less';
-} */
+@media screen and (max-width:990px) {
+    .counter {
+        margin-bottom: 40px;
+    }
+}

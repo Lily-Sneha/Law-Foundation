@@ -1,15 +1,4 @@
-// function myFunction() {
-//     var x = document.getElementById("navigation");
-//     if (x.style.display == "none") {
-//         x.style.display = "flex";
-//     } else {
-//         x.style.display = "none";
-//     }
-
-// }
-
-
-
+//  Hamburger Function ****************
 function myFunction() {
     var x = document.getElementById("navi");
     if (x.style.display == "none") {
@@ -19,8 +8,6 @@ function myFunction() {
     }
 
 }
-
-
 
 
 // Our Impact ********************
@@ -58,24 +45,3 @@ document.addEventListener("click", function (e) {
         myModal.show();
     }
 })
-
-
-
-
-// swiper ***************
-var swiper = new Swiper(".mySwiper", {
-    effect: "coverflow",
-    grabCursor: true,
-    centeredSlides: true,
-    slidesPerView: "auto",
-    coverflowEffect: {
-      rotate: 50,
-      stretch: 0,
-      depth: 100,
-      modifier: 1,
-      slideShadows: true,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-    },
-  });
