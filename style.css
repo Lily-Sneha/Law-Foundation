@@ -13,7 +13,7 @@ p {
 body {
     overflow-x: hidden;
     /* background-color: #E9F1FA; */
-    background-color: #f0f0f0;
+    background-color: rgb(221, 231, 244);
 }
 
 
@@ -363,7 +363,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: aliceblue;
+    background-color: rgba(243, 243, 243, 0);
     padding: 80px 20px;
 }
 
@@ -393,7 +393,7 @@ ul li a {
 
 /*  What we do  ************************/
 #what-we-do-section {
-    background-color: #ebe7e0;
+    background-color: rgb(221, 231, 244);
 }
 
 .what-we-do {
@@ -439,7 +439,8 @@ ul li a {
 }
 
 .card-container {
-    background-color: #feffff;
+    background-color: #ffffff;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
     padding: 30px 10px 20px 10px;
     display: flex;
     justify-content: center;
@@ -487,6 +488,8 @@ ul li a {
 .card .card-body .card-text {
     font-size: 20px;
     text-align: justify;
+    line-height: 1.5;
+    word-spacing: 4.5px;
 }
 
 .card-img-top {
@@ -550,7 +553,7 @@ img {
 
 /*  Media & Resource Center */
 .media-resource {
-    background-color: #ebe7e0;
+    background-color: rgb(221, 231, 244);
 }
 
 .media-links-container {
@@ -690,7 +693,7 @@ footer {
 }
 
 #right {
-    font-size: 14px;
+    font-size: 17px;
     padding-left: 20px;
     color: #fff;
 }
@@ -1450,15 +1453,12 @@ footer {
 #about-org {
     padding: 0 162px;
     text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
 }
 
 .advisory-container {
     margin: 30px 120px;
-}
-
-#about-org {
-    padding: 0 162px;
-    text-align: justify;
 }
 
 /* Martin Luthar King ***************/
@@ -1479,12 +1479,14 @@ footer {
 #quote {
     text-align: center;
     color: #feffff;
-    font-size: 30px;
+    font-size: 35px;
+    letter-spacing: 1px;
 }
 
 .critic-name {
     text-align: end;
     color: #feffff;
+    padding-right: 36px;
 }
 
 .critic-quote {
@@ -1494,7 +1496,7 @@ footer {
 /* vision-mission ************************/
 
 .mission-vision-section {
-    background-color: #ebe7e0;
+    background-color: rgb(244, 244, 244);
 }
 
 .mission-vision-container {
@@ -1522,7 +1524,8 @@ footer {
 .mission-vision-div p {
     text-align: justify;
     padding-top: 10px;
-    word-spacing: 2px;
+    word-spacing: 4.5px;
+    line-height: 1.7;
 }
 
 .mission-vision-img {
@@ -1709,6 +1712,10 @@ footer {
     .mission-vision-container {
         padding-bottom: 50px;
     }
+
+    .critic-name {
+        padding-right: 65px;
+    }
 }
 
 
@@ -1781,6 +1788,11 @@ footer {
     font-size: 30px;
 }
 
+.about-board-member p {
+    line-height: 1.7;
+    word-spacing: 4.5px;
+}
+
 #board-memb {
     text-align: center;
     padding-top: 20px;
@@ -1815,6 +1827,11 @@ footer {
 
 }
 
+.who-we-are-text p {
+    word-spacing: 4.5px;
+    line-height: 1.7;
+}
+
 @media screen and (max-width: 1024px) {
     .who-we-are-text {
         padding: 0 25px;
@@ -1826,11 +1843,15 @@ footer {
 }
 
 
-/* ********************************************************* */
+/* ************************ Our Team ********************************* */
+.team-background-color {
+    background-color: rgb(244, 244, 244);
+}
 
 .buttons-preview {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 }
@@ -1852,12 +1873,13 @@ footer {
     /* flex-direction: row; */
     width: 100%;
     pointer-events: auto;
-    background-color: #fff;
+    background-color: #b8cde4;
     background-clip: padding-box;
     border: 1px solid rgba(0, 0, 0, .2);
     border-radius: 0.3rem;
     outline: 0;
     max-width: 800px;
+    font-family: unset;
 }
 
 .modal-message .modal-dialog {
@@ -1876,20 +1898,59 @@ footer {
 }
 
 .modal-message .modal-title {
+    font-size: 23px;
+    color: black;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: bold;
+    padding: 0;
+    font-family: 'Alkatra';
+}
+
+.modal-message .designation {
     font-size: 20px;
     color: black;
     margin-bottom: 0;
     text-align: center;
     font-weight: bold;
+    font-family: 'Alkatra';
 }
 
 .modal-message .modal-body {
     color: black;
+    word-spacing: 4.5px;
+    line-height: 1.7;
+    font-family: 'Alkatra';
+    font-size: 20px;
 }
 
 .modal-message .modal-header {
     color: #fff;
     margin-bottom: 10px;
+}
+
+.team-title {
+    padding-top: 45px;
+    font-family: 'Alkatra';
+}
+
+#our-team-head {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    padding: 50px 0;
+}
+
+.team-title .linkedin-icon {
+    text-decoration: none;
+    color: #080808;
+}
+
+.team-title .linkedin-icon .linkedin-img {
+    font-size: 40px;
+}
+
+.team-title .linkedin-icon .linkedin-img:hover {
+    color: #0244d0;
 }
 
 .modal-message .modal-header .fa,
@@ -1903,6 +1964,18 @@ footer {
     margin: 10px 0 20px;
     padding-bottom: 10px;
     border-bottom: 2px solid black;
+}
+
+.modal-message .modal-footer .fa-sharp {
+    cursor: pointer;
+    font-size: 30px;
+    border: 2px solid #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.modal-message .modal-footer .cross:hover {
+    background-color: #fff;
 }
 
 .modal-backdrop.in {
@@ -1939,8 +2012,10 @@ footer {
 
 .modal-pic {
     max-width: 280px;
+    height: 280px;
     width: 100%;
-    border-radius: 10px;
+    border-radius: 100%;
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1957,6 +2032,11 @@ footer {
     .buttons-preview {
         flex-wrap: wrap;
     }
+
+    .modal-pic {
+        max-width: 210px;
+        height: 210px;
+    }
 }
 
 /* ************************************************************ */
@@ -1967,7 +2047,7 @@ footer {
 
 /* Our Journey ************************************** */
 .journey-container {
-    /* background-color: #f7f6f3; */
+    background-color: rgb(244, 244, 244);
     padding-bottom: 80px;
 }
 
@@ -2082,6 +2162,8 @@ footer {
 
 .event p {
     padding: 20px 0 0 0;
+    line-height: 1.5;
+    word-spacing: 4.5px;
 }
 
 
@@ -2156,9 +2238,9 @@ footer {
 }
 
 
-/* ************************ */
+/* ********** Our Impact ************** */
 .impact {
-    /* background-color: #f7f6f3; */
+    background-color: rgb(244, 244, 244);
     /* padding: 50px 20px; */
 
 }
@@ -2246,6 +2328,11 @@ footer {
 .team-background {
     text-align: center;
     display: inline-block;
+    background-color: rgb(159, 210, 234);
+    padding: 50px;
+    margin: 10px;
+    border-radius: 10px;
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.05)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
 }
 
 
