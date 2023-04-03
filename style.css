@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    /* font-family: 'Rubik', sans-serif; */
     padding: 0;
     margin: 0;
 }
@@ -12,8 +11,7 @@ p {
 
 body {
     overflow-x: hidden;
-    /* background-color: #E9F1FA; */
-    background-color: rgb(221, 231, 244);
+    /* background-color: rgb(221, 231, 244); */
 }
 
 
@@ -25,7 +23,7 @@ body {
 }
 
 .foundation-name img {
-    width: 90px;
+    width: 100px;
 }
 
 .org-name h1 {
@@ -38,8 +36,8 @@ body {
 }
 
 .org-name p {
-    padding: 0 0 0 45px;
-    text-align: end;
+    padding: 0 0 0 56px;
+    text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
 }
@@ -124,11 +122,15 @@ ul li a {
     font-weight: bold;
 }
 
-.nav-links ul li a:hover {
+.nav-links ul li .links:hover {
     color: #db1313;
 }
 
-#list-item {
+.nav-links ul #home .home-highlight:hover {
+    color: #db1313;
+}
+
+.list-item {
     position: relative;
     display: inline-block;
 }
@@ -145,16 +147,22 @@ ul li a {
 }
 
 .list li a {
-    font-size: 13px;
-    line-height: 1;
+    font-size: 15px;
+}
+
+.list li {
     border-bottom: 1px solid rgb(215 209 209);
 }
 
-#list-item:hover .list {
+.list li a:hover {
+    padding: 6px;
+}
+
+.list-item:hover .list {
     display: block;
 }
 
-.list1 {
+/* .list1 {
     display: none;
     position: absolute;
     min-width: 165px;
@@ -163,17 +171,15 @@ ul li a {
     list-style: none;
     text-align: left;
     border: 1px solid white;
-}
+} */
 
-.list1 li a {
+/* .list1 li a {
     font-size: 13px;
     display: block;
-}
-
-/* ****************************************************** */
+} */
 
 
-/* Second navigation Bar */
+/* Second navigation Bar *******************/
 #navi {
     display: flex;
     flex-direction: column;
@@ -191,11 +197,15 @@ ul li a {
 }
 
 #navi li a:hover {
-    color: #db1313;
+    /* color: #db1313; */
 }
 
 #navi li a {
     font-size: 14px;
+}
+
+.header {
+    box-shadow: 5px 3px 8px #888888;
 }
 
 .nav-bar {
@@ -217,7 +227,7 @@ ul li a {
     display: block;
 }
 
-#list-item #drop-icon1 {
+.list-item #drop-icon1 {
     font-size: 17px;
     padding-left: 7px;
 }
@@ -286,95 +296,21 @@ ul li a {
     display: block;
 }
 
-/* ************************************************************** */
 
-
-/* Carousal */
-.carousal-container {
-    /* background-color: #ffff; */
-}
-
-.carousal-container {
-    padding: 0;
-}
-
-.carousel-inner {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.carousel-control-next {
-    right: 0px;
-    height: 50px;
-    width: 50px;
-    margin-top: 33%;
-}
-
-.carousel-control-next-icon,
-.carousel-control-prev-icon {
-    display: inline-block;
-
-}
-
-.carousel-control-next,
-.carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    background-color: #0c0c0c;
-    text-align: center;
-    border: 0;
-}
-
-.carousel-control-prev {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    padding: 0;
-    color: #fff;
-    text-align: center;
-    border: 0;
-    transition: opacity .15s ease;
-}
-
-.carousel-control-prev {
-    right: 0px;
-    height: 50px;
-    width: 50px;
-    margin-top: 33%;
-}
-
-/* ************************************************* */
-
-/*  Our Story  */
+/*  Our Story  *************************/
 .our-story {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(243, 243, 243, 0);
+    /* background-color: rgb(223, 226, 226); */
+    background-color: rgb(238, 238, 238);
     padding: 80px 20px;
 }
 
-.founder-pic img {
-    /* width: 300px; */
-}
-
 .story {
-    margin-left: 20px;
     text-align: center;
     width: 600px;
+    padding: 0 20px;
 }
 
 .story h1 {
@@ -388,12 +324,11 @@ ul li a {
     text-align: justify;
 }
 
-/* *********************************************** */
-
 
 /*  What we do  ************************/
 #what-we-do-section {
     background-color: rgb(221, 231, 244);
+    background-color: rgb(223, 226, 226);
 }
 
 .what-we-do {
@@ -429,7 +364,8 @@ ul li a {
     padding-top: 10px;
 }
 
-/* ************************************************** */
+/* what we do card ********************** */
+
 .advocacy-networking {
     padding-bottom: 80px;
 }
@@ -478,7 +414,6 @@ ul li a {
 .card-title {
     text-align: center;
     font-weight: bold;
-
 }
 
 .card-head {
@@ -504,10 +439,8 @@ ul li a {
     font-family: 'Shrikhand', cursive;
 }
 
-/* ****************************************************** */
 
-
-/* Gallery  */
+/* Gallery *************************/
 .gallery h1 {
     text-align: center;
     padding-bottom: 20px;
@@ -515,10 +448,9 @@ ul li a {
     font-family: 'Shrikhand', cursive;
 }
 
-.gallery {
-    padding: 80px 0px 50px;
-    background-color: aliceblue;
-}
+/* .gallery {
+    padding: 0 0 0 5px;
+} */
 
 img {
     max-width: 100%;
@@ -541,19 +473,12 @@ img {
     margin: 30px 120px;
 }
 
-/* gallery carousal ************** */
-.gallery-carousal {
-    /* display: flex; */
-    /* justify-content: center; */
-}
 
-/* *********************************************************** */
-
-
-
-/*  Media & Resource Center */
+/*  Media & Resource Center *******************/
 .media-resource {
-    background-color: rgb(221, 231, 244);
+    /* background-color: rgb(221, 231, 244); */
+    /* background-color: rgb(238, 238, 238); */
+    background-color: #fff;
 }
 
 .media-links-container {
@@ -592,10 +517,7 @@ img {
 }
 
 
-/* **************************************************************** */
-
-
-/*  footer  */
+/*  footer  ***********/
 footer {
     background-color: #2d538d;
     padding: 40px 85px 0 85px;
@@ -717,23 +639,15 @@ footer {
     }
 
     .org-name h1 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .org-name p {
-        font-size: 12;
+        font-size: 13px;
     }
 
     .foundation-name img {
         width: 80px;
-    }
-
-    /* .media-resource h1 {
-        font-size: 22px;
-    } */
-
-    .gallery h1 {
-        font-size: 22px;
     }
 
     .what h1 {
@@ -780,7 +694,6 @@ footer {
 }
 
 
-
 @media screen and (max-width: 375px) {
     .foundation-name img {
         width: 80px;
@@ -792,16 +705,12 @@ footer {
     }
 
     .org-name h1 {
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .org-name p {
-        font-size: 12;
+        font-size: 13px;
     }
-
-    /* .media-resource h1 {
-        font-size: 22px;
-    } */
 
     .what-we-do h1 {
         font-size: 22px;
@@ -846,31 +755,10 @@ footer {
 }
 
 
-
 @media screen and (max-width: 425px) {
-    .foundation-name img {
-        width: 80px;
-    }
-
     #hamburger {
         font-size: 18px;
         padding: 5px;
-    }
-
-    .org-name h1 {
-        font-size: 15px;
-    }
-
-    .org-name p {
-        font-size: 12;
-    }
-
-    /* .media-resource h1 {
-        font-size: 22px;
-    } */
-
-    .gallery h1 {
-        font-size: 22px;
     }
 
     .what-we-do h1 {
@@ -914,11 +802,40 @@ footer {
         flex-wrap: wrap;
     }
 
+    .org-name p {
+        font-size: 13px;
+    }
 }
 
 
+@media only screen and (max-width: 425px) {
+    .org-name h1 {
+        font-size: 20px;
+    }
+
+    .foundation-name img {
+        width: 80px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .org-name h1 {
+        font-size: 16px;
+    }
+
+    .org-name p {
+        font-size: 14px;
+    }
+
+}
+
 
 @media screen and (max-width: 768px) {
+    .foundation-name img {
+        width: 80px;
+    }
+
     .nav {
         display: none;
     }
@@ -955,7 +872,7 @@ footer {
         padding-left: 0;
     }
 
-    #list-item {
+    .list-item {
         display: none;
     }
 
@@ -1007,17 +924,9 @@ footer {
         padding-left: 10px;
     }
 
-    /* .media-resource h1 {
-        font-size: 22px;
-    } */
-
     .gallery {
         padding-top: 35px;
         padding-bottom: 50px;
-    }
-
-    .gallery h1 {
-        font-size: 22px;
     }
 
     .what-we-do h1 {
@@ -1027,10 +936,6 @@ footer {
     .story h1 {
         font-size: 22px;
         padding-top: 20px;
-    }
-
-    .story p {
-        padding-right: 18px;
     }
 
     .gallery-container {
@@ -1077,7 +982,6 @@ footer {
 }
 
 
-
 @media screen and (min-width:769px) and (max-width:929px) {
     .nav {
         display: none;
@@ -1103,15 +1007,6 @@ footer {
 
     #navi {
         font-size: 18px;
-    }
-
-    /* 
-    .media-resource h1 {
-        font-size: 22px;
-    } */
-
-    .gallery h1 {
-        font-size: 22px;
     }
 
     .what-we-do h1 {
@@ -1152,14 +1047,6 @@ footer {
         font-size: 18px;
     }
 
-    /* .media-resource h1 {
-        font-size: 22px;
-    } */
-
-    .gallery h1 {
-        font-size: 22px;
-    }
-
     .what-we-do h1 {
         font-size: 22px;
     }
@@ -1185,7 +1072,7 @@ footer {
     }
 
     .event p {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .media-links {
@@ -1196,12 +1083,9 @@ footer {
         padding: 0;
     }
 
-    .org-name h1 {
-        font-size: 15px;
-    }
-
-    .org-name p {
-        font-size: 12px;
+    .founder-pic img {
+        padding-top: 50px;
+        max-width: 300px;
     }
 
     .nav-links ul li {
@@ -1214,10 +1098,6 @@ footer {
 
     .nav-links ul li a {
         font-size: 13px;
-    }
-
-    .gallery h1 {
-        font-size: 22px;
     }
 
     .what-we-do h1 {
@@ -1289,12 +1169,8 @@ footer {
         padding: 0;
     }
 
-    .org-name h1 {
-        font-size: 18px;
-    }
-
     .org-name p {
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .nav-links ul li {
@@ -1345,10 +1221,6 @@ footer {
 
     .foundation-name {
         padding: 0;
-    }
-
-    .org-name h1 {
-        font-size: 18px;
     }
 
     .org-name p {
@@ -1405,10 +1277,6 @@ footer {
         padding: 0;
     }
 
-    .org-name h1 {
-        font-size: 18px;
-    }
-
     .org-name p {
         font-size: 15px;
     }
@@ -1430,12 +1298,11 @@ footer {
     }
 }
 
-/*  Media Querry end ******************************** */
-
 
 /* About Us *********************/
 .about-container {
     padding: 50px 0 80px 0;
+    background-color: #fff;
 }
 
 .about-us {
@@ -1470,7 +1337,6 @@ footer {
 }
 
 .critic-pic img {
-    /* height: 400px; */
     width: 100%;
     max-width: 300px;
     padding: 40px 0;
@@ -1493,10 +1359,12 @@ footer {
     padding-right: 20px;
 }
 
-/* vision-mission ************************/
 
+
+/* vision-mission ************************/
 .mission-vision-section {
-    background-color: rgb(244, 244, 244);
+    /* background-color: rgb(244, 244, 244); */
+    background-color: rgb(223, 226, 226);
 }
 
 .mission-vision-container {
@@ -1504,7 +1372,6 @@ footer {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    /* padding-bottom: 80px; */
     padding: 20px;
 }
 
@@ -1541,15 +1408,28 @@ footer {
     align-items: center;
 }
 
-/* *********************************************** */
 
-/* Advisory board member */
-.board-members {
-    background-image: url(./photo/background4.jpeg);
+/* Foundation Map ******************* */
+.foundation-map {
+    /* padding: 0 148px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
 }
 
-.carousal-container {
-    /* padding-bottom: 80px; */
+.map {
+    border: 2px solid black;
+}
+
+.map iframe {
+    width: 800px;
+    height: 600px;
+}
+
+/* Advisory board member ******************** */
+.board-members {
+    background-image: url(./photo/background4.jpeg);
 }
 
 #Board-Members {
@@ -1660,7 +1540,6 @@ footer {
 
     #quote {
         padding: 40px 20px 0;
-        /* font-size: 22px; */
     }
 
     #about-org {
@@ -1677,6 +1556,13 @@ footer {
 
     .martin-luthar-container {
         flex-wrap: wrap;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 100%;
+        max-width: 300px;
+        max-height: 400px;
     }
 
 }
@@ -1745,6 +1631,7 @@ footer {
 }
 
 
+
 /*  Out Mentor ***************** */
 .board-member-image img {
     height: 200px;
@@ -1800,7 +1687,6 @@ footer {
 }
 
 .board-carousal {
-    /* background-image: url(./photo/background2.jpeg); */
     background-image: url(./photo/background4.jpeg);
 }
 
@@ -1843,14 +1729,15 @@ footer {
 }
 
 
-/* ************************ Our Team ********************************* */
+
+/* Our Team ********************************* */
 .team-background-color {
-    background-color: rgb(244, 244, 244);
+    /* background-color: rgb(244, 244, 244); */
+    background-color: rgb(223, 226, 226);
 }
 
 .buttons-preview {
     display: flex;
-    /* justify-content: center; */
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
@@ -1870,7 +1757,6 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
-    /* flex-direction: row; */
     width: 100%;
     pointer-events: auto;
     background-color: #b8cde4;
@@ -2039,11 +1925,6 @@ footer {
     }
 }
 
-/* ************************************************************ */
-
-
-
-
 
 /* Our Journey ************************************** */
 .journey-container {
@@ -2052,7 +1933,9 @@ footer {
 }
 
 .journey-row {
-    display: block;
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 0;
 }
 
 .timeline {
@@ -2072,6 +1955,7 @@ footer {
 
 .card-back {
     background: rgba(114, 124, 245, 0.09);
+    padding: 0;
 }
 
 .Our-Journey {
@@ -2099,7 +1983,7 @@ footer {
 }
 
 .timeline .event {
-    border-bottom: 1.5px dashed #fff;
+    border-bottom: 2.5px dashed #fff;
     padding-bottom: 25px;
     margin-bottom: 25px;
     position: relative;
@@ -2170,7 +2054,6 @@ footer {
 @media (max-width: 767px) {
     .timeline {
         max-width: 100%;
-        /* padding: 25px; */
     }
 
     .Our-Journey {
@@ -2213,48 +2096,13 @@ footer {
 }
 
 
-/* Our Impact *********************** */
-.p-y-2 {
-    padding-top: 28px;
-    padding-bottom: 28px;
-}
-
-.p-y-3 {
-    padding-top: 45px;
-    padding-bottom: 45px;
-}
-
-.m-b-1 {
-    margin-bottom: 18px;
-}
-
-.m-t-1 {
-    margin-top: 18px;
-}
-
-.main_counter_area {
-    background-size: cover;
-    overflow: hidden;
-}
-
-
 /* ********** Our Impact ************** */
 .impact {
     background-color: rgb(244, 244, 244);
-    /* padding: 50px 20px; */
-
 }
 
 .impact-main-container {
     padding: 50px 133px;
-}
-
-.impact-container {
-    margin: 30px 118px 30px 130px;
-}
-
-.row-container {
-    padding: 0;
 }
 
 .impact h1 {
@@ -2263,19 +2111,64 @@ footer {
     padding: 33px 0 50px 0;
 }
 
-.impact-col h2 {
-    font-size: 22px;
+
+/* impact counter ****************** */
+.counter {
+    color: #628900;
+    background: linear-gradient(to bottom, #628900 49%, transparent 50%);
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    padding: 25px 15px 35px;
+    margin: 0 auto;
+    border: 18px solid #628900;
+    border-radius: 100% 100%;
+    box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.3);
 }
 
+.counter .statistic-counter {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+    display: block;
+    margin: 0 0 25px;
+}
+
+.counter h3 {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+/* .counter.red {
+    color: #e3213c;
+    background: linear-gradient(to bottom, #e3213c 49%, transparent 50%);
+    border-color: #e3213c;
+}
+
+.counter.orange {
+    color: #fb8603;
+    background: linear-gradient(to bottom, #fb8603 49%, transparent 50%);
+    border-color: #fb8603;
+}
+
+.counter.blue {
+    color: #1f8bc1;
+    background: linear-gradient(to bottom, #1f8bc1 49%, transparent 50%);
+    border-color: #1f8bc1;
+} */
+
+@media screen and (max-width:990px) {
+    .counter {
+        margin-bottom: 40px;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     .impact-col {
-        /* padding: 30px; */
         text-align: center;
-    }
-
-    .impact-container {
-        margin: 30px 0;
     }
 
     #last-impact-card {
@@ -2294,13 +2187,8 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-
-    .impact-container {
-        padding: 0 15px;
-    }
-
     .impact-main-container {
-        padding: 0;
+        /* padding: 0; */
     }
 
 }
@@ -2373,15 +2261,17 @@ footer {
 
 #Legal-Status {
     text-align: center;
-    padding-bottom: 20px;
+    padding: 50px 0 20px 0;
     font-family: 'Shrikhand', cursive;
 }
 
 .legal ul li {
     list-style: square;
     font-size: 20px;
-    word-spacing: 1px;
     font-family: 'Alkatra';
+    line-height: 1.7;
+    word-spacing: 4.5px;
+    text-align: justify;
 }
 
 .bullet-point {
@@ -2770,32 +2660,36 @@ footer {
 /*  paragraph and heading font size ************* */
 @media only screen and (max-width: 1024px) {
     h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .story h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .impact h1 {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .media-resource h1 {
-        font-size: 30px;
+        font-size: 27px;
         padding: 20px 25px;
     }
 
     #about-us {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     #board-memb {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     #advocacy {
-        font-size: 30px;
+        font-size: 27px;
+    }
+
+    .gallery h1 {
+        font-size: 27px;
     }
 
     .about-board-member h5 {
@@ -2811,30 +2705,30 @@ footer {
     }
 
     .story p {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .card .card-body .card-text {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .impact-col p {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     #about-org {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .mission-vision-div p {
-        font-size: 17px;
+        font-size: 18px;
     }
 
     .who-we-are-text p {
-        font-size: 17px;
+        font-size: 18px;
     }
-
 }
+
 
 @media (min-width: 1200px) {
 
@@ -2913,10 +2807,6 @@ label {
     -webkit-box-orient: vertical;
 }
 
-/* #summary #collapseSummary.collapsing {
-    min-height: 42px !important;
-} */
-
 #summary a.collapsed:after {
     content: '+ Read More';
 }
@@ -2939,15 +2829,11 @@ label {
     -webkit-box-orient: vertical;
 }
 
-/* #summary-two #collapseSummary-two.collapsing {
-    min-height: 42px !important;
-} */
-
-#summary-two a.collapsed-two:after {
+#summary-two a.collapsed:after {
     content: '+ Read More';
 }
 
-#summary-two a:not(.collapsed-two):after {
+#summary-two a:not(.collapsed):after {
     content: '- Read Less';
 }
 
@@ -2969,65 +2855,72 @@ label {
     min-height: 42px !important;
 }
 
-#summary-three a.collapsed-three:after {
+#summary-three a.collapsed:after {
     content: '+ Read More';
 }
 
-#summary-three a:not(.collapsed-three):after {
+#summary-three a:not(.collapsed):after {
     content: '- Read Less';
 }
 
 
-/* impact counter ****************** */
-.counter {
-    color: #628900;
-    background: linear-gradient(to bottom, #628900 49%, transparent 50%);
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    width: 200px;
-    height: 200px;
-    padding: 25px 15px 35px;
-    margin: 0 auto;
-    border: 18px solid #628900;
-    border-radius: 100% 100%;
-    box-shadow: inset 0 8px 10px rgba(0, 0, 0, 0.3);
+
+/* swiper ******************/
+/* .swiper {
+    width: 100%;
+    height: 100%;
 }
 
-.counter .statistic-counter {
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
-    display: block;
-    margin: 0 0 25px;
+.swiper-slide {
+    overflow: hidden;
 }
 
-.counter h3 {
-    font-size: 16px;
-    font-weight: 600;
-    text-transform: uppercase;
+.swiper-image img {
+    width: 100%;
+    max-width: 420px;
+    max-height: 420px;
+} */
+
+/* swiper 2 *******************/
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
     margin: 0;
+    padding: 0;
 }
 
-.counter.red {
-    color: #e3213c;
-    background: linear-gradient(to bottom, #e3213c 49%, transparent 50%);
-    border-color: #e3213c;
+.swiper {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(223, 226, 226);
+    padding: 50px 0 50px 0;
 }
 
-.counter.orange {
-    color: #fb8603;
-    background: linear-gradient(to bottom, #fb8603 49%, transparent 50%);
-    border-color: #fb8603;
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.counter.blue {
-    color: #1f8bc1;
-    background: linear-gradient(to bottom, #1f8bc1 49%, transparent 50%);
-    border-color: #1f8bc1;
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-@media screen and (max-width:990px) {
-    .counter {
-        margin-bottom: 40px;
-    }
+.slider img {
+    max-height: 400px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    font-size: 30px;
+    color: #fff;
 }
