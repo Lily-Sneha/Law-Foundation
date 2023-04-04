@@ -418,6 +418,7 @@ ul li a {
 
 .card-head {
     font-size: 27px;
+    font-family: 'Alkatra';
 }
 
 .card .card-body .card-text {
@@ -448,10 +449,6 @@ ul li a {
     font-family: 'Shrikhand', cursive;
 }
 
-/* .gallery {
-    padding: 0 0 0 5px;
-} */
-
 img {
     max-width: 100%;
 }
@@ -476,8 +473,6 @@ img {
 
 /*  Media & Resource Center *******************/
 .media-resource {
-    /* background-color: rgb(221, 231, 244); */
-    /* background-color: rgb(238, 238, 238); */
     background-color: #fff;
 }
 
@@ -540,7 +535,7 @@ footer {
 }
 
 .footer-col p {
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .footer-info {
@@ -825,7 +820,11 @@ footer {
     }
 
     .org-name p {
-        font-size: 14px;
+        font-size: 13px;
+    }
+
+    .footer-col p {
+        font-size: 18px;
     }
 
 }
@@ -1069,10 +1068,6 @@ footer {
 
     .media-links ul li a {
         font-size: 17px;
-    }
-
-    .event p {
-        font-size: 18px;
     }
 
     .media-links {
@@ -1363,7 +1358,6 @@ footer {
 
 /* vision-mission ************************/
 .mission-vision-section {
-    /* background-color: rgb(244, 244, 244); */
     background-color: rgb(223, 226, 226);
 }
 
@@ -1411,7 +1405,6 @@ footer {
 
 /* Foundation Map ******************* */
 .foundation-map {
-    /* padding: 0 148px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -2048,6 +2041,7 @@ footer {
     padding: 20px 0 0 0;
     line-height: 1.5;
     word-spacing: 4.5px;
+    font-size: 20px;
 }
 
 
@@ -2064,7 +2058,7 @@ footer {
 
 @media (max-width: 767px) {
     .timeline .event {
-        /* padding-top: 30px; */
+        padding-top: 20px;
     }
 }
 
@@ -2076,12 +2070,6 @@ footer {
     }
 }
 
-
-@media (max-width: 767px) {
-    .timeline .event:after {
-        /* left: -31.8px; */
-    }
-}
 
 @media (max-width: 1024px) {
     .Our-Journey {
@@ -2095,6 +2083,11 @@ footer {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    .event p {
+        font-size: 18px;
+    }
+}
 
 /* ********** Our Impact ************** */
 .impact {
@@ -2186,20 +2179,6 @@ footer {
 
 }
 
-@media screen and (max-width: 768px) {
-    .impact-main-container {
-        /* padding: 0; */
-    }
-
-}
-
-@media screen and (max-width: 425px) {
-    /* .impact-col {
-        margin: 0;
-    } */
-}
-
-
 
 /* our Team ***************** */
 .team-container img {
@@ -2255,8 +2234,7 @@ footer {
 
 .legal {
     text-align: justify;
-    padding: 0 42px 0 70px;
-
+    padding: 0 150px 0 160px;
 }
 
 #Legal-Status {
@@ -2281,11 +2259,7 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .legal {
-        padding: 0 25px;
-    }
-
-    .legal ul li {
-        font-size: 15px;
+        padding: 0 30px;
     }
 
     .legal-status-container {
@@ -2727,6 +2701,10 @@ footer {
     .who-we-are-text p {
         font-size: 18px;
     }
+
+    .legal ul li {
+        font-size: 18px;
+    }
 }
 
 
@@ -2863,34 +2841,7 @@ label {
     content: '- Read Less';
 }
 
-
-
-/* swiper ******************/
-/* .swiper {
-    width: 100%;
-    height: 100%;
-}
-
-.swiper-slide {
-    overflow: hidden;
-}
-
-.swiper-image img {
-    width: 100%;
-    max-width: 420px;
-    max-height: 420px;
-} */
-
-/* swiper 2 *******************/
-body {
-    background: #eee;
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    color: #000;
-    margin: 0;
-    padding: 0;
-}
-
+/* swiper  *******************/
 .swiper {
     width: 100%;
     height: 100%;
@@ -2917,6 +2868,8 @@ body {
     max-height: 400px;
     width: 100%;
     max-width: 600px;
+    box-shadow: 15px 15px 10px #aaaaaa;
+    border-radius: 8px;
 }
 
 .swiper-button-next:after,
