@@ -1370,30 +1370,35 @@ footer {
 }
 
 .mission-vision-div {
+    background-color: #ffffff;
+}
+
+.mission-vision-head {
     width: 100%;
     max-width: 550px;
+    max-height: 550px;
     margin: 20px;
     padding: 20px;
 }
 
-.mission-vision-div h1 {
-    font-size: 27px;
+.mission-vision-head h1 {
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
+    font-family: 'Shrikhand', cursive;
 }
 
 .mission-vision-div p {
     text-align: justify;
-    padding-top: 10px;
+    padding: 10px 20px;
     word-spacing: 4.5px;
     line-height: 1.7;
 }
 
 .mission-vision-img {
-    max-height: 100px;
-    max-width: 170px;
+    max-width: 100px;
     width: 100%;
-    padding-top: 15px;
+    padding-top: 20px;
 }
 
 .mison-vision-img-container {
@@ -1452,9 +1457,9 @@ footer {
 
 .card-img,
 .card-img-top {
-    border-top-left-radius: 50%;
-    border-top-right-radius: 50%;
-    border-radius: 50%;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+    /* border-radius: 50%; */
 }
 
 .board-members-container {
@@ -1589,11 +1594,15 @@ footer {
     }
 
     .mission-vision-container {
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
 
     .critic-name {
         padding-right: 65px;
+    }
+
+    .mission-vision-head {
+        margin: 0;
     }
 }
 
@@ -2227,14 +2236,16 @@ footer {
 
 
 /* legal status ******************/
-.legal-status-container {
-    padding: 50px 0 80px 0;
-    margin: 0 83px;
+.legal-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px 0 150px;
+    background-color: #dfe2e2;
 }
 
 .legal {
-    text-align: justify;
-    padding: 0 150px 0 160px;
+    padding: 0 10px 50px;
 }
 
 #Legal-Status {
@@ -2252,22 +2263,37 @@ footer {
     text-align: justify;
 }
 
-.bullet-point {
-    padding: 10px;
+
+.legalstatus-pic img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 400px;
 }
 
 
+@media screen and (max-width: 768px) {
+    .legal-container {
+        flex-wrap: wrap;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .legal {
-        padding: 0 30px;
+        padding: 0 20px;
     }
 
-    .legal-status-container {
-        margin: 0;
+    .legal-container {
+        padding: 30px 25px;
     }
 
     #Legal-Status {
         padding-top: 50px;
+    }
+
+    .legalstatus-pic img {
+        padding: 0 20px;
+        max-width: 300px;
+        max-height: 300px;
     }
 }
 
@@ -2604,6 +2630,13 @@ footer {
 
 
 /* Legal Literacy ******************** */
+
+.legal-literacy-container {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    padding: 50px 148px;
+}
+
 .main-container {
     padding: 50px 148px;
 }
@@ -2611,7 +2644,14 @@ footer {
 #legal-heading {
     text-align: center;
     font-family: 'Shrikhand', cursive;
-    padding-bottom: 20px;
+    padding: 20px 0;
+}
+
+.legal-literacy-para {
+    text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
+    /* background-color: rgb(223, 226, 226); */
 }
 
 .main-container .paragraph {
@@ -2620,6 +2660,12 @@ footer {
     word-spacing: 4.5px;
 }
 
+.legal-literacy img {
+    width: 100%;
+    max-height: 800px;
+}
+
+
 @media only screen and (max-width: 1024px) {
     .main-container {
         padding: 50px 25px 30px 25px;
@@ -2627,6 +2673,10 @@ footer {
 
     #sub-heading {
         font-size: 22px;
+    }
+
+    .legal-literacy-container {
+        padding: 25px;
     }
 }
 
@@ -2663,6 +2713,10 @@ footer {
     }
 
     .gallery h1 {
+        font-size: 27px;
+    }
+
+    .mission-vision-head h1 {
         font-size: 27px;
     }
 
