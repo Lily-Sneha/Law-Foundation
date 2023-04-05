@@ -2439,16 +2439,17 @@ footer {
 }
 
 
-
 /* Gender Justice Page ***************** */
 .gender-justice-container {
     padding: 50px 148px;
+    /* background-color: #dfe2e2; */
 }
 
 #gender-justice {
     font-family: 'Shrikhand', cursive;
     text-align: center;
-    padding-bottom: 20px;
+    padding: 20px 0;
+    letter-spacing: 1.5px;
 }
 
 .gender-justice-container p {
@@ -2461,9 +2462,22 @@ footer {
     padding-bottom: 80px;
 }
 
+.gender-justice-pic {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.gender-justice-pic img {
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+}
+
 @media only screen and (max-width: 1024px) {
-    #gender-justice {
-        font-size: 22px;
+    .gender-justice-pic img {
+        max-width: 250px;
+        max-height: 250px;
     }
 }
 
@@ -2546,8 +2560,9 @@ footer {
 
 
 /*  Sustainable Mental Health ****************/
-.Sustainable-mental-health-container {
+.mental-health-container {
     padding: 50px 148px;
+    background-color: #dfe2e2;
 }
 
 #Sustainable-heading {
@@ -2562,20 +2577,42 @@ footer {
     word-spacing: 4.5px;
 }
 
-@media only screen and (max-width: 1024px) {
-    .Sustainable-mental-health-container {
-        padding: 50px 25px 30px 25px;
+.mental-health-pic {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.mental-health-pic img {
+    width: 100%;
+    max-width: 400px;
+    max-height: 500px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mental-health-pic img {
+        max-width: 300px;
+        max-height: 300px;
     }
 
+}
+
+@media only screen and (max-width: 1024px) {
     #Sustainable-heading {
         font-size: 22px;
     }
+
+    .mental-health-container {
+        padding: 0 25px;
+    }
 }
+
 
 
 /* PAHEL Feloowship ********************************* */
 .PAHEL-Fellowship-container {
     padding: 50px 148px;
+    background-color: rgb(223, 226, 226);
 }
 
 #PAHEL-heading {
@@ -2630,10 +2667,7 @@ footer {
 
 
 /* Legal Literacy ******************** */
-
 .legal-literacy-container {
-    /* display: flex; */
-    /* justify-content: space-between; */
     padding: 50px 148px;
 }
 
@@ -2651,7 +2685,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
-    /* background-color: rgb(223, 226, 226); */
 }
 
 .main-container .paragraph {
@@ -2660,11 +2693,17 @@ footer {
     word-spacing: 4.5px;
 }
 
-.legal-literacy img {
-    width: 100%;
-    max-height: 800px;
+.legal-literacy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.legal-literacy img {
+    width: 100%;
+    max-height: 600px;
+    max-width: 600px;
+}
 
 @media only screen and (max-width: 1024px) {
     .main-container {
@@ -2717,6 +2756,10 @@ footer {
     }
 
     .mission-vision-head h1 {
+        font-size: 27px;
+    }
+
+    #gender-justice {
         font-size: 27px;
     }
 
@@ -2798,7 +2841,6 @@ footer {
 }
 
 
-
 /*  Truncate *************************** */
 #check {
     display: none;
@@ -2822,10 +2864,6 @@ label {
     display: block;
 }
 
-
-
-/* ********************************* */
-/* @media only screen and (max-width: 1024px) { */
 #summary {
     font-size: 14px;
     line-height: 1.5;
@@ -2930,4 +2968,19 @@ label {
 .swiper-button-prev:after {
     font-size: 30px;
     color: #fff;
+}
+
+
+/* Join Us ************************* */
+.vacancies-internship-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 148px;
+   
+}
+
+.vacancies-internship {
+    background-color: rgb(172, 131, 80);
+    margin: 10px;
 }

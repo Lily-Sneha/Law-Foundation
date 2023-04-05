@@ -26,8 +26,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 
 <body>
-    <!-- <div> -->
-
     <div class="header">
         <nav class="nav-bar">
             <div class="foundation-name">
@@ -60,8 +58,8 @@
                         </ul>
                     </li>
 
-                    <li class="nav list-item"><a href="#">INITIATIVES<i class="fa-sharp fa-solid fa-caret-down"
-                                id="drop-icon1"></i></a>
+                    <li class="nav list-item" id="list-item"><a href="#">INITIATIVES<i
+                                class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
                         <ul class="list">
                             <li><a class="links" href="./CLAP.html">CLAP</a></li>
                             <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
@@ -72,20 +70,19 @@
                         </ul>
                     </li>
 
-                    <li class="nav list-item"><a href="#">PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
-                                id="drop-icon1"></i></a>
+                    <li class="nav list-item" id="list-item"><a href="#">PROGRAMS<i
+                                class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
                         <ul class="list">
-                            <li><a class="links" href="#">PAHEL Fellowship</a></li>
+                            <li><a class="links" href="./pahel.html">PAHEL Fellowship</a></li>
                             <li><a class="links" href="./communityAwareness.html">Community Awareness</a></li>
                             <li><a class="links" href="./legalLiteracy.html">Legal Literacy</a></li>
                             <li><a class="links" href="#">Emergency Support</a></li>
                             <li><a class="links" href="#">Home Visit</a></li>
-
                         </ul>
                     </li>
 
-                    <li class="nav list-item"><a href="#">GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
-                                id="drop-icon1"></i></a>
+                    <li class="nav list-item" id="list-item"><a href="#">GET INVOLVED<i
+                                class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
                         <ul class="list">
                             <li><a class="links" href="#">Collaboration & Networking</a></li>
                             <li><a class="links" href="#">Partnership</a></li>
@@ -93,8 +90,9 @@
                         </ul>
                     </li>
 
-                    <li class="nav list-item"><a href="#">JOIN US<i class="fa-sharp fa-solid fa-caret-down"
-                                id="drop-icon1"></i></a>
+
+                    <li class="nav list-item" id="list-item"><a href="#">JOIN US<i
+                                class="fa-sharp fa-solid fa-caret-down" id="drop-icon1"></i></a>
                         <ul class="list">
                             <li><a class="links" href="#">Internships</a></li>
                             <li><a class="links" href="#">Vacancies</a></li>
@@ -120,7 +118,7 @@
                             id="drop-icon1"></i></a>
                     <ul class="list2 second-drop">
                         <li><a href="./CLAP.html">CLAP</a></li>
-                        <li><a href="./SociolegalAid.html">Socio Legal Aid</a></li>
+                        <li><a href="#">Socio Legal Aid</a></li>
                         <li><a href="./sustainableMentalHealth.html">Sustainable Mental Health in Prison</a></li>
                         <li><a href="./GenderJustice.html">Gender Justice</a></li>
                         <li><a href="#">Release Rehabilitation Reintegration</a></li>
@@ -129,7 +127,7 @@
                 <li class="navi2" id="event-drop"><a href="#">PROGRAMS<i class="fa-sharp fa-solid fa-caret-down"
                             id="drop-icon1"></i></a>
                     <ul class="list2 second-drop">
-                        <li><a href="#">PAHEL Fellowship</a></li>
+                        <li><a href="./pahel.html">PAHEL Fellowship</a></li>
                         <li><a href="./communityAwareness.html">Community Awareness</a></li>
                         <li><a href="./legalLiteracy.html">Legal Literacy</a></li>
                         <li><a href="#">Emergency Support</a></li>
@@ -150,26 +148,22 @@
     </div>
 
 
-
-    <!--PAHEL-Fellowship ***************** -->
-
-    <section>
-        <div>
-            <img src="./photo/PAHEL Fellowship.png" alt="">
+    <!-- Blogs ***************** -->
+    <!-- <section class="vacancies-internship-container">
+        <div class="vacancies-internship">
+            <h1>Vacancies</h1>
+            <p>LAW Foundation is a home to advocates, social workers, researchers, counsellors, media & communications
+                specialists.
+                Come and be a part of the LAW Foundation family if equality
+                and justice matter to you!</p>
         </div>
-        <div class="PAHEL-Fellowship-container">
-            <h1 id="PAHEL-heading">
-                PAHEL Fellowship
-            </h1>
-            <p>
-                Providing Access to Holistic Experience in Litigation (PAHEL) Fellowship is an attempt to encourage
-                first-gen law graduates from marginalized sections of society to pursue a career in litigation. Through
-                our experience in the field of law, have observed that there is a lack of support either culturally,
-                socially, economically or intersectionality of all the aforementioned categories. Thus, we felt that
-                there is a need to address this gap and bring more people from these communities into the field.
+        <div class="vacancies-internship">
+            <h1>Internship</h1>
+            <p>Be an intern at LAW Foundation if you want to work at grass root level intervention. We welcome
+                and encourage internship applications from students from law universities and institutes of social work.
             </p>
         </div>
-    </section>
+    </section> -->
 
 
     <!--  Media Resource ****************** -->
@@ -204,7 +198,8 @@
         </div>
     </section>
 
-    <!-- ####################### footer ############################### -->
+
+    <!-- ******************  footer ******************  -->
     <footer>
         <div class="footer">
             <div class="footer-info">
@@ -249,7 +244,14 @@
             <p id="right">
                 ©2020 LAW Foundation Patna All rights reserved.</p>
         </div>
+
+        <!-- Swiper JS link -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!-- JS link -->
         <script src="index.js"> </script>
+
+        <!-- bootstrap JS link -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
             integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
             </script>
