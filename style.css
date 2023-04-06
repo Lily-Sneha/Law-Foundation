@@ -26,6 +26,14 @@ body {
     width: 100px;
 }
 
+.foss-logo a {
+    text-decoration: none;
+}
+
+.org-name a {
+    text-decoration: none;
+}
+
 .org-name h1 {
     font-size: 30px;
     padding: 15px 0 0 10px;
@@ -33,14 +41,15 @@ body {
     font-weight: bold;
     margin: 0;
     letter-spacing: 1.5px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Crimson Pro', serif;
 }
 
 .org-name p {
-    padding: 0 0 0 95px;
+    padding: 0 0 0 121px;
     text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
+    /* font-family: 'Crimson Pro', serif; */
 }
 
 #hamburger {
@@ -87,10 +96,30 @@ body {
     font-size: 25px;
 }
 
-.nav.donate a {
-    color: red;
+.nav.donate {
+    background-color: #bb2326;
+    border-radius: 4px;
 }
 
+.nav.donate a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#navi.donate-now {
+    background-color: #bb2326;
+    border-radius: 4px;
+}
+
+#navi.navi2.donate a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+
+.nav.donate a:hover {
+    color: #124982;
+}
 
 .nav-links {
     font-family: sans-serif;
@@ -197,10 +226,6 @@ ul li a {
     text-decoration: none;
 }
 
-#navi li a:hover {
-    /* color: #db1313; */
-}
-
 #navi li a {
     font-size: 14px;
 }
@@ -303,7 +328,6 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: rgb(223, 226, 226); */
     background-color: rgb(238, 238, 238);
     padding: 80px 20px;
 }
@@ -316,6 +340,8 @@ ul li a {
 
 .story h1 {
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
 }
 
 .story p {
@@ -340,6 +366,9 @@ ul li a {
     text-align: center;
     font-size: 27px;
     font-weight: bold;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 #work {
@@ -439,6 +468,9 @@ ul li a {
     padding-top: 80px;
     padding-bottom: 30px;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 
@@ -448,6 +480,9 @@ ul li a {
     padding-bottom: 20px;
     margin-bottom: 0;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 img {
@@ -474,7 +509,7 @@ img {
 
 /*  Media & Resource Center *******************/
 .media-resource {
-    background-color: #fff;
+    background-color: #efe2d8a6;
 }
 
 .media-links-container {
@@ -489,6 +524,7 @@ img {
 .media-resource h1 {
     padding: 50px 0 20px 147px;
     font-family: 'Shrikhand', cursive;
+    font-size: 28px;
 }
 
 .media-links ul li {
@@ -822,7 +858,7 @@ footer {
 
     .org-name p {
         font-size: 13px;
-        padding-left: 52px;
+        padding-left: 58px;
     }
 
     .footer-col p {
@@ -1312,6 +1348,9 @@ footer {
     text-align: center;
     padding-bottom: 20px;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 #about-org {
@@ -1388,6 +1427,7 @@ footer {
     font-weight: bold;
     text-align: center;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
 }
 
 .mission-vision-div p {
@@ -1635,7 +1675,6 @@ footer {
 }
 
 
-
 /*  Out Mentor ***************** */
 .board-member-image img {
     height: 200px;
@@ -1688,6 +1727,9 @@ footer {
     text-align: center;
     padding-top: 20px;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 .board-carousal {
@@ -1714,6 +1756,9 @@ footer {
     padding-bottom: 20px;
     padding-bottom: 20px;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
 
 }
 
@@ -1831,6 +1876,9 @@ footer {
 #our-team-head {
     text-align: center;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
     padding: 50px 0;
 }
 
@@ -1981,6 +2029,9 @@ footer {
 .timeline h1 {
     font-weight: 300;
     font-size: 1.4em;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 .timeline h2,
@@ -2116,6 +2167,9 @@ footer {
 .impact h1 {
     text-align: center;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
     padding: 33px 0 50px 0;
 }
 
@@ -2144,13 +2198,13 @@ footer {
 }
 
 .counter h3 {
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
 }
 
-/* .counter.red {
+.counter.red {
     color: #e3213c;
     background: linear-gradient(to bottom, #e3213c 49%, transparent 50%);
     border-color: #e3213c;
@@ -2166,7 +2220,37 @@ footer {
     color: #1f8bc1;
     background: linear-gradient(to bottom, #1f8bc1 49%, transparent 50%);
     border-color: #1f8bc1;
-} */
+}
+
+.counter.purple {
+    color: #513354;
+    background: linear-gradient(to bottom, #513354 49%, transparent 50%);
+    border-color: #513354;
+}
+
+.counter.dark-red {
+    color: #8b0c02;
+    background: linear-gradient(to bottom, #8b0c02 49%, transparent 50%);
+    border-color: #8b0c02;
+}
+
+.counter.sky-blue {
+    color: #2eb4ab;
+    background: linear-gradient(to bottom, #2eb4ab 49%, transparent 50%);
+    border-color: #2eb4ab;
+}
+
+.counter.yellow {
+    color: #1c909f;
+    background: linear-gradient(to bottom, #1c909f 49%, transparent 50%);
+    border-color: #1c909f;
+}
+
+.counter.grey {
+    color: #474d4d;
+    background: linear-gradient(to bottom, #474d4d 49%, transparent 50%);
+    border-color: #474d4d;
+}
 
 @media screen and (max-width:990px) {
     .counter {
@@ -2258,6 +2342,9 @@ footer {
     text-align: center;
     padding: 50px 0 20px 0;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 .legal ul li {
@@ -2314,6 +2401,9 @@ footer {
     text-align: center;
     padding: 0 0 20px;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
 }
 
 
@@ -2347,6 +2437,10 @@ footer {
     text-align: center;
     padding: 0 0 20px;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
+
 }
 
 .Children-Conflict-text p {
@@ -2426,6 +2520,9 @@ footer {
 
 #Socio-Legal {
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
     text-align: center;
     padding-bottom: 20px;
 }
@@ -2453,6 +2550,9 @@ footer {
 
 #gender-justice {
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
     text-align: center;
     padding: 20px 0;
     letter-spacing: 1.5px;
@@ -2574,6 +2674,9 @@ footer {
 #Sustainable-heading {
     text-align: center;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
     padding-bottom: 20px;
 }
 
@@ -2624,6 +2727,9 @@ footer {
 #PAHEL-heading {
     text-align: center;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
     padding-bottom: 30px;
 }
 
@@ -2652,6 +2758,10 @@ footer {
 #Community-awareness-heading {
     text-align: center;
     font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+
+    font-size: 31px;
     padding-bottom: 30px;
 }
 
@@ -2741,7 +2851,7 @@ footer {
     }
 
     .media-resource h1 {
-        font-size: 27px;
+        font-size: 24px;
         padding: 20px 25px;
     }
 
