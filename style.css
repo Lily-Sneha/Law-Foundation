@@ -27,16 +27,17 @@ body {
 }
 
 .org-name h1 {
-    font-size: 27px;
+    font-size: 30px;
     padding: 15px 0 0 10px;
     color: rgb(18, 73, 130);
     font-weight: bold;
     margin: 0;
     letter-spacing: 1.5px;
+    font-family: 'Rubik', sans-serif;
 }
 
 .org-name p {
-    padding: 0 0 0 56px;
+    padding: 0 0 0 95px;
     text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
@@ -821,6 +822,7 @@ footer {
 
     .org-name p {
         font-size: 13px;
+        padding-left: 52px;
     }
 
     .footer-col p {
@@ -1734,7 +1736,6 @@ footer {
 
 /* Our Team ********************************* */
 .team-background-color {
-    /* background-color: rgb(244, 244, 244); */
     background-color: rgb(223, 226, 226);
 }
 
@@ -1748,6 +1749,7 @@ footer {
 .buttons-preview {
     margin-right: 0;
     margin-left: 0;
+    padding-bottom: 50px;
 }
 
 .content {
@@ -1818,8 +1820,12 @@ footer {
 }
 
 .team-title {
-    padding-top: 45px;
+    padding-top: 30px;
     font-family: 'Alkatra';
+}
+
+.team-title h5 {
+    font-size: 18px;
 }
 
 #our-team-head {
@@ -1834,7 +1840,7 @@ footer {
 }
 
 .team-title .linkedin-icon .linkedin-img {
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .team-title .linkedin-icon .linkedin-img:hover {
@@ -1899,8 +1905,8 @@ footer {
 }
 
 .modal-pic {
-    max-width: 280px;
-    height: 280px;
+    max-width: 200px;
+    height: 200px;
     width: 100%;
     border-radius: 100%;
     cursor: pointer;
@@ -1922,8 +1928,8 @@ footer {
     }
 
     .modal-pic {
-        max-width: 210px;
-        height: 210px;
+        max-width: 200px;
+        height: 200px;
     }
 }
 
@@ -2138,7 +2144,7 @@ footer {
 }
 
 .counter h3 {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 0;
@@ -2202,11 +2208,11 @@ footer {
 .team-background {
     text-align: center;
     display: inline-block;
-    background-color: rgb(159, 210, 234);
-    padding: 50px;
-    margin: 10px;
-    border-radius: 10px;
-    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.05)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+    /* background-color: rgb(159, 210, 234); */
+    /* padding: 50px; */
+    /* margin: 10px; */
+    /* border-radius: 10px; */
+    /* filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.05)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); */
 }
 
 
@@ -2933,6 +2939,33 @@ label {
     content: '- Read Less';
 }
 
+/* fourth truncate ************* */
+#summary-four {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#summary-four #collapseSummary-four.collapse-four:not(.show) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+#summary-four #collapseSummary-four.collapsing {
+    min-height: 42px !important;
+}
+
+#summary-four a.collapsed:after {
+    content: '+ Read More';
+}
+
+#summary-four a:not(.collapsed):after {
+    content: '- Read Less';
+}
+
+
+
 /* swiper  *******************/
 .swiper {
     width: 100%;
@@ -2977,7 +3010,7 @@ label {
     justify-content: space-between;
     align-items: center;
     padding: 50px 148px;
-   
+
 }
 
 .vacancies-internship {
