@@ -509,7 +509,7 @@ img {
 
 /*  Media & Resource Center *******************/
 .media-resource {
-    background-color: #efe2d8a6;
+    background-color: #ddd6d4;
 }
 
 .media-links-container {
@@ -1463,8 +1463,9 @@ footer {
 }
 
 .map iframe {
+    /* width: 100%; */
     width: 800px;
-    height: 600px;
+    height: 300px;
 }
 
 /* Advisory board member ******************** */
@@ -1601,10 +1602,9 @@ footer {
     .map iframe {
         width: 100%;
         height: 100%;
-        max-width: 300px;
-        max-height: 400px;
+        max-width: 400px;
+        max-height: 200px;
     }
-
 }
 
 
@@ -2395,6 +2395,7 @@ footer {
 /* CLAP-container *********************** */
 .CLAP-container {
     padding: 50px 0 80px 0;
+    background-color: #dac1aa47;
 }
 
 #CLAP {
@@ -2418,6 +2419,7 @@ footer {
 /* Children-Conflict-Container ************** */
 .Conflict-container {
     padding-bottom: 80px;
+    background-color: #dac1aa47;
 }
 
 .Children-Conflict-Container {
@@ -2503,10 +2505,14 @@ footer {
 
 
 /* socio legal aid services *******************/
+
+.initiative-background {
+    background-color: #dac1aa47;
+}
+
 .socio-img-container {
     padding: 50px 148px;
 }
-
 
 .Socio-Legal-container {
     padding: 50px 148px;
@@ -2545,7 +2551,6 @@ footer {
 /* Gender Justice Page ***************** */
 .gender-justice-container {
     padding: 50px 148px;
-    /* background-color: #dfe2e2; */
 }
 
 #gender-justice {
@@ -2668,7 +2673,7 @@ footer {
 /*  Sustainable Mental Health ****************/
 .mental-health-container {
     padding: 50px 148px;
-    background-color: #dfe2e2;
+    background-color: #dac1aa47;
 }
 
 #Sustainable-heading {
@@ -2718,6 +2723,34 @@ footer {
 
 
 
+/*  RRR ********************** */
+.RRR-div {
+    padding: 50px 148px;
+}
+
+#RRR-heading {
+    font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.RRR-paragraph {
+    text-align: justify;
+    line-height: 1.7;
+    word-spacing: 4.5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .RRR-div {
+        padding: 50px 25px 30px 25px;
+    }
+}
+
+
+/* Programme nav link  */
 /* PAHEL Feloowship ********************************* */
 .PAHEL-Fellowship-container {
     padding: 50px 148px;
@@ -2876,6 +2909,10 @@ footer {
     }
 
     #gender-justice {
+        font-size: 27px;
+    }
+
+    #RRR-heading {
         font-size: 27px;
     }
 
