@@ -2577,6 +2577,7 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 40px 0;
 }
 
 .gender-justice-pic img {
@@ -2695,18 +2696,19 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 40px 0;
 }
 
 .mental-health-pic img {
     width: 100%;
-    max-width: 400px;
+    max-width: 500px;
     max-height: 500px;
 }
 
 @media only screen and (max-width: 768px) {
     .mental-health-pic img {
-        max-width: 300px;
-        max-height: 300px;
+        max-width: 250px;
+        max-height: 250px;
     }
 
 }
