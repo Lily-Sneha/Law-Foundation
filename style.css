@@ -45,11 +45,10 @@ body {
 }
 
 .org-name p {
-    padding: 0 0 0 121px;
+    padding: 0 0 0 124px;
     text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
-    /* font-family: 'Crimson Pro', serif; */
 }
 
 #hamburger {
@@ -152,9 +151,9 @@ ul li a {
     font-weight: bold;
 }
 
-.nav-links ul li .links:hover {
+/* .nav-links ul li .links:hover {
     color: #db1313;
-}
+} */
 
 .nav-links ul #home .home-highlight:hover {
     color: #db1313;
@@ -172,16 +171,22 @@ ul li a {
     z-index: 1;
     list-style: none;
     text-align: left;
-    box-shadow: 0px 0px 20px #b6aeae;
+    box-shadow: 0px 0px 10px #b6aeae;
     border-radius: 10px;
 }
 
-.list li a {
+/* .list li a {
     font-size: 15px;
-}
+    color: #ffffff;
+} */
 
 .list li {
+    background-color: #124982;
     border-bottom: 1px solid rgb(215 209 209);
+}
+
+.list li .links {
+    color: #ffffff;
 }
 
 .list li a:hover {
@@ -191,23 +196,6 @@ ul li a {
 .list-item:hover .list {
     display: block;
 }
-
-/* .list1 {
-    display: none;
-    position: absolute;
-    min-width: 165px;
-    padding: 12px 16px;
-    z-index: 1;
-    list-style: none;
-    text-align: left;
-    border: 1px solid white;
-} */
-
-/* .list1 li a {
-    font-size: 13px;
-    display: block;
-} */
-
 
 /* Second navigation Bar *******************/
 #navi {
@@ -279,16 +267,25 @@ ul li a {
     list-style: none;
     text-align: left;
     border: 1px solid white;
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #124982;
 }
 
-.list2 li a {
+/* #navi.navi2.list2 li {
+    background-color: #124982;
+} */
+
+#navi .navi2 ul li .second-link {
     font-size: 13px;
     display: block;
+    color: #ffffff;
+}
+
+.second-drop li {
+    border-bottom: 1px solid #ffffff;
 }
 
 .second-drop li a {
-    border-bottom: 1px solid rgb(215 209 209);
     padding-top: 5px;
 }
 
@@ -318,7 +315,7 @@ ul li a {
     display: block;
 }
 
-#about-drop:hover .list3 {
+#about-drop:hover .list2 {
     display: block;
 }
 
@@ -536,9 +533,12 @@ img {
     padding-left: 15px;
 }
 
+.media-links ul li {
+    border-bottom: 1px solid #ffffff;
+}
+
 .media-links ul li a {
     text-decoration: none;
-    border-bottom: 1px solid rgb(215 209 209);
     font-size: 20px;
     color: #db1313;
     font-family: 'Alkatra';
@@ -858,7 +858,7 @@ footer {
 
     .org-name p {
         font-size: 13px;
-        padding-left: 58px;
+        padding-left: 59px;
     }
 
     .footer-col p {
@@ -1456,6 +1456,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 40px 0;
+    background-color: rgb(223, 226, 226);
 }
 
 .map {
@@ -1676,6 +1677,28 @@ footer {
 
 
 /*  Out Mentor ***************** */
+.mentor-background {
+    text-align: center;
+    display: inline-block;
+}
+
+.mentor-content {
+    background-color: #dab2a8;
+}
+
+.modal-message .modal-dialog .mentor-content .modal-footer .fa-sharp {
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+.mentor-content.modal-body {
+    color: black;
+    word-spacing: 4.5px;
+    line-height: 1.7;
+    font-family: 'Alkatra';
+    font-size: 20px;
+}
+
 .board-member-image img {
     height: 200px;
     max-width: 200px;
@@ -1710,12 +1733,12 @@ footer {
     margin-right: auto;
 }
 
-.about-board-member h5 {
+.mentor-background h4 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
     font-weight: bold;
-    font-size: 30px;
+    font-family: 'Alkatra';
 }
 
 .about-board-member p {
@@ -1725,11 +1748,10 @@ footer {
 
 #board-memb {
     text-align: center;
-    padding-top: 20px;
+    padding: 40px 0;
     font-family: 'Shrikhand', cursive;
     color: #8a3434;
     font-size: 30px;
-
 }
 
 .board-carousal {
@@ -2292,11 +2314,6 @@ footer {
 .team-background {
     text-align: center;
     display: inline-block;
-    /* background-color: rgb(159, 210, 234); */
-    /* padding: 50px; */
-    /* margin: 10px; */
-    /* border-radius: 10px; */
-    /* filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.05)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08)); */
 }
 
 
@@ -2510,12 +2527,26 @@ footer {
     background-color: #dac1aa47;
 }
 
+#socio-legal-aid-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .socio-img-container {
-    padding: 50px 148px;
+    /* padding: 50px 148px; */
+}
+
+.socio-img-container img {
+    width: 100%;
+    max-width: 500px;
+    padding-bottom: 200px;
 }
 
 .Socio-Legal-container {
-    padding: 50px 148px;
+    padding: 50px 20px 50px 67px;
+    width: 100%;
+    max-width: 700px;
 }
 
 .Socio-Legal-container p {
@@ -2533,6 +2564,12 @@ footer {
     padding-bottom: 20px;
 }
 
+@media only screen and (max-width: 768px) {
+    #socio-legal-aid-container {
+        flex-wrap: wrap;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .Socio-Legal-container {
         padding: 50px 25px 30px 25px;
@@ -2545,6 +2582,11 @@ footer {
     .socio-img-container {
         padding: 20px;
     }
+
+    .socio-img-container img {
+        padding-bottom: 20px;
+    }
+
 }
 
 
@@ -2726,8 +2768,21 @@ footer {
 
 
 /*  RRR ********************** */
+#RRR-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 .RRR-div {
-    padding: 50px 148px;
+    padding: 50px 20px 50px 34px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.RRR-pic img {
+    width: 100%;
+    max-width: 300px;
 }
 
 #RRR-heading {
@@ -2745,9 +2800,23 @@ footer {
     word-spacing: 4.5px;
 }
 
+@media only screen and (max-width: 768px) {
+    #RRR-container {
+        flex-wrap: wrap;
+    }
+
+    .RRR-pic img {
+        padding-bottom: 50px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .RRR-div {
         padding: 50px 25px 30px 25px;
+    }
+
+    .RRR-pic img {
+        max-width: 200px;
     }
 }
 
@@ -2757,6 +2826,11 @@ footer {
 .PAHEL-Fellowship-container {
     padding: 50px 148px;
     background-color: rgb(223, 226, 226);
+    /* background-image: url(./photo/PAHEL\ Fellowship\ img.png); */
+}
+
+.PAHEL-Fellowship-pic-container {
+    padding: 50px 148px;
 }
 
 #PAHEL-heading {
@@ -2764,7 +2838,6 @@ footer {
     font-family: 'Shrikhand', cursive;
     color: #8a3434;
     font-size: 30px;
-
     padding-bottom: 30px;
 }
 
@@ -2781,6 +2854,10 @@ footer {
 
     #PAHEL-heading {
         font-size: 22px;
+    }
+
+    .PAHEL-Fellowship-pic-container {
+        padding: 30px 25px;
     }
 }
 

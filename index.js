@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
-// Modal ******************
+// Modal  Our Team ******************
 document.addEventListener("click", function (e) {
     if (e.target.classList.contains("gallery-item")) {
         const src = e.target.getAttribute("src")
@@ -45,6 +45,8 @@ document.addEventListener("click", function (e) {
         myModal.show();
     }
 })
+
+
 
 // Gallery swiper 
 var swiper = new Swiper(".mySwiper", {
