@@ -392,6 +392,7 @@ ul li a {
     padding-top: 10px;
 }
 
+
 /* what we do card ********************** */
 .advocacy-networking {
     padding-bottom: 80px;
@@ -3322,14 +3323,21 @@ li {
 
 #story-of-changes-container span {
     font-weight: bold;
+    font-size: 21px;
 }
 
 #Dharamraj {
     color: #ffffff;
 }
 
+#Dharamraj h4,
+h5 {
+    color: #212529;
+}
+
 #Dharamraj li {
     font-size: 20px;
+    font-family: 'Alkatra';
 }
 
 #aman {
@@ -3346,7 +3354,7 @@ li {
 
 #Dharamraj {
     background-image: url(./photo/CICL\ Dharamraj\ Kumar.png);
-    opacity: 0.75;
+    /* opacity: 0.75; */
 }
 
 @media only screen and (max-width: 425px) {
