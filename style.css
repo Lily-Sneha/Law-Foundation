@@ -11,7 +11,6 @@ p {
 
 body {
     overflow-x: hidden;
-    /* background-color: rgb(221, 231, 244); */
 }
 
 
@@ -49,6 +48,8 @@ body {
     text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
+    /* font-family: 'Alkatra';
+    font-size: 20px; */
 }
 
 #hamburger {
@@ -346,6 +347,7 @@ ul li a {
     font-style: italic;
     line-height: 1.7;
     text-align: justify;
+    font-family: 'Alkatra';
 }
 
 
@@ -365,7 +367,6 @@ ul li a {
     font-weight: bold;
     color: #8a3434;
     font-size: 30px;
-
 }
 
 #work {
@@ -392,7 +393,6 @@ ul li a {
 }
 
 /* what we do card ********************** */
-
 .advocacy-networking {
     padding-bottom: 80px;
 }
@@ -453,6 +453,7 @@ ul li a {
     text-align: justify;
     line-height: 1.5;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 .card-img-top {
@@ -607,6 +608,7 @@ footer {
 
 .footer-icon p {
     margin: 0;
+    font-family: 'Alkatra';
 }
 
 #email {
@@ -625,7 +627,7 @@ footer {
 }
 
 .footer-icon1 i {
-    font-size: 25px;
+    font-size: 30px;
     margin-top: 10px;
     margin-left: 9px;
 }
@@ -1358,6 +1360,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 .advisory-container {
@@ -1435,6 +1438,8 @@ footer {
     padding: 10px 20px;
     word-spacing: 4.5px;
     line-height: 1.7;
+    font-family: 'Alkatra';
+    font-size: 20px;
 }
 
 .mission-vision-img {
@@ -1780,13 +1785,13 @@ footer {
     font-family: 'Shrikhand', cursive;
     color: #8a3434;
     font-size: 30px;
-
-
 }
 
 .who-we-are-text p {
     word-spacing: 4.5px;
     line-height: 1.7;
+    font-family: 'Alkatra';
+    font-size: 20px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -1891,8 +1896,13 @@ footer {
     font-family: 'Alkatra';
 }
 
+.team-title h4 {
+    font-family: 'Alkatra';
+}
+
 .team-title h5 {
     font-size: 18px;
+    font-family: 'Alkatra';
 }
 
 #our-team-head {
@@ -2430,6 +2440,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 
@@ -2466,6 +2477,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 #clap-img img {
@@ -2553,6 +2565,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 #Socio-Legal {
@@ -2609,6 +2622,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 .legal-aid-services {
@@ -2732,6 +2746,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 .mental-health-pic {
@@ -2798,6 +2813,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 @media only screen and (max-width: 768px) {
@@ -2845,6 +2861,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 @media only screen and (max-width: 1024px) {
@@ -2881,6 +2898,7 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 4.5px;
+    font-family: 'Alkatra';
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3242,4 +3260,95 @@ label {
 .vacancies-internship {
     background-color: rgb(172, 131, 80);
     margin: 10px;
+}
+
+
+/* ********************** Media Resource and Links ****************************** */
+
+/* Stories of changes */
+.stories {
+    padding: 0 148px;
+}
+
+.stories {
+    margin: 0 0 70px 0;
+}
+
+#story-of-changes-container h1,
+h4,
+h5,
+p,
+li {
+    font-family: 'Crimson Pro', serif;
+}
+
+#story-of-change-head {
+    padding: 50px 0 30px;
+}
+
+#story-of-changes-container h1 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#story-of-changes-container h4 {
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+#story-of-changes-container h5 {
+    text-align: center;
+}
+
+#story-of-changes-container p,
+li {
+    text-align: justify;
+}
+
+#story-of-changes-container p {
+    padding: 15px 0;
+}
+
+#story-of-changes-container span {
+    font-weight: bold;
+}
+
+#Dharamraj {
+    color: #ffffff;
+}
+
+#Dharamraj li {
+    font-size: 20px;
+}
+
+#aman {
+    background-image: url(./photo/Aman\ Kumar.png);
+}
+
+#amir {
+    background-image: url(./photo/Md.\ Amir.png);
+}
+
+#pratibha {
+    background-image: url(./photo/Pratibha\ Devi\ \(1\).png);
+}
+
+#Dharamraj {
+    background-image: url(./photo/CICL\ Dharamraj\ Kumar.png);
+    opacity: 0.75;
+}
+
+@media only screen and (max-width: 425px) {
+    .stories {
+        padding: 0 20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    #story-of-changes-container h1 {
+        font-size: 27px;
+    }
 }
