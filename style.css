@@ -326,7 +326,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(238, 238, 238);
+    background-color: #eae7e0;
     padding: 80px 20px;
 }
 
@@ -353,8 +353,7 @@ ul li a {
 
 /*  What we do  ************************/
 #what-we-do-section {
-    background-color: rgb(221, 231, 244);
-    background-color: rgb(223, 226, 226);
+    background-color: #f7f6f2;
 }
 
 .what-we-do {
@@ -433,8 +432,8 @@ ul li a {
 }
 
 .card-container img {
-    max-height: 288px;
-    max-width: 288px;
+    max-height: 260px;
+    max-width: 260px;
     width: 100%;
 }
 
@@ -508,7 +507,7 @@ img {
 
 /*  Media & Resource Center *******************/
 .media-resource {
-    background-color: #ddd6d4;
+    background-color: #eae7e0;
 }
 
 .media-links-container {
@@ -1338,7 +1337,7 @@ footer {
 /* About Us *********************/
 .about-container {
     padding: 50px 0 80px 0;
-    background-color: #fff;
+    background-color: #eae7e0;
 }
 
 .about-us {
@@ -1403,7 +1402,7 @@ footer {
 
 /* vision-mission ************************/
 .mission-vision-section {
-    background-color: rgb(223, 226, 226);
+    background-color: #f7f6f2;
 }
 
 .mission-vision-container {
@@ -1462,7 +1461,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 40px 0;
-    background-color: rgb(223, 226, 226);
+    background-color: #f7f6f1;
 }
 
 .map {
@@ -1658,8 +1657,12 @@ footer {
 
 
 /*  our team **************************************** */
+.who-we-are-container {
+    background-color: #e9e7e0;
+}
+
 .our-team {
-    background-color: rgb(113, 138, 138);
+    background-color: #f7f6f2;
 }
 
 .team-container {
@@ -1683,6 +1686,10 @@ footer {
 
 
 /*  Out Mentor ***************** */
+.mentor-background-color {
+    background-color: #eae7e0;
+}
+
 .mentor-background {
     text-align: center;
     display: inline-block;
@@ -1809,7 +1816,7 @@ footer {
 
 /* Our Team ********************************* */
 .team-background-color {
-    background-color: rgb(223, 226, 226);
+    background-color: #f7f6f2;
 }
 
 .buttons-preview {
@@ -2190,7 +2197,7 @@ footer {
 
 /* ********** Our Impact ************** */
 .impact {
-    background-color: rgb(244, 244, 244);
+    background-color: #eae7e0;
 }
 
 .impact-main-container {
@@ -2359,7 +2366,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 100px 0 150px;
-    background-color: #dfe2e2;
+    background-color: #f7f6f2;
 }
 
 .legal {
@@ -2423,7 +2430,8 @@ footer {
 /* CLAP-container *********************** */
 .CLAP-container {
     padding: 50px 0 80px 0;
-    background-color: #dac1aa47;
+    /* background-color: #dac1aa47; */
+    background-color: #f9f6f2;
 }
 
 #CLAP {
@@ -2448,7 +2456,8 @@ footer {
 /* Children-Conflict-Container ************** */
 .Conflict-container {
     padding-bottom: 80px;
-    background-color: #dac1aa47;
+    /* background-color: #dac1aa47; */
+    background-color: #f9f6f2;
 }
 
 .Children-Conflict-Container {
@@ -2537,7 +2546,8 @@ footer {
 /* socio legal aid services *******************/
 
 .initiative-background {
-    background-color: #dac1aa47;
+    /* background-color: #dac1aa47; */
+    background-color: #f8f6f1;
 }
 
 #socio-legal-aid-container {
@@ -2731,7 +2741,8 @@ footer {
 /*  Sustainable Mental Health ****************/
 .mental-health-container {
     padding: 50px 148px;
-    background-color: #dac1aa47;
+    /* background-color: #dac1aa47; */
+    background-color: #f8f6f1;
 }
 
 #Sustainable-heading {
@@ -2842,12 +2853,12 @@ footer {
 /* PAHEL Feloowship ********************************* */
 .PAHEL-Fellowship-container {
     padding: 50px 148px;
-    background-color: rgb(223, 226, 226);
-    /* background-image: url(./photo/PAHEL\ Fellowship\ img.png); */
+    background-color: #f7f6f2;
 }
 
 .PAHEL-Fellowship-pic-container {
     padding: 50px 148px;
+    background-color: #f7f6f1;
 }
 
 #PAHEL-heading {
@@ -2883,6 +2894,7 @@ footer {
 /* Community awareness **************** */
 .Community-awareness-container {
     padding: 50px 148px;
+    background-color: #f7f6f2;
 }
 
 #Community-awareness-heading {
@@ -3292,13 +3304,15 @@ li {
     font-size: 30px;
     font-weight: bold;
     font-family: 'Shrikhand', cursive;
+    padding: 30px 0 0;
+    color: #212529;
 }
 
 #story-of-changes-container h4 {
     text-align: center;
     font-size: 23px;
     font-weight: bold;
-    padding: 20px 0;
+    padding: 30px 0 0;
     font-family: 'Shrikhand', cursive;
 }
 
@@ -3319,6 +3333,7 @@ li {
     line-height: 1.5;
     word-spacing: 4.5px;
     font-family: 'Alkatra';
+    margin: 0;
 }
 
 #story-of-changes-container span {
@@ -3355,6 +3370,11 @@ h5 {
 #Dharamraj {
     background-image: url(./photo/CICL\ Dharamraj\ Kumar.png);
     /* opacity: 0.75; */
+}
+
+#Rehan,
+#Ranjay {
+    background-color: #dbdbdb;
 }
 
 @media only screen and (max-width: 425px) {
