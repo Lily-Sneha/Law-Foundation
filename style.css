@@ -106,10 +106,14 @@ body {
     font-weight: bold;
 }
 
-#navi.donate-now {
+#navi #donation a {
     background-color: #bb2326;
     border-radius: 4px;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px;
 }
+
 
 #navi.navi2.donate a {
     color: #ffffff;
@@ -221,6 +225,7 @@ ul li a {
 
 .header {
     box-shadow: 5px 3px 8px #888888;
+    position: relative;
 }
 
 .nav-bar {
@@ -228,7 +233,7 @@ ul li a {
     gap: 114px;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-right: 20px;
+    /* padding-right: 20px; */
     background-color: #fff;
     box-shadow: 5px 3px 8px #888888;
 }
