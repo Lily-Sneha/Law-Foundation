@@ -331,7 +331,7 @@ ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #eae7e0;
+    background-color: #f6f5ef;
     padding: 80px 20px;
 }
 
@@ -358,7 +358,7 @@ ul li a {
 
 /*  What we do  ************************/
 #what-we-do-section {
-    background-color: #f7f6f2;
+    background-color: #e9e7e0;
 }
 
 .what-we-do {
@@ -2005,6 +2005,7 @@ footer {
     cursor: pointer;
 }
 
+
 @media only screen and (max-width: 768px) {
     .modal-message .modal-dialog {
         max-width: 700px;
@@ -2029,7 +2030,7 @@ footer {
 
 /* ********** Our Impact ************** */
 .impact {
-    background-color: #eae7e0;
+    background-color: #f6f5ef;
 }
 
 .impact-main-container {
@@ -2150,6 +2151,21 @@ footer {
 
 }
 
+
+/* Our Journey ****************** */
+.journey {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    /* background-color: #052634; */
+    background: linear-gradient(180deg, #052634, #041a22);
+}
+
+.journey img {
+    width: 100%;
+    max-width: 700px;
+    padding: 30px 0;
+}
 
 /* our Team ***************** */
 .team-container img {
@@ -2968,7 +2984,7 @@ label {
     overflow: hidden;
 
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
 }
 
@@ -2990,7 +3006,7 @@ label {
 #summary-two #collapseSummary-two.collapse-two:not(.show) {
     overflow: hidden;
     display: -webkit-box;
-    -webkit-line-clamp: 3;
+    -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
 }
 
