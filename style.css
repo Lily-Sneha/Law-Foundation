@@ -3041,6 +3041,31 @@ label {
     content: '- Read Less';
 }
 
+/* fifth truncate ************* */
+#summary-five {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+#summary-five #collapseSummary-five.collapse-five:not(.show) {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+#summary-five #collapseSummary-five.collapsing {
+    min-height: 42px !important;
+}
+
+#summary-five a.collapsed:after {
+    content: '+ Read More';
+}
+
+#summary-five a:not(.collapsed):after {
+    content: '- Read Less';
+}
+
 
 
 /* swiper  *******************/
@@ -3231,12 +3256,15 @@ h5 {
     padding: 20px;
     background-color: #feffff;
     border-radius: 10px;
-    box-shadow: 5px 10px 18px #888888;
-
+    box-shadow: 3px 3px 10px #888888;
 }
 
 .annual-report-pic h5 {
     text-align: center;
+    font-size: 22px;
+    padding: 20px 0;
+    font-family: raleway, sans-serif;
+    ;
 }
 
 .annual-report-pic button {
@@ -3247,10 +3275,8 @@ h5 {
 
 .annual-report-pic img {
     width: 100%;
-    max-width: 300px;
-    max-height: 400px;
-    /* box-shadow: 5px 10px 18px #888888; */
-    /* padding: 20px; */
+    max-width: 350px;
+    /* max-height: 400px; */
 }
 
 #view-report-button {
@@ -3269,10 +3295,17 @@ h5 {
 #view-report-button button a {
     color: #ffffff;
     text-decoration: none;
+    font-family: raleway, sans-serif;
 }
 
 #view-report-button button:hover {
     background-color: #212529;
+}
+
+@media only screen and (max-width: 425px) {
+    .Annual-Reports-card-container {
+        padding: 50px 30px;
+    }
 }
 
 /* swiper  **********************/
