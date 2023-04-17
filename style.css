@@ -2321,12 +2321,16 @@ footer {
 
 .Children-Conflict-text h1 {
     text-align: center;
-    padding: 0 0 20px;
     font-family: 'Shrikhand', cursive;
     color: #8a3434;
     font-size: 30px;
+}
 
-
+.Children-Conflict-text h2 {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 25px;
 }
 
 .Children-Conflict-text p {
