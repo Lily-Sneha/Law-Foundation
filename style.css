@@ -158,6 +158,8 @@ ul li a {
 .list-item {
     position: relative;
     display: inline-block;
+    color: #114881;
+    cursor: pointer;
 }
 
 .list {
@@ -3572,4 +3574,9 @@ button:hover {
     font-weight: bold;
     font-style: italic;
     padding: 40px;
+}
+
+/* gallery */
+#galler-container {
+    padding: 50px 50px;
 }
