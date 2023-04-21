@@ -159,7 +159,6 @@ ul li a {
     position: relative;
     display: inline-block;
     color: #114881;
-    cursor: pointer;
 }
 
 .list {
@@ -468,39 +467,6 @@ ul li a {
     color: #8a3434;
     font-size: 30px;
 
-}
-
-
-/* Gallery *************************/
-.gallery h1 {
-    text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 0;
-    font-family: 'Shrikhand', cursive;
-    color: #8a3434;
-    font-size: 30px;
-
-}
-
-img {
-    max-width: 100%;
-}
-
-.gallery-item {
-    height: 233px;
-    width: 450px;
-}
-
-.gallery-container .col img {
-    border-radius: 5px;
-}
-
-.row {
-    row-gap: 25px;
-}
-
-.gallery-container {
-    margin: 30px 120px;
 }
 
 
@@ -3576,7 +3542,44 @@ button:hover {
     padding: 40px;
 }
 
-/* gallery */
+
+
+/* Gallery *************************/
+/* .gallery-container h1 {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    font-family: 'Shrikhand', cursive;
+    color: #8a3434;
+    font-size: 30px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.gallery-item {
+    height: 233px;
+    width: 450px;
+}
+
+.gallery-container .col img {
+    border-radius: 5px;
+}
+
+.row {
+    row-gap: 25px;
+}
+
+
+
 #galler-container {
-    padding: 50px 50px;
+    padding: 50px 100px;
+} */
+
+#gallery-container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
