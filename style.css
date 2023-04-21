@@ -1934,7 +1934,8 @@ footer {
 }
 
 .team-title .linkedin-icon .linkedin-img:hover {
-    color: #0244d0;
+    /* color: #0244d0; */
+    color: #095db7;
 }
 
 .modal-message .modal-header .fa,
