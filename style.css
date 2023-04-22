@@ -1384,6 +1384,7 @@ footer {
 
 .mission-vision-div {
     background-color: #ffffff;
+    min-height: 350px;
 }
 
 .mission-vision-head {
@@ -1400,11 +1401,13 @@ footer {
     text-align: center;
     font-family: 'Shrikhand', cursive;
     color: #8a3434;
+    margin: 0;
+    padding: 40px 0 0 0;
 }
 
 .mission-vision-div p {
     text-align: justify;
-    padding: 10px 20px;
+    padding: 20px 20px 10px;
     word-spacing: 1.5px;
     line-height: 1.7;
     font-family: 'Alkatra';
@@ -3432,7 +3435,7 @@ li {
 }
 
 
-/* Donation Form */
+/* Donation Form ********/
 form #donor-detail {
     margin: 0 0 20px;
     font-weight: 400;
@@ -3459,21 +3462,6 @@ form {
     box-shadow: 0 2px 5px #f5f5f5;
     background: #b8d3e7;
 }
-
-/* .fas {
-    margin: 25px 10px 0;
-    font-size: 72px;
-    color: #fff;
-}
-
-.fa-envelope {
-    transform: rotate(-20deg);
-} */
-
-/* .fa-at,
-.fa-mail-bulk {
-    transform: rotate(10deg);
-} */
 
 input,
 textarea {
@@ -3512,25 +3500,11 @@ button:hover {
     form {
         width: 50%;
     }
-
-    /* .fa-envelope {
-        margin-top: 0;
-        margin-left: 20%;
-    } */
-
-    /* .fa-at {
-        margin-top: -10%;
-        margin-left: 65%;
-    }
-
-    .fa-mail-bulk {
-        margin-top: 2%;
-        margin-left: 28%;
-    } */
 }
 
 
-/*  Internship  */
+
+/*  Internship ************* */
 .internship-container {
     background-color: #f6f5ef;
 }
@@ -3544,42 +3518,25 @@ button:hover {
 
 
 
-/* Gallery *************************/
-/* .gallery-container h1 {
-    text-align: center;
-    padding-bottom: 20px;
-    margin-bottom: 0;
-    font-family: 'Shrikhand', cursive;
-    color: #8a3434;
-    font-size: 30px;
+/* Gallery *************** */
+.gallery-main-container {
+    background-color: #f7f6f2;
 }
 
-img {
-    max-width: 100%;
+.gallery-container {
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    column-gap: 15px;
+    row-gap: 15px;
 }
 
-.gallery-item {
-    height: 233px;
-    width: 450px;
-}
-
-.gallery-container .col img {
-    border-radius: 5px;
-}
-
-.row {
-    row-gap: 25px;
-}
-
-
-
-#galler-container {
-    padding: 50px 100px;
-} */
-
-#gallery-container {
-    padding-left: 0;
-    padding-right: 0;
-    margin-left: 0;
-    margin-right: 0;
+.gallery-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: center;
 }
