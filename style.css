@@ -1125,7 +1125,8 @@ footer {
         margin: 0;
         padding: 0;
     }
-/* 
+
+    /* 
     .gallery-container {
         margin: 0;
     } */
@@ -1909,7 +1910,6 @@ footer {
 }
 
 .team-title .linkedin-icon .linkedin-img:hover {
-    /* color: #0244d0; */
     color: #095db7;
 }
 
@@ -1998,6 +1998,7 @@ footer {
         max-width: 200px;
         height: 200px;
     }
+
 }
 
 
@@ -2134,7 +2135,6 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    /* background-color: #052634; */
     background: linear-gradient(180deg, #052634, #041a22);
 }
 
@@ -2287,12 +2287,6 @@ footer {
     background-color: #f9f6f2;
 }
 
-/* .Children-Conflict-Container {
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
-    padding: 30px 20px 30px 63px;
-} */
 
 .Children-Conflict-text {
     padding: 0 148px;
@@ -2726,6 +2720,11 @@ footer {
     font-family: 'Alkatra';
 }
 
+.PAHEL-Fellowship-pic-container img {
+    width: 100%;
+
+}
+
 @media only screen and (max-width: 1024px) {
     .PAHEL-Fellowship-container {
         padding: 50px 25px 30px 25px;
@@ -2980,10 +2979,6 @@ footer {
         font-size: 27px;
     }
 
-    /* .gallery h1 {
-        font-size: 27px;
-    } */
-
     .mission-vision-head h1 {
         font-size: 27px;
     }
@@ -2993,6 +2988,10 @@ footer {
     }
 
     #RRR-heading {
+        font-size: 27px;
+    }
+
+    .CICL-story .stories h1 {
         font-size: 27px;
     }
 
@@ -3035,6 +3034,59 @@ footer {
     .legal ul li {
         font-size: 18px;
     }
+
+    .mentor-content .modal-body {
+        font-size: 18px;
+    }
+
+    .modal-content .modal-body {
+        font-size: 18px;
+    }
+
+    .CLAP-container p {
+        font-size: 18px;
+    }
+
+    .Children-Conflict-text p {
+        font-size: 18px;
+    }
+
+    .stories p {
+        font-size: 18px;
+    }
+
+    .stories #Dharamraj-lists li {
+        font-size: 18px;
+    }
+
+    .Socio-Legal-container p {
+        font-size: 18px;
+    }
+
+    .gender-justice-container p {
+        font-size: 18px;
+    }
+
+    .RRR-paragraph {
+        font-size: 18px;
+    }
+
+    .PAHEL-Fellowship-container p {
+        font-size: 18px;
+    }
+
+    .Community-awareness-container p {
+        font-size: 18px;
+    }
+
+    .home-visit-container div p {
+        font-size: 18px;
+    }
+
+    .prison-visit-container .prison-visit p {
+        font-size: 18px;
+    }
+
 }
 
 
@@ -3373,6 +3425,10 @@ li {
     #Dharamraj h5 {
         font-size: 18px;
     }
+
+    #story-of-changes-container p {
+        font-size: 18px;
+    }
 }
 
 
@@ -3510,7 +3566,6 @@ button:hover {
         width: 50%;
     }
 }
-
 
 
 /*  Internship ************* */
