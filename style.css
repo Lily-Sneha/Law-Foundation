@@ -1896,7 +1896,6 @@ footer {
     font-family: 'Shrikhand', cursive;
     color: #8a3434;
     font-size: 30px;
-
     padding: 50px 0;
 }
 
@@ -1907,6 +1906,7 @@ footer {
 
 .team-title .linkedin-icon .linkedin-img {
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 .team-title .linkedin-icon .linkedin-img:hover {
@@ -2135,7 +2135,7 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(180deg, #052634, #041a22);
+    background: linear-gradient(180deg, #f5f4ee, #f5f4ee);
 }
 
 .journey img {
@@ -2945,6 +2945,21 @@ footer {
     .legal-literacy-container {
         padding: 25px;
     }
+}
+
+
+/* Collaboration and Networking ******************** */
+.Collaboration {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: linear-gradient(180deg, #f5f4ee, #f5f4ee);
+}
+
+.Collaboration img {
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 0;
 }
 
 
