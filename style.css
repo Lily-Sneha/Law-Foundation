@@ -1674,7 +1674,8 @@ footer {
 }
 
 .mentor-content {
-    background-color: #dab2a8;
+    background-color: #f7f6f1;
+    box-shadow: 1px 1px 10px 5px #aaaaaa;
 }
 
 .modal-message .modal-dialog .mentor-content .modal-footer .fa-sharp {
@@ -2319,6 +2320,10 @@ footer {
     padding: 130px 0 0 0;
 }
 
+.CICL-story {
+    background-image: url(./photo/CICL\ Dharamraj\ Kumar.png);
+}
+
 .CICL-story .stories h1 {
     text-align: center;
     font-family: 'Shrikhand', cursive;
@@ -2953,7 +2958,7 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(180deg, #f5f4ee, #f5f4ee);
+    background: linear-gradient(180deg, #f1f0e8, #f1f0e8);
 }
 
 .Collaboration img {
@@ -3379,6 +3384,7 @@ li {
 
 #Dharamraj {
     color: #ffffff;
+    margin: 0;
 }
 
 #Dharamraj h4 {
@@ -3407,10 +3413,10 @@ li {
     background-image: url(./photo/Pratibha\ Devi\ \(1\).png);
 }
 
+/* 
 #Dharamraj {
     background-image: url(./photo/CICL\ Dharamraj\ Kumar.png);
-    /* opacity: 0.75; */
-}
+} */
 
 #Rehan,
 #Ranjay {
