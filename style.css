@@ -562,6 +562,8 @@ footer {
     padding: 10px 0;
     line-height: 1.7;
     font-size: 15px;
+    background-color: #2d538d;
+    text-align: center;
 }
 
 .footer-icon {
@@ -614,11 +616,11 @@ footer {
 .footer-info-down {
     display: flex;
     justify-content: space-around;
-    background-color: #243946;
+    background-color: #2d538d;
 }
 
 #right {
-    font-size: 17px;
+    font-size: 18px;
     padding: 10px 0 0 20px;
     color: #fff;
 }
@@ -2130,6 +2132,56 @@ footer {
 
 }
 
+
+
+/*  Refund Policy *********************** */
+.refund-policy-container {
+    padding: 0 148px;
+    background-color: #2d538d;
+    /* background-color: #253846; */
+}
+
+.refund-policy-container hr {
+    width: 100%;
+    border: 0.5px solid #ffffff;
+    margin: 0;
+}
+
+.refund-policy-container ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0;
+    padding-top: 20px;
+}
+
+.refund-policy-container ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+.refund-policy-container ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.refund-policy-container ul li a:hover {
+    color: #080808;
+}
+
+@media screen and (max-width:425px) {
+    .refund-policy-container ul {
+        /* flex-wrap: wrap;     */
+    }
+
+    .refund-policy-container {
+        padding: 0 25px;
+    }
+
+    .refund-policy-container ul li a {
+        font-size: 18px;
+    }
+}
 
 /* Our Journey ****************** */
 .journey {
