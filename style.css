@@ -2238,9 +2238,16 @@ footer {
     padding: 25px 0;
 }
 
-.privacy h1 {
+.privacy-container h1 {
     font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
 }
+
+.privacy-container p {
+    text-align: center;
+}
+
 
 .privacy p {
     font-size: 20px;
@@ -2260,6 +2267,10 @@ footer {
     .privacy p {
         font-size: 18px;
     }
+
+    .privacy-container h1 {
+        font-size: 27px;
+    }
 }
 
 /* terms and conditions ******************** */
@@ -2271,13 +2282,23 @@ footer {
     padding: 50px 148px;
 }
 
-.terms-and-condition h1 {
+.terms-and-condition h3 {
+    font-size: 25px;
+}
+
+.terms-and-conditions-container h1 {
     text-align: center;
     font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.terms-and-conditions-container p {
+    text-align: center;
 }
 
 .terms-and-condition h3 {
     font-size: 25px;
+    padding-bottom: 20px;
 }
 
 .terms-and-condition {
@@ -2296,12 +2317,21 @@ footer {
         padding: 50px 25px;
     }
 
+    /* 
     .terms-and-condition h1 {
         font-size: 27px;
-    }
+    } */
 
     .terms-and-condition p {
         font-size: 18px;
+    }
+
+    .terms-and-condition h3 {
+        font-size: 20px;
+    }
+
+    .terms-and-conditions-container h1 {
+        font-size: 27px;
     }
 
     .terms-and-condition h3 {
