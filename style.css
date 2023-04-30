@@ -2129,12 +2129,36 @@ footer {
         flex: 0 0 25%;
         max-width: 23%;
     }
-
 }
 
 
-
 /*  Refund Policy *********************** */
+.refund-main-container {
+    background-color: #f6f5ef;
+}
+
+.refund-container {
+    padding: 50px 148px;
+}
+
+.refund-container h1 {
+    text-align: center;
+    /* font-family: 'Shrikhand', cursive; */
+    /* color: #8a3434; */
+    font-size: 30px;
+}
+
+.refund-container h3 {
+    font-size: 25px;
+    line-height: 1.7;
+    padding: 5px 0 0;
+}
+
+.refund-containe p {
+    font-size: 20px;
+    text-align: justify;
+}
+
 .refund-policy-container {
     padding: 0 148px;
     background-color: #2d538d;
@@ -2180,6 +2204,108 @@ footer {
 
     .refund-policy-container ul li a {
         font-size: 18px;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .refund-container {
+        padding: 50px 25px;
+    }
+
+    .refund-container p {
+        font-size: 18px;
+    }
+
+    .refund-container h1 {
+        font-size: 27px;
+    }
+
+    .refund-container h3 {
+        font-size: 20px;
+    }
+}
+
+/* Privacy ************ */
+.privacy-main-container {
+    background-color: #f6f5ef;
+}
+
+.privacy-container {
+    padding: 50px 148px;
+}
+
+.privacy {
+    padding: 25px 0;
+}
+
+.privacy h1 {
+    font-size: 30px;
+}
+
+.privacy p {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width:1024px) {
+    .privacy-container {
+        padding: 50px 25px;
+    }
+
+    .privacy h1 {
+        font-size: 27px;
+    }
+
+    .privacy p {
+        font-size: 18px;
+    }
+}
+
+/* terms and conditions ******************** */
+.terms-condition-main-container {
+    background-color: #f6f5ef;
+}
+
+.terms-and-conditions-container {
+    padding: 50px 148px;
+}
+
+.terms-and-condition h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.terms-and-condition h3 {
+    font-size: 25px;
+}
+
+.terms-and-condition {
+    padding: 25px 0;
+}
+
+.terms-and-condition p {
+    font-size: 20px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+@media screen and (max-width:1024px) {
+
+    .terms-and-conditions-container {
+        padding: 50px 25px;
+    }
+
+    .terms-and-condition h1 {
+        font-size: 27px;
+    }
+
+    .terms-and-condition p {
+        font-size: 18px;
+    }
+
+    .terms-and-condition h3 {
+        font-size: 20px;
     }
 }
 
