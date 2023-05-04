@@ -3511,12 +3511,21 @@ label {
 
 
 /* Join Us ************************* */
-.vacancies-internship-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 50px 148px;
+.internship-container {
+    background-color: #f6f5ef;
+}
 
+.internship-container h1 {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding-bottom: 40px;
+    margin-bottom: 0;
+    font-family: 'Shrikhand', cursive;
+}
+
+.internship-container p {
+    font-family: 'Alkatra';
 }
 
 .vacancies-internship {
@@ -3524,6 +3533,34 @@ label {
     margin: 10px;
 }
 
+.internship-container {
+    align-items: center;
+    padding: 50px 148px;
+}
+
+.internship #apply {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.internship p a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px;
+    background-color: #0679c5;
+    border: 1px solid #0679c5;
+}
+
+.internship p a:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
+
+/*  vacancies ****************** */
+.vacancies h1 {
+    font-family: 'Shrikhand', cursive;
+}
 
 /* ********************** Media Resource and Links ****************************** */
 
@@ -3795,20 +3832,6 @@ button:hover {
         width: 50%;
     }
 }
-
-
-/*  Internship ************* */
-.internship-container {
-    background-color: #f6f5ef;
-}
-
-.internship-container h1 {
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-    padding: 40px;
-}
-
 
 
 /* Gallery *************** */
