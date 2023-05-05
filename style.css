@@ -97,7 +97,7 @@ body {
 
 .nav.donate {
     background-color: #bb2326;
-    border-radius: 4px;
+    border-radius: 25px;
 }
 
 .nav.donate a {
@@ -172,10 +172,6 @@ ul li a {
     border-radius: 10px;
 }
 
-/* .list li a {
-    font-size: 15px;
-    color: #ffffff;
-} */
 
 .list li {
     background-color: #124982;
@@ -226,7 +222,6 @@ ul li a {
     gap: 114px;
     flex-wrap: wrap;
     justify-content: space-between;
-    /* padding-right: 20px; */
     background-color: #fff;
     box-shadow: 5px 3px 8px #888888;
 }
@@ -266,13 +261,9 @@ ul li a {
     list-style: none;
     text-align: left;
     border: 1px solid white;
-    /* background-color: #fff; */
     background-color: #124982;
 }
 
-/* #navi.navi2.list2 li {
-    background-color: #124982;
-} */
 
 #navi .navi2 ul li .second-link {
     font-size: 13px;
@@ -621,14 +612,12 @@ footer {
 
 #right {
     font-size: 18px;
-    padding: 10px 0 0 20px;
+    /* padding: 10px 0 0 20px; */
     color: #fff;
 }
 
 
-
 /* ****************************************** */
-
 @media screen and (max-width: 320px) {
     .foss-logo img {
         height: 80px;
@@ -663,10 +652,6 @@ footer {
         max-width: 240px;
         max-height: 240px;
     }
-
-    /* .gallery-container {
-        margin: 0;
-    } */
 
     .media-container {
         margin: 0;
@@ -721,10 +706,6 @@ footer {
         font-size: 22px;
     }
 
-    /* .gallery h1 {
-        font-size: 22px;
-    } */
-
     .story {
         padding: 0 30px 0 20px;
     }
@@ -732,10 +713,6 @@ footer {
     .story h1 {
         font-size: 22px;
     }
-
-    /* .gallery-container {
-        margin: 0;
-    } */
 
     .media-container {
         margin: 0;
@@ -777,10 +754,6 @@ footer {
     .story h1 {
         font-size: 22px;
     }
-
-    /* .gallery-container {
-        margin: 0;
-    } */
 
     .media-container {
         margin: 0;
@@ -938,11 +911,6 @@ footer {
         padding-left: 10px;
     }
 
-    /* .gallery {
-        padding-top: 35px;
-        padding-bottom: 50px;
-    } */
-
     .what-we-do h1 {
         font-size: 22px;
     }
@@ -951,10 +919,6 @@ footer {
         font-size: 22px;
         padding-top: 20px;
     }
-
-    /* .gallery-container {
-        margin: 0;
-    } */
 
     .media-container {
         margin: 0;
@@ -1128,11 +1092,6 @@ footer {
         padding: 0;
     }
 
-    /* 
-    .gallery-container {
-        margin: 0;
-    } */
-
     .media-container {
         margin: 0;
     }
@@ -1205,10 +1164,6 @@ footer {
         padding: 0;
     }
 
-    /* .gallery-container {
-        margin: 0;
-    } */
-
     .media-container {
         margin: 0;
     }
@@ -1258,10 +1213,6 @@ footer {
         margin: 0;
         padding: 0;
     }
-
-    /* .gallery-container {
-        margin: 0;
-    } */
 
     .media-container {
         margin: 0;
@@ -1448,7 +1399,6 @@ footer {
 }
 
 .map iframe {
-    /* width: 100%; */
     width: 800px;
     height: 300px;
 }
@@ -1488,7 +1438,6 @@ footer {
 .card-img-top {
     border-top-left-radius: 0%;
     border-top-right-radius: 0%;
-    /* border-radius: 50%; */
 }
 
 .board-members-container {
@@ -1633,7 +1582,6 @@ footer {
         margin: 0;
     }
 }
-
 
 
 /*  our team **************************************** */
@@ -2162,7 +2110,6 @@ footer {
 .refund-policy-container {
     padding: 0 148px;
     background-color: #2d538d;
-    /* background-color: #253846; */
 }
 
 .refund-policy-container hr {
@@ -2316,11 +2263,6 @@ footer {
     .terms-and-conditions-container {
         padding: 50px 25px;
     }
-
-    /* 
-    .terms-and-condition h1 {
-        font-size: 27px;
-    } */
 
     .terms-and-condition p {
         font-size: 18px;
@@ -2481,7 +2423,6 @@ footer {
 
 }
 
-
 .about-CLAP {
     text-align: justify;
     line-height: 1.7;
@@ -2495,7 +2436,6 @@ footer {
     padding-bottom: 80px;
     background-color: #f9f6f2;
 }
-
 
 .Children-Conflict-text {
     padding: 0 148px;
@@ -3560,10 +3500,76 @@ label {
 /*  vacancies ****************** */
 .vacancies h1 {
     font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+}
+
+/* Publication **************** */
+.publication-container {
+    padding: 50px;
+    background-color: #f7f6f2;
+}
+
+.journal-publication-container {
+    justify-content: center;
+}
+
+.publication-head h1 {
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+}
+
+.publication-container h5 {
+    font-family: 'Alkatra';
+    font-size: 22px;
+}
+
+.publication-container p {
+    font-family: 'Alkatra';
+    font-size: 20px;
+}
+
+.publication-head {
+    text-align: center;
+}
+
+.publication-head p {
+    padding: 20px 0 30px 0;
+}
+
+.journal-publication-container div a {
+    text-decoration: none;
+    color: red;
+}
+
+.journal-publication-container div a:hover {
+    color: #0679c5;
+}
+
+.publication {
+    background-color: #ffffff;
+    margin: 10px;
+    padding: 10px;
+}
+
+.publication p {
+    text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+    .publication-head h1 {
+        font-size: 27px;
+    }
+
+    .publication-container p {
+        font-size: 18px;
+    }
+
+    .publication-container h5 {
+        font-size: 20px;
+    }
 }
 
 /* ********************** Media Resource and Links ****************************** */
-
 /* Stories of changes */
 .stories {
     padding: 0 148px;
