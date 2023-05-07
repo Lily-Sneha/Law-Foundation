@@ -3525,7 +3525,7 @@ label {
 
 .publication-container p {
     font-family: 'Alkatra';
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .publication-head {
@@ -3542,7 +3542,8 @@ label {
 }
 
 .journal-publication-container div a:hover {
-    color: #0679c5;
+    /* color: #0679c5; */
+    color: #080808;
 }
 
 .publication {
@@ -3566,6 +3567,82 @@ label {
 
     .publication-container h5 {
         font-size: 20px;
+    }
+}
+
+
+/*  Print Media ******************** */
+
+.press-release-container {
+    background-color: #f7f6f2;
+}
+
+.print-media-container {
+    padding: 50px 30px;
+}
+
+.print-media {
+    justify-content: center;
+}
+
+.print-media div {
+    border: 1px solid grey;
+    background: #ffffff;
+    /* height: 350px; */
+    /* max-width: 300px; */
+    margin: 5px;
+    padding: 15px;
+    font-family: 'Alkatra';
+}
+
+.print-media h6 {
+    font-size: 22px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.print-media p {
+    text-align: justify;
+    font-family: 'Alkatra';
+    font-size: 20px;
+}
+
+.print-media a {
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+.print-media a:hover {
+    color: #080808;
+}
+
+.print-media .people {
+    font-size: 16px;
+    padding: 5px 0;
+}
+
+.press-release-container h1 {
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+}
+
+@media only screen and (max-width: 1024px) {
+    .print-media-container {
+        padding: 50px 25px;
+    }
+
+    .print-media div {
+        margin: 5px;
+    }
+
+    .print-media p {
+        font-size: 18px;
+    }
+
+    .press-release-container h1 {
+        font-size: 27px;
     }
 }
 
