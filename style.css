@@ -3584,6 +3584,10 @@ label {
     background-color: #f7f6f2;
 }
 
+.press-release-container {
+    background-color: #f7f6f1;
+}
+
 .print-media-container {
     padding: 50px 30px;
 }
@@ -3627,10 +3631,46 @@ label {
     padding: 5px 0;
 }
 
+.press-image-container {
+    display: flex;
+}
+
+.double-image {
+    display: flex;
+    justify-content: center;
+}
+
+.press-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.press-img img {
+    width: 100%;
+    padding: 20px;
+}
+
+
+.press-container h1 {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    padding-top: 50px;
+}
+
 .press-release-container h1 {
     font-size: 30px;
     text-align: center;
     font-family: 'Shrikhand', cursive;
+}
+
+@media only screen and (max-width: 768px) {
+    .double-image {
+        flex-wrap: wrap;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3648,6 +3688,14 @@ label {
 
     .press-release-container h1 {
         font-size: 27px;
+    }
+
+    .press-img img {
+        max-width: 400px;
+    }
+
+    .press-img img {
+        padding: 10px;
     }
 }
 
