@@ -557,6 +557,15 @@ footer {
     text-align: center;
 }
 
+.t4g-link-color {
+    color: orange;
+    text-decoration: none;
+}
+
+.t4g-link-color:hover {
+    color: #080808;
+}
+
 .footer-icon {
     display: flex;
     flex-direction: column;
@@ -3542,7 +3551,6 @@ label {
 }
 
 .journal-publication-container div a:hover {
-    /* color: #0679c5; */
     color: #080808;
 }
 
@@ -3572,7 +3580,6 @@ label {
 
 
 /*  Print Media ******************** */
-
 .press-release-container {
     background-color: #f7f6f2;
 }
@@ -3588,8 +3595,6 @@ label {
 .print-media div {
     border: 1px solid grey;
     background: #ffffff;
-    /* height: 350px; */
-    /* max-width: 300px; */
     margin: 5px;
     padding: 15px;
     font-family: 'Alkatra';
@@ -3741,10 +3746,6 @@ li {
     background-image: url(./photo/Pratibha\ Devi\ \(1\).png);
 }
 
-/* 
-#Dharamraj {
-    background-image: url(./photo/CICL\ Dharamraj\ Kumar.png);
-} */
 
 #Rehan,
 #Ranjay {
@@ -3853,7 +3854,6 @@ li {
 form #donor-detail {
     margin: 0 0 20px;
     font-weight: 400;
-    /* color: #124982; */
     font-family: raleway, sans-serif;
 }
 
