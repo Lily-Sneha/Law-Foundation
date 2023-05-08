@@ -3667,6 +3667,10 @@ label {
     font-family: 'Shrikhand', cursive;
 }
 
+.editor p {
+    font-size: 18px;
+}
+
 @media only screen and (max-width: 768px) {
     .double-image {
         flex-wrap: wrap;
