@@ -3125,6 +3125,70 @@ footer {
     padding: 30px 0;
 }
 
+/* Partnership ************************* */
+.partnership-container {
+    background: #f1f0e8;
+}
+
+.partnership {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 148px;
+}
+
+.partnership img {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Individual Support **************** */
+.individual-container {
+    background: #f1f0e8;
+}
+
+.individual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 148px;
+}
+
+.individual img {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* donation page ************* */
+.donation-container {
+    background: #f1f0e8;
+}
+
+.donation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 148px;
+}
+
+.donation img {
+    width: 100%;
+    max-width: 800px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .partnership {
+        padding: 0;
+    }
+
+    .individual {
+        padding: 0;
+    }
+
+    .donation {
+        padding: 0;
+    }
+}
 
 /*  paragraph and heading font size ************* */
 @media only screen and (max-width: 1024px) {
@@ -3469,6 +3533,7 @@ label {
     text-align: center;
     font-weight: bold;
     font-style: italic;
+    font-size: 30px;
     padding-bottom: 40px;
     margin-bottom: 0;
     font-family: 'Shrikhand', cursive;
@@ -3494,7 +3559,40 @@ label {
     padding-top: 20px;
 }
 
-.internship p a {
+hr {
+    border: 0.1px solid #ffffff;
+}
+
+.testimonial-container {
+    /* padding-bottom: 40px; */
+}
+
+.testimonial-pic {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.testimonial-container h1 {
+    text-align: center;
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    padding: 40px 0;
+    font-weight: bold;
+}
+
+.testimonial-pic img {
+    width: 100%;
+    max-width: 500px;
+    margin: 10px;
+}
+
+.testimonial-container p {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.testimonial-container p a {
     text-decoration: none;
     color: #ffffff;
     padding: 8px 20px;
@@ -3503,15 +3601,10 @@ label {
     border-radius: 8px;
 }
 
-.internship p a:hover {
+.testimonial-container p a:hover {
     background-color: black;
     border: 1px solid black;
 }
-
-hr {
-    border: 0.1px solid #ffffff;
-}
-
 
 /*  vacancies ****************** */
 .vacancies h1 {
@@ -3586,6 +3679,10 @@ hr {
 
     .internship-container {
         padding: 50px 25px;
+    }
+
+    .testimonial-pic img {
+        padding: 0 25px;
     }
 }
 
