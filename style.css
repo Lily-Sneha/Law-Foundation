@@ -3188,6 +3188,14 @@ footer {
     .donation {
         padding: 0;
     }
+
+    .testimonial-container h1 {
+        font-size: 27px;
+    }
+
+    .internship-container h1 {
+        font-size: 27px;
+    }
 }
 
 /*  paragraph and heading font size ************* */
