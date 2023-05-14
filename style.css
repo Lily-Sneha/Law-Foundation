@@ -3196,6 +3196,10 @@ footer {
     .internship-container h1 {
         font-size: 27px;
     }
+
+    .Collaboration img {
+        padding: 40px 25px;
+    }
 }
 
 /*  paragraph and heading font size ************* */
