@@ -107,12 +107,11 @@ body {
 
 #navi #donation a {
     background-color: #bb2326;
-    border-radius: 4px;
+    border-radius: 25px;
     color: #ffffff;
     font-weight: bold;
     padding: 5px;
 }
-
 
 #navi.navi2.donate a {
     color: #ffffff;
@@ -124,7 +123,6 @@ body {
     padding-top: 34px;
     padding-right: 22px;
 }
-
 
 .nav-links ul li {
     font-size: 14px;
@@ -3176,6 +3174,27 @@ footer {
     max-width: 800px;
 }
 
+.donation-container .donate-link {
+    padding: 0 0 30px 356px;
+}
+
+.donation-container .donate-link a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: "Crimson Pro" - 400;
+    background-color: #0679c5;
+    border: 1px solid #0679c5;
+}
+
+.donation-container .donate-link a:hover {
+    background-color: black;
+    border: 1px solid black;
+}
+
 @media only screen and (max-width: 1024px) {
     .partnership {
         padding: 0;
@@ -3191,6 +3210,14 @@ footer {
 
     .Collaboration img {
         padding: 40px 25px;
+    }
+
+    .donation-container .donate-link {
+        padding: 0 0 30px 14px;
+    }
+
+    .donation-container .donate-link a {
+        font-size: 16px;
     }
 }
 
