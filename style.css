@@ -3189,14 +3189,6 @@ footer {
         padding: 0;
     }
 
-    .testimonial-container h1 {
-        font-size: 27px;
-    }
-
-    .internship-container h1 {
-        font-size: 27px;
-    }
-
     .Collaboration img {
         padding: 40px 25px;
     }
@@ -3575,8 +3567,8 @@ hr {
     border: 0.1px solid #ffffff;
 }
 
-.testimonial-container {
-    /* padding-bottom: 40px; */
+.testimonial-background-container {
+    background-color: #f7f6f2;
 }
 
 .testimonial-pic {
@@ -3602,6 +3594,7 @@ hr {
 .testimonial-container p {
     text-align: center;
     padding: 30px 0;
+    margin: 0;
 }
 
 .testimonial-container p a {
@@ -3696,8 +3689,15 @@ hr {
     .testimonial-pic img {
         padding: 0 25px;
     }
-}
 
+    .internship-container h1 {
+        font-size: 27px;
+    }
+
+    .testimonial-container h1 {
+        font-size: 27px;
+    }
+}
 
 /*  Print Media ******************** */
 .press-release-container {
