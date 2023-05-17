@@ -805,6 +805,7 @@ footer {
 
     #right {
         font-size: 16px;
+        padding: 0 10px;
     }
 }
 
@@ -2149,16 +2150,12 @@ footer {
 }
 
 @media screen and (max-width:425px) {
-    .refund-policy-container ul {
-        /* flex-wrap: wrap;     */
-    }
-
     .refund-policy-container {
         padding: 0 25px;
     }
 
     .refund-policy-container ul li a {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 
@@ -3821,6 +3818,7 @@ hr {
 @media only screen and (max-width: 425px) {
     .editor p {
         font-size: 16px;
+        padding: 0 10px;
     }
 }
 
