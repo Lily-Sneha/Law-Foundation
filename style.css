@@ -22,7 +22,8 @@ body {
 }
 
 .foundation-name img {
-    width: 100px;
+    /* width: 100px; */
+    width: 80px;
 }
 
 .foss-logo a {
@@ -34,7 +35,7 @@ body {
 }
 
 .org-name h1 {
-    font-size: 30px;
+    font-size: 27px;
     padding: 15px 0 0 10px;
     color: rgb(18, 73, 130);
     font-weight: bold;
@@ -44,7 +45,7 @@ body {
 }
 
 .org-name p {
-    padding: 0 0 0 123px;
+    padding: 0 0 0 97px;
     text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
@@ -54,7 +55,7 @@ body {
 #hamburger {
     color: white;
     display: none;
-    font-size: 23px;
+    font-size: 15px;
     border: none;
     padding: 8px;
     border-radius: 5px;
@@ -623,30 +624,26 @@ footer {
 
 /* ****************************************** */
 @media screen and (max-width: 320px) {
-    .foss-logo img {
-        height: 80px;
-    }
-
     .nav-bar {
         padding-right: 0;
     }
 
-    #hamburger {
-        font-size: 18px;
+    /* #hamburger {
+        font-size: 14px;
         padding: 5px;
-    }
+    } */
 
     .org-name h1 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .org-name p {
         font-size: 13px;
     }
 
-    .foundation-name img {
+    /* .foundation-name img {
         width: 80px;
-    }
+    } */
 
     .what h1 {
         font-size: 22px;
@@ -689,14 +686,14 @@ footer {
 
 
 @media screen and (max-width: 375px) {
-    .foundation-name img {
+    /* .foundation-name img {
         width: 80px;
-    }
+    } */
 
-    #hamburger {
+    /* #hamburger {
         font-size: 18px;
         padding: 5px;
-    }
+    } */
 
     .org-name h1 {
         font-size: 16px;
@@ -747,7 +744,7 @@ footer {
 
 @media screen and (max-width: 425px) {
     #hamburger {
-        font-size: 18px;
+        font-size: 15px;
         padding: 5px;
     }
 
@@ -795,13 +792,13 @@ footer {
 
 
 @media only screen and (max-width: 425px) {
-    .org-name h1 {
+    /* .org-name h1 {
         font-size: 20px;
-    }
+    } */
 
-    .foundation-name img {
+    /* .foundation-name img {
         width: 80px;
-    }
+    } */
 
     #right {
         font-size: 16px;
@@ -812,12 +809,12 @@ footer {
 
 @media screen and (max-width: 1024px) {
     .org-name h1 {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     .org-name p {
         font-size: 13px;
-        padding-left: 59px;
+        padding-left: 51px;
     }
 
     .footer-col p {
@@ -828,9 +825,9 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    .foundation-name img {
+    /* .foundation-name img {
         width: 80px;
-    }
+    } */
 
     .nav {
         display: none;
@@ -966,6 +963,12 @@ footer {
     .founder-pic img {
         padding: 0 15px;
     }
+
+    .foundation-name img {
+        width: 45px;
+        height: 45px;
+        margin-top: 8px;
+    }
 }
 
 
@@ -1066,6 +1069,12 @@ footer {
         padding: 0;
     }
 
+    /* .foundation-name img {
+        width: 45px;
+        height: 45px;
+        margin-top: 8px;
+    } */
+
     .founder-pic img {
         padding-top: 50px;
         max-width: 300px;
@@ -1160,9 +1169,9 @@ footer {
         gap: 0;
     }
 
-    .foundation-name img {
+    /* .foundation-name img {
         width: 100px;
-    }
+    } */
 
     .nav-links ul li a {
         font-size: 13px;
@@ -1199,7 +1208,8 @@ footer {
     }
 
     .org-name p {
-        font-size: 15px;
+        font-size: 17px;
+        padding-left: 126px;
     }
 
     .nav-links ul li {
@@ -1210,9 +1220,9 @@ footer {
         gap: 0;
     }
 
-    .foundation-name img {
+    /* .foundation-name img {
         width: 100px;
-    }
+    } */
 
     .nav-links ul li a {
         font-size: 13px;
@@ -1260,9 +1270,10 @@ footer {
         gap: 0;
     }
 
+    /* 
     .foundation-name img {
         width: 100px;
-    }
+    } */
 
     .nav-links ul li a {
         font-size: 13px;
@@ -3043,7 +3054,7 @@ footer {
 
     .emergency-support-container div h1 {
         font-size: 22px;
-        padding: 0 20px;
+        /* padding: 0 20px; */
     }
 
     .emergency-support-container div p {
@@ -3558,6 +3569,7 @@ label {
 }
 
 .internship-container h1 {
+    color: #8a3434;
     text-align: center;
     font-weight: bold;
     font-style: italic;
@@ -3602,6 +3614,7 @@ hr {
 }
 
 .testimonial-container h1 {
+    color: #8a3434;
     text-align: center;
     font-family: 'Shrikhand', cursive;
     font-size: 30px;
@@ -3654,6 +3667,7 @@ hr {
 .publication-head h1 {
     font-family: 'Shrikhand', cursive;
     font-size: 30px;
+    color: #8a3434;
 }
 
 .publication-container h5 {
@@ -3806,6 +3820,7 @@ hr {
 }
 
 .press-release-container h1 {
+    color: #8a3434;
     font-size: 30px;
     text-align: center;
     font-family: 'Shrikhand', cursive;
@@ -3882,7 +3897,7 @@ li {
     font-weight: bold;
     font-family: 'Shrikhand', cursive;
     padding: 30px 0 0;
-    color: #212529;
+    color: #8a3434;
 }
 
 #story-of-changes-container h4 {
@@ -3920,6 +3935,7 @@ li {
 
 #Dharamraj {
     color: #ffffff;
+    padding-bottom: 10px;
     margin: 0;
 }
 
@@ -4143,4 +4159,16 @@ button:hover {
     object-fit: cover;
     object-position: center;
     border-radius: 8px;
+}
+
+
+
+/* responsiveness for all type of screen */
+
+@media only screen and (max-width: 280px) {
+    .foundation-name img {
+        width: 45px;
+        height: 45px;
+        margin-top: 5px
+    }
 }
