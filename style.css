@@ -3127,7 +3127,7 @@ footer {
 
 .Collaboration img {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     padding: 30px 0;
 }
 
@@ -3145,7 +3145,7 @@ footer {
 
 .partnership img {
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 /* Individual Support **************** */
@@ -3162,7 +3162,7 @@ footer {
 
 .individual img {
     width: 100%;
-    max-width: 800px;
+    max-width: 1200px;
 }
 
 /* donation page ************* */
@@ -3175,22 +3175,15 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 0 148px;
+    position: relative;
 }
 
-.donation img {
-    width: 100%;
-    max-width: 800px;
-}
-
-.donation-container .donate-link {
-    padding: 0 0 30px 356px;
-}
-
-.donation-container .donate-link a {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 8px 20px;
-    border-radius: 8px;
+.donate-button {
+    position: absolute;
+    bottom: 58px;
+    left: 365px;
+    padding: 5px 8px;
+    border-radius: 6px;
     font-size: 20px;
     cursor: pointer;
     font-family: "Crimson Pro" - 400;
@@ -3198,9 +3191,64 @@ footer {
     border: 1px solid #0679c5;
 }
 
-.donation-container .donate-link a:hover {
-    background-color: black;
+.donate-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.donate-button:hover {
+    background-color: #0c0c0c;
+}
+
+.donation img {
+    width: 100%;
+    max-width: 1200px;
     border: 1px solid black;
+}
+
+@media only screen and (max-width: 320px) {
+    .donate-button {
+        position: absolute;
+        bottom: 12px;
+        left: 70px;
+        padding: 1px 1px;
+        border-radius: 6px;
+        font-size: 7px;
+        cursor: pointer;
+        font-family: "Crimson Pro" - 400;
+        background-color: #0679c5;
+        border: 1px solid #0679c5;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .donate-button {
+        position: absolute;
+        bottom: 16px;
+        left: 70px;
+        padding: 1px 1px;
+        border-radius: 6px;
+        font-size: 7px;
+        cursor: pointer;
+        font-family: "Crimson Pro" - 400;
+        background-color: #0679c5;
+        border: 1px solid #0679c5;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .donate-button {
+        position: absolute;
+        bottom: 19px;
+        left: 70px;
+        padding: 1px 1px;
+        border-radius: 6px;
+        font-size: 7px;
+        cursor: pointer;
+        font-family: "Crimson Pro" - 400;
+        background-color: #0679c5;
+        border: 1px solid #0679c5;
+    }
 }
 
 @media only screen and (max-width: 1024px) {
@@ -3227,6 +3275,21 @@ footer {
     .donation-container .donate-link a {
         font-size: 16px;
     }
+
+
+    /* donate button */
+    /* .donate-button {
+        position: absolute;
+        bottom: 12px;
+        left: 70px;
+        padding: 1px 1px;
+        border-radius: 6px;
+        font-size: 7px;
+        cursor: pointer;
+        font-family: "Crimson Pro" - 400;
+        background-color: #0679c5;
+        border: 1px solid #0679c5;
+    } */
 }
 
 /*  paragraph and heading font size ************* */
