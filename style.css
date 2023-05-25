@@ -3178,13 +3178,42 @@ footer {
     position: relative;
 }
 
-.donate-button {
-    position: absolute;
-    bottom: 58px;
-    left: 365px;
-    padding: 5px 8px;
-    border-radius: 6px;
+.donation-container-div {
+    padding: 50px 148px 0;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 1.5px;
+}
+
+.donation-container-div p {
     font-size: 20px;
+}
+
+.donation-container-div #donation-head {
+    text-align: center;
+    font-weight: bold;
+    color: #8a3434;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+
+.donation-container-div h1 {
+    text-align: start;
+    font-weight: bold;
+    color: #8a3434;
+    font-size: 30px;
+    font-family: 'Shrikhand', cursive;
+}
+
+.donation-button {
+    display: flex;
+    padding: 0 148px 50px;
+}
+
+.donate-button {
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 18px;
     cursor: pointer;
     font-family: "Crimson Pro" - 400;
     background-color: #0679c5;
@@ -3200,56 +3229,6 @@ footer {
     background-color: #0c0c0c;
 }
 
-.donation img {
-    width: 100%;
-    max-width: 1200px;
-    border: 1px solid black;
-}
-
-@media only screen and (max-width: 320px) {
-    .donate-button {
-        position: absolute;
-        bottom: 12px;
-        left: 70px;
-        padding: 1px 1px;
-        border-radius: 6px;
-        font-size: 7px;
-        cursor: pointer;
-        font-family: "Crimson Pro" - 400;
-        background-color: #0679c5;
-        border: 1px solid #0679c5;
-    }
-}
-
-@media only screen and (max-width: 375px) {
-    .donate-button {
-        position: absolute;
-        bottom: 16px;
-        left: 70px;
-        padding: 1px 1px;
-        border-radius: 6px;
-        font-size: 7px;
-        cursor: pointer;
-        font-family: "Crimson Pro" - 400;
-        background-color: #0679c5;
-        border: 1px solid #0679c5;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .donate-button {
-        position: absolute;
-        bottom: 19px;
-        left: 70px;
-        padding: 1px 1px;
-        border-radius: 6px;
-        font-size: 7px;
-        cursor: pointer;
-        font-family: "Crimson Pro" - 400;
-        background-color: #0679c5;
-        border: 1px solid #0679c5;
-    }
-}
 
 @media only screen and (max-width: 1024px) {
     .partnership {
@@ -3276,21 +3255,31 @@ footer {
         font-size: 16px;
     }
 
+    .donation-container-div {
+        padding: 50px 25px 0;
+    }
 
-    /* donate button */
-    /* .donate-button {
-        position: absolute;
-        bottom: 12px;
-        left: 70px;
-        padding: 1px 1px;
-        border-radius: 6px;
-        font-size: 7px;
-        cursor: pointer;
-        font-family: "Crimson Pro" - 400;
-        background-color: #0679c5;
-        border: 1px solid #0679c5;
-    } */
+    .donation-button {
+        padding: 0 25px 50px;
+    }
+
+    .donation-container-div p {
+        font-size: 18px;
+    }
+
+    .donate-button {
+        font-size: 16px;
+    }
+
+    .donation-container-div h1 {
+        font-size: 27px;
+    }
+
+    .donation-container-div #donation-head {
+        font-size: 27px;
+    }
 }
+
 
 /*  paragraph and heading font size ************* */
 @media only screen and (max-width: 1024px) {
