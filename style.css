@@ -1333,7 +1333,8 @@ footer {
 #about-us {
     text-align: center;
     padding-bottom: 20px;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
 
 }
@@ -1417,7 +1418,8 @@ footer {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     margin: 0;
     padding: 40px 0 0 0;
 }
@@ -1762,7 +1764,8 @@ footer {
 #board-memb {
     text-align: center;
     padding: 40px 0;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
 }
 
@@ -1789,7 +1792,8 @@ footer {
     text-align: center;
     padding-bottom: 20px;
     padding-bottom: 20px;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
 }
 
@@ -1931,7 +1935,8 @@ footer {
 
 #our-team-head {
     text-align: center;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
     padding: 50px 0;
 }
@@ -2433,7 +2438,8 @@ footer {
 #Legal-Status {
     text-align: center;
     padding: 50px 0 20px 0;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
 
 }
@@ -2496,7 +2502,8 @@ footer {
 #CLAP {
     text-align: center;
     padding: 0 0 20px;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
 
 }
@@ -2521,13 +2528,15 @@ footer {
 
 .Children-Conflict-text h1 {
     text-align: center;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
 }
 
 .Children-Conflict-text h2 {
     text-align: center;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 25px;
     padding-bottom: 20px;
 }
@@ -2551,7 +2560,8 @@ footer {
 .CICL-story .stories h1 {
     text-align: center;
     /* font-family: 'Shrikhand', cursive; */
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
     padding: 40px 0 20px 0;
 }
@@ -2661,7 +2671,8 @@ footer {
 
 #Socio-Legal {
     /* font-family: 'Shrikhand', cursive; */
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
@@ -2700,7 +2711,8 @@ footer {
 
 #gender-justice {
     /* font-family: 'Shrikhand', cursive; */
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
     text-align: center;
     padding: 20px 0;
@@ -2823,7 +2835,8 @@ footer {
 #Sustainable-heading {
     text-align: center;
     /* font-family: 'Shrikhand', cursive; */
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
     padding-bottom: 20px;
 }
@@ -2887,7 +2900,8 @@ footer {
 
 #RRR-heading {
     /* font-family: 'Shrikhand', cursive; */
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
     text-align: center;
     padding-bottom: 20px;
@@ -2937,7 +2951,8 @@ footer {
 #PAHEL-heading {
     text-align: center;
     /* font-family: 'Shrikhand', cursive; */
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     font-size: 30px;
     padding-bottom: 30px;
 }
@@ -3756,7 +3771,8 @@ label {
 }
 
 .internship-container h1 {
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     text-align: center;
     font-weight: bold;
     font-style: italic;
@@ -3801,7 +3817,8 @@ hr {
 }
 
 .testimonial-container h1 {
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
     text-align: center;
     /* font-family: 'Shrikhand', cursive; */
     font-size: 30px;
@@ -3854,7 +3871,8 @@ hr {
 .publication-head h1 {
     /* font-family: 'Shrikhand', cursive; */
     font-size: 30px;
-    color: #8a3434;
+    /* color: #8a3434; */
+    color: RGB(35, 72, 126);
 }
 
 .publication-container h5 {
