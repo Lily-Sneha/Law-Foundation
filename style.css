@@ -527,7 +527,8 @@ ul li a {
 .media-links ul li a {
     text-decoration: none;
     font-size: 20px;
-    color: #db1313;
+    color: RGB(35, 72, 126);
+    /* color: #db1313; */
     /* font-family: 'Alkatra'; */
 
     font-family: "Roboto", sans-serif;
@@ -536,7 +537,8 @@ ul li a {
 }
 
 .media-links ul li a:hover {
-    color: #282727;
+    /* color: #282727; */
+    color: #ffffff;
 }
 
 
