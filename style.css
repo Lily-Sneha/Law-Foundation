@@ -15,12 +15,6 @@ p {
     font-style: normal;
 }
 
-/* .roboto-regular {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  } */
-
 body {
     overflow-x: hidden;
 }
@@ -54,8 +48,6 @@ body {
     margin: 0;
     letter-spacing: 1.5px;
     font-family: 'Crimson Pro', serif;
-    /* font-family: "Roboto", sans-serif;
-    font-style: normal; */
 }
 
 .org-name p {
@@ -63,7 +55,6 @@ body {
     text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
-    /* font-family: 'Alkatra'; */
 
 }
 
@@ -330,7 +321,20 @@ ul li a {
     justify-content: center;
     align-items: center;
     background-color: #f6f5ef;
-    padding: 80px 20px;
+    /* padding: 80px 20px; */
+
+}
+
+/* .cover-image {
+    background-image: url(./photo/Website\ Cover\ Photo_Landscape.png);
+    width: 100%;
+    max-width: 100%;
+} */
+
+
+.description {
+    padding: 50px;
+    color: #feffff
 }
 
 .story {
@@ -340,11 +344,9 @@ ul li a {
 }
 
 .story h1 {
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -453,7 +455,6 @@ ul li a {
 
 .card-head {
     font-size: 27px;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -464,7 +465,6 @@ ul li a {
     text-align: justify;
     line-height: 1.5;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -480,7 +480,6 @@ ul li a {
     text-align: center;
     padding-top: 80px;
     padding-bottom: 30px;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
 
@@ -529,7 +528,6 @@ ul li a {
     font-size: 20px;
     color: RGB(35, 72, 126);
     /* color: #db1313; */
-    /* font-family: 'Alkatra'; */
 
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -553,7 +551,6 @@ footer {
     font-weight: bold;
     color: #ffff;
     margin-left: 7px;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -613,7 +610,6 @@ footer {
 
 .footer-icon p {
     margin: 0;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -680,10 +676,6 @@ footer {
         font-size: 13px;
     }
 
-    /* .foundation-name img {
-        width: 80px;
-    } */
-
     .what h1 {
         font-size: 22px;
     }
@@ -725,15 +717,6 @@ footer {
 
 
 @media screen and (max-width: 375px) {
-    /* .foundation-name img {
-        width: 80px;
-    } */
-
-    /* #hamburger {
-        font-size: 18px;
-        padding: 5px;
-    } */
-
     .org-name h1 {
         font-size: 16px;
     }
@@ -831,14 +814,6 @@ footer {
 
 
 @media only screen and (max-width: 425px) {
-    /* .org-name h1 {
-        font-size: 20px;
-    } */
-
-    /* .foundation-name img {
-        width: 80px;
-    } */
-
     #right {
         font-size: 16px;
         padding: 0 10px;
@@ -864,10 +839,6 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    /* .foundation-name img {
-        width: 80px;
-    } */
-
     .nav {
         display: none;
     }
@@ -1108,12 +1079,6 @@ footer {
         padding: 0;
     }
 
-    /* .foundation-name img {
-        width: 45px;
-        height: 45px;
-        margin-top: 8px;
-    } */
-
     .founder-pic img {
         padding-top: 50px;
         max-width: 300px;
@@ -1208,10 +1173,6 @@ footer {
         gap: 0;
     }
 
-    /* .foundation-name img {
-        width: 100px;
-    } */
-
     .nav-links ul li a {
         font-size: 13px;
     }
@@ -1259,10 +1220,6 @@ footer {
         gap: 0;
     }
 
-    /* .foundation-name img {
-        width: 100px;
-    } */
-
     .nav-links ul li a {
         font-size: 13px;
     }
@@ -1309,11 +1266,6 @@ footer {
         gap: 0;
     }
 
-    /* 
-    .foundation-name img {
-        width: 100px;
-    } */
-
     .nav-links ul li a {
         font-size: 13px;
     }
@@ -1335,7 +1287,6 @@ footer {
 #about-us {
     text-align: center;
     padding-bottom: 20px;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
 
@@ -1346,10 +1297,8 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -1420,7 +1369,6 @@ footer {
     font-size: 30px;
     font-weight: bold;
     text-align: center;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     margin: 0;
     padding: 40px 0 0 0;
@@ -1431,11 +1379,9 @@ footer {
     padding: 20px 20px 10px;
     word-spacing: 1.5px;
     line-height: 1.7;
-    /* font-family: 'Alkatra'; */
     font-size: 20px;
 
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -1704,11 +1650,9 @@ footer {
     color: black;
     word-spacing: 1.5px;
     line-height: 1.7;
-    /* font-family: 'Alkatra'; */
     font-size: 20px;
 
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -1751,10 +1695,8 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
     font-weight: bold;
-    /* font-family: 'Alkatra'; */
 
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -1766,7 +1708,6 @@ footer {
 #board-memb {
     text-align: center;
     padding: 40px 0;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
 }
@@ -1794,7 +1735,6 @@ footer {
     text-align: center;
     padding-bottom: 20px;
     padding-bottom: 20px;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
 }
@@ -1802,7 +1742,6 @@ footer {
 .who-we-are-text p {
     word-spacing: 1.5px;
     line-height: 1.7;
-    /* font-family: 'Alkatra'; */
     font-size: 20px;
 }
 
@@ -1878,9 +1817,7 @@ footer {
     text-align: center;
     font-weight: bold;
     padding: 0;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -1890,9 +1827,7 @@ footer {
     margin-bottom: 0;
     text-align: center;
     font-weight: bold;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
@@ -1900,9 +1835,7 @@ footer {
     color: black;
     word-spacing: 1.5px;
     line-height: 1.7;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
     font-size: 20px;
 }
@@ -1914,30 +1847,23 @@ footer {
 
 .team-title {
     padding-top: 30px;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
 .team-title h4 {
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
 .team-title h5 {
     font-size: 18px;
-    /* font-family: 'Alkatra'; */
     font-family: "Roboto", sans-serif;
-    /* font-weight: 400; */
     font-style: normal;
 }
 
 #our-team-head {
     text-align: center;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     padding: 50px 0;
@@ -2057,7 +1983,6 @@ footer {
 
 .impact h1 {
     text-align: center;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     padding: 33px 0 50px 0;
@@ -2183,7 +2108,6 @@ footer {
 
 .refund-container h1 {
     text-align: center;
-    /* color: #8a3434; */
     font-size: 30px;
 }
 
@@ -2440,7 +2364,6 @@ footer {
 #Legal-Status {
     text-align: center;
     padding: 50px 0 20px 0;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
 
@@ -2449,7 +2372,6 @@ footer {
 .legal ul li {
     list-style: square;
     font-size: 20px;
-    /* font-family: 'Alkatra'; */
     line-height: 1.7;
     word-spacing: 1.5px;
     text-align: justify;
@@ -2504,7 +2426,6 @@ footer {
 #CLAP {
     text-align: center;
     padding: 0 0 20px;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
 
@@ -2514,7 +2435,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 
@@ -2530,14 +2450,12 @@ footer {
 
 .Children-Conflict-text h1 {
     text-align: center;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
 }
 
 .Children-Conflict-text h2 {
     text-align: center;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 25px;
     padding-bottom: 20px;
@@ -2547,7 +2465,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 #clap-img img {
@@ -2561,25 +2478,20 @@ footer {
 
 .CICL-story .stories h1 {
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     padding: 40px 0 20px 0;
 }
 
 .CICL-story .stories h4 {
-    /* font-family: 'Shrikhand', cursive; */
     text-align: center;
 }
 
 .CICL-story .stories h5 {
-    /* font-family: 'Shrikhand', cursive; */
     text-align: center;
 }
 
 .CICL-story .stories p {
-    /* font-family: 'Alkatra'; */
     text-align: justify;
 }
 
@@ -2668,12 +2580,9 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 #Socio-Legal {
-    /* font-family: 'Shrikhand', cursive; */
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     text-align: center;
@@ -2712,8 +2621,6 @@ footer {
 }
 
 #gender-justice {
-    /* font-family: 'Shrikhand', cursive; */
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     text-align: center;
@@ -2725,7 +2632,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 .legal-aid-services {
@@ -2836,8 +2742,6 @@ footer {
 
 #Sustainable-heading {
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     padding-bottom: 20px;
@@ -2847,7 +2751,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 .mental-health-pic {
@@ -2901,8 +2804,6 @@ footer {
 }
 
 #RRR-heading {
-    /* font-family: 'Shrikhand', cursive; */
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     text-align: center;
@@ -2914,7 +2815,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 @media only screen and (max-width: 768px) {
@@ -2952,8 +2852,6 @@ footer {
 
 #PAHEL-heading {
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     font-size: 30px;
     padding-bottom: 30px;
@@ -2963,7 +2861,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 .PAHEL-Fellowship-pic-container img {
@@ -2998,7 +2895,6 @@ footer {
 
 #Community-awareness-heading {
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
     color: #8a3434;
     font-size: 30px;
     font-size: 31px;
@@ -3009,7 +2905,6 @@ footer {
     text-align: justify;
     line-height: 1.7;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
 }
 
 
@@ -3054,7 +2949,6 @@ footer {
 }
 
 .home-visit-container div h1 {
-    /* font-family: 'Shrikhand', cursive; */
     color: #8a3434;
     font-size: 30px;
     padding-bottom: 20px;
@@ -3063,7 +2957,6 @@ footer {
 }
 
 .home-visit-container div p {
-    /* font-family: 'Alkatra'; */
     font-weight: normal;
     text-align: justify;
     line-height: 1.7;
@@ -3118,7 +3011,6 @@ footer {
 }
 
 .prison-visit-container .prison-visit h1 {
-    /* font-family: 'Shrikhand', cursive; */
     color: #8a3434;
     font-size: 30px;
     padding-bottom: 20px;
@@ -3128,7 +3020,6 @@ footer {
 
 
 .prison-visit-container .prison-visit p {
-    /* font-family: 'Alkatra'; */
     font-weight: normal;
     text-align: justify;
     line-height: 1.7;
@@ -3183,7 +3074,6 @@ footer {
 }
 
 .emergency-support-container div h1 {
-    /* font-family: 'Shrikhand', cursive; */
     color: #8a3434;
     font-size: 30px;
     padding-bottom: 20px;
@@ -3192,7 +3082,6 @@ footer {
 }
 
 .emergency-support-container div p {
-    /* font-family: 'Alkatra'; */
     font-weight: normal;
     text-align: justify;
     line-height: 1.7;
@@ -3226,7 +3115,6 @@ footer {
 
 #legal-heading {
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
     padding: 20px 0;
 }
 
@@ -3346,7 +3234,6 @@ footer {
     font-weight: bold;
     color: #8a3434;
     font-size: 30px;
-    /* font-family: 'Shrikhand', cursive; */
 }
 
 .donation-container-div h1 {
@@ -3354,7 +3241,6 @@ footer {
     font-weight: bold;
     color: #8a3434;
     font-size: 30px;
-    /* font-family: 'Shrikhand', cursive; */
 }
 
 .donation-button {
@@ -3773,19 +3659,16 @@ label {
 }
 
 .internship-container h1 {
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     text-align: center;
-    font-weight: bold;
+    /* font-weight: bold; */
     font-style: italic;
     font-size: 30px;
     padding-bottom: 40px;
     margin-bottom: 0;
-    /* font-family: 'Shrikhand', cursive; */
 }
 
 .internship-container p {
-    /* font-family: 'Alkatra'; */
     text-align: justify;
 }
 
@@ -3819,10 +3702,8 @@ hr {
 }
 
 .testimonial-container h1 {
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
     font-size: 30px;
     padding: 40px 0;
     font-weight: bold;
@@ -3856,7 +3737,6 @@ hr {
 
 /*  vacancies ****************** */
 .vacancies h1 {
-    /* font-family: 'Shrikhand', cursive; */
     font-size: 30px;
 }
 
@@ -3871,19 +3751,15 @@ hr {
 }
 
 .publication-head h1 {
-    /* font-family: 'Shrikhand', cursive; */
     font-size: 30px;
-    /* color: #8a3434; */
     color: RGB(35, 72, 126);
 }
 
 .publication-container h5 {
-    /* font-family: 'Alkatra'; */
     font-size: 22px;
 }
 
 .publication-container p {
-    /* font-family: 'Alkatra'; */
     font-size: 18px;
 }
 
@@ -3966,7 +3842,6 @@ hr {
     background: #ffffff;
     margin: 5px;
     padding: 15px;
-    /* font-family: 'Alkatra'; */
 }
 
 .print-media h6 {
@@ -3977,7 +3852,6 @@ hr {
 
 .print-media p {
     text-align: justify;
-    /* font-family: 'Alkatra'; */
     font-size: 20px;
 }
 
@@ -4021,16 +3895,14 @@ hr {
 
 .press-container h1 {
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
     font-size: 30px;
     padding-top: 50px;
 }
 
 .press-release-container h1 {
-    color: #8a3434;
+    color: RGB(35, 72, 126);
     font-size: 30px;
     text-align: center;
-    /* font-family: 'Shrikhand', cursive; */
 }
 
 .editor p {
@@ -4102,23 +3974,19 @@ li {
 #story-of-changes-container h1 {
     text-align: center;
     font-size: 30px;
-    font-weight: bold;
-    /* font-family: 'Shrikhand', cursive; */
     padding: 30px 0 0;
-    color: #8a3434;
+    color: RGB(35, 72, 126);
 }
 
 #story-of-changes-container h4 {
     text-align: center;
     font-size: 23px;
-    font-weight: bold;
+    color: RGB(35, 72, 126);
     padding: 30px 0 0;
-    /* font-family: 'Shrikhand', cursive; */
 }
 
 #story-of-changes-container h5 {
     text-align: center;
-    /* font-family: 'Alkatra'; */
 }
 
 #story-of-changes-container p,
@@ -4132,7 +4000,6 @@ li {
     padding: 15px 0;
     line-height: 1.5;
     word-spacing: 1.5px;
-    /* font-family: 'Alkatra'; */
     margin: 0;
 }
 
@@ -4158,7 +4025,6 @@ li {
 
 #Dharamraj li {
     font-size: 20px;
-    /* font-family: 'Alkatra'; */
 }
 
 #aman {
@@ -4378,5 +4244,63 @@ button:hover {
         width: 45px;
         height: 45px;
         margin-top: 5px
+    }
+}
+
+
+/* update */
+.hero-image img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+}
+
+
+.hero-description {
+    width: 100%;
+    max-width: 45%;
+    text-align: start;
+    position: absolute;
+    top: 409px;
+    left: 122px;
+    background-color: #ffff;
+    padding: 45px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+    .small-screen-description {
+        display: none;
+
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .hero-description {
+        display: none;
+    }
+
+    .small-screen-description {
+        display: block;
+        padding: 15px;
+        font-family: "Roboto", sans-serif;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-description {
+        font-size: 15px;
+        top: 160px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .hero-description {
+        left: 30px;
+        padding: 20px;
+        top: 170px;
+
     }
 }
