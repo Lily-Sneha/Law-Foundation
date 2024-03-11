@@ -4248,7 +4248,7 @@ button:hover {
 }
 
 
-/* update */
+/* update ************** */
 .hero-image img {
     width: 100%;
     max-width: 100%;
@@ -4268,6 +4268,25 @@ button:hover {
     padding: 45px;
     font-size: 20px;
     font-family: "Roboto", sans-serif;
+    text-align: justify;
+}
+
+.small-screen-description {
+    text-align: justify;
+    font-size: 18px;
+}
+
+#prisoner-section {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    color: RGB(35, 72, 126);
+
+}
+
+.why-work-with-prisoners {
+    padding: 50px 162px;
+    text-align: justify;
+    font-size: 20px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -4302,5 +4321,14 @@ button:hover {
         padding: 20px;
         top: 170px;
 
+    }
+
+    .why-work-with-prisoners {
+        padding: 0 25px;
+        font-size: 18px;
+    }
+
+    #prisoner-section {
+        font-size: 27px;
     }
 }
