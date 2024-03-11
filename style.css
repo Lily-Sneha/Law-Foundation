@@ -4280,7 +4280,7 @@ button:hover {
     font-size: 30px;
     font-family: "Roboto", sans-serif;
     color: RGB(35, 72, 126);
-
+    text-align: center;
 }
 
 .why-work-with-prisoners {
