@@ -4328,7 +4328,15 @@ section .why-work-with-prisoners {
         font-size: 18px;
     }
 
-    #prisoner-section {
+    .why-work-with-prisoners #prisoner-section {
         font-size: 27px;
+    }
+
+    section .why-work-with-prisoners {
+        padding: 0 25px;
+    }
+
+    section .why-work-with-prisoners p {
+        font-size: 18px;
     }
 }
