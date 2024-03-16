@@ -4257,20 +4257,6 @@ button:hover {
 }
 
 
-.hero-description {
-    width: 100%;
-    max-width: 45%;
-    text-align: start;
-    position: absolute;
-    top: 409px;
-    left: 122px;
-    background-color: #ffff;
-    padding: 45px;
-    font-size: 20px;
-    font-family: "Roboto", sans-serif;
-    text-align: justify;
-}
-
 .small-screen-description {
     text-align: justify;
     font-size: 18px;
@@ -4296,32 +4282,17 @@ section .why-work-with-prisoners {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    .hero-description {
-        display: none;
-    }
+@media only screen and (max-width: 768px) {
 
     .small-screen-description {
         display: block;
-        padding: 15px;
+        padding: 15px 25px;
         font-family: "Roboto", sans-serif;
     }
 }
 
-@media only screen and (max-width: 768px) {
-    .hero-description {
-        font-size: 15px;
-        top: 160px;
-    }
-}
 
 @media only screen and (max-width: 1024px) {
-    .hero-description {
-        left: 30px;
-        padding: 20px;
-        top: 170px;
-
-    }
 
     .why-work-with-prisoners {
         padding: 0 25px;
@@ -4330,6 +4301,7 @@ section .why-work-with-prisoners {
 
     .why-work-with-prisoners #prisoner-section {
         font-size: 27px;
+        padding: 30px;
     }
 
     section .why-work-with-prisoners {
@@ -4338,5 +4310,39 @@ section .why-work-with-prisoners {
 
     section .why-work-with-prisoners p {
         font-size: 18px;
+    }
+}
+
+
+/* dummy code */
+section .description-parent {
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+section .description-parent .description-child {
+    padding: 30px;
+    background-color: #f1f1f1;
+    position: absolute;
+    bottom: 75px;
+    width: 100%;
+    max-width: 301px;
+    right: 50px;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+@media only screen and (max-width: 768px) {
+    section .description-parent .description-child {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    section .description-parent .description-child {
+        font-size: 18px;
+        bottom: 45px;
     }
 }
