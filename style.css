@@ -103,7 +103,7 @@ body {
 }
 
 .nav.donate {
-    background-color: #bb2326;
+    background-color: rgb(19, 74, 131);
     border-radius: 25px;
 }
 
@@ -113,7 +113,7 @@ body {
 }
 
 #navi #donation a {
-    background-color: #bb2326;
+    background-color: rgb(19, 74, 131);
     border-radius: 25px;
     color: #ffffff;
     font-weight: bold;
