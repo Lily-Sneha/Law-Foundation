@@ -65,3 +65,10 @@ var swiper = new Swiper(".mySwiper", {
     },
 });
 
+// dummy
+
+const para = document.createElement("p");
+const node = document.createTextNode("+");
+para.appendChild(node);
+const element = document.getElementsByClassName("statistic-counter");
+element.appendChild(para);
