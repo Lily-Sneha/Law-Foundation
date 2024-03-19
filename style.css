@@ -51,7 +51,7 @@ body {
 }
 
 .org-name p {
-    padding: 0 0 0 97px;
+    padding: 0 0 0 91px;
     text-align: center;
     color: rgb(18, 73, 130);
     font-style: italic;
@@ -1140,6 +1140,10 @@ footer {
 
     .our-story {
         padding: 0 15px;
+    }
+
+    .org-name p {
+        padding-left: 47px;
     }
 
 }
