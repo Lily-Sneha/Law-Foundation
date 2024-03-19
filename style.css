@@ -363,7 +363,7 @@ ul li a {
 
 /*  What we do  ************************/
 #what-we-do-section {
-    background-color: #e9e7e0;
+    /* background-color: #e9e7e0; */
 }
 
 .what-we-do {
@@ -413,7 +413,7 @@ ul li a {
 
 .card-container {
     background-color: #ffffff;
-    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+    filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 70px rgb(0 0 0 / 0.08));
     padding: 30px 10px 20px 10px;
     display: flex;
     justify-content: center;
@@ -1419,7 +1419,7 @@ footer {
 
 /* Advisory board member ******************** */
 .board-members {
-    background-image: url(./photo/background4.jpeg);
+    /* background-image: url(./photo/background4.jpeg); */
 }
 
 #Board-Members {
@@ -1599,11 +1599,11 @@ footer {
 
 /*  our team **************************************** */
 .who-we-are-container {
-    background-color: #e9e7e0;
+    /* background-color: #e9e7e0; */
 }
 
 .our-team {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .team-container {
@@ -1759,7 +1759,7 @@ footer {
 
 /* Our Team ********************************* */
 .team-background-color {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .buttons-preview {
@@ -2358,7 +2358,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 100px 0 150px;
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .legal {
@@ -2420,7 +2420,7 @@ footer {
 /* CLAP-container *********************** */
 .CLAP-container {
     padding: 50px 0 80px 0;
-    background-color: #f9f6f2;
+    /* background-color: #f9f6f2; */
 }
 
 .CLAP-container div {
@@ -2445,7 +2445,7 @@ footer {
 /* Children-Conflict-Container ************** */
 .Conflict-container {
     padding-bottom: 80px;
-    background-color: #f9f6f2;
+    /* background-color: #f9f6f2; */
 }
 
 .Children-Conflict-text {
@@ -2476,9 +2476,9 @@ footer {
     padding: 130px 0 0 0;
 }
 
-.CICL-story {
+/* .CICL-story {
     background-image: url(./photo/CICL\ Dharamraj\ Kumar.png);
-}
+} */
 
 .CICL-story .stories h1 {
     text-align: center;
@@ -2558,9 +2558,7 @@ footer {
 
 /* Initiative  */
 /* socio legal aid services *******************/
-.initiative-background {
-    background-color: #f8f6f1;
-}
+
 
 #socio-legal-aid-container {
     display: flex;
@@ -2846,7 +2844,7 @@ footer {
 /* PAHEL Feloowship ********************************* */
 .PAHEL-Fellowship-container {
     padding: 50px 148px;
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .PAHEL-Fellowship-pic-container {
@@ -2890,7 +2888,7 @@ footer {
 /* Community awareness **************** */
 
 .Community-awareness-main-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .Community-awareness-container {
@@ -2945,7 +2943,7 @@ footer {
 
 /* Home Visit ****************** */
 .home-visit-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .home-visit-text-container {
@@ -3007,7 +3005,7 @@ footer {
 
 /* prison Visit ******************* */
 .prison-visit-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .prison-visit-container .prison-visit {
@@ -3070,7 +3068,7 @@ footer {
 
 /* Emergency Support Program ****************** */
 .emergency-support-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .emergency-support-container div {
@@ -3166,7 +3164,7 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(180deg, #f1f0e8, #f1f0e8);
+    /* background: linear-gradient(180deg, #f1f0e8, #f1f0e8); */
 }
 
 .Collaboration img {
@@ -3177,7 +3175,7 @@ footer {
 
 /* Partnership ************************* */
 .partnership-container {
-    background: #f1f0e8;
+    /* background: #f1f0e8; */
 }
 
 .partnership {
@@ -3194,7 +3192,7 @@ footer {
 
 /* Individual Support **************** */
 .individual-container {
-    background: #f1f0e8;
+    /* background: #f1f0e8; */
 }
 
 .individual {
@@ -3211,7 +3209,7 @@ footer {
 
 /* donation page ************* */
 .donation-container {
-    background: #f1f0e8;
+    /* background: #f1f0e8; */
 }
 
 .donation {
@@ -3658,10 +3656,6 @@ label {
 
 
 /* Join Us ************************* */
-.internship-container {
-    background-color: #f6f5ef;
-}
-
 .internship-container h1 {
     color: RGB(35, 72, 126);
     text-align: center;
@@ -3696,7 +3690,7 @@ hr {
 }
 
 .testimonial-background-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .testimonial-pic {
@@ -3747,7 +3741,7 @@ hr {
 /* Publication **************** */
 .publication-container {
     padding: 50px;
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .journal-publication-container {
@@ -3785,7 +3779,7 @@ hr {
 }
 
 .publication {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     margin: 10px;
     padding: 10px;
 }
@@ -3826,11 +3820,11 @@ hr {
 
 /*  Print Media ******************** */
 .press-release-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .press-release-container {
-    background-color: #f7f6f1;
+    /* background-color: #f7f6f1; */
 }
 
 .print-media-container {
@@ -3843,7 +3837,7 @@ hr {
 
 .print-media div {
     border: 1px solid grey;
-    background: #ffffff;
+    /* background: #ffffff; */
     margin: 5px;
     padding: 15px;
 }
@@ -3962,14 +3956,6 @@ hr {
     margin: 0 0 70px 0;
 }
 
-#story-of-changes-container h1,
-h4,
-h5,
-p,
-li {
-    /* font-family: 'Crimson Pro', serif; */
-
-}
 
 #story-of-change-head {
     padding: 50px 0 30px;
@@ -4013,7 +3999,7 @@ li {
 }
 
 #Dharamraj {
-    color: #ffffff;
+    /* color: #ffffff; */
     padding-bottom: 10px;
     margin: 0;
 }
@@ -4031,7 +4017,7 @@ li {
     font-size: 20px;
 }
 
-#aman {
+/* #aman {
     background-image: url(./photo/Aman\ Kumar.png);
 }
 
@@ -4041,13 +4027,13 @@ li {
 
 #pratibha {
     background-image: url(./photo/Pratibha\ Devi\ \(1\).png);
-}
+} */
 
-
+/* 
 #Rehan,
 #Ranjay {
     background-color: #dbdbdb;
-}
+} */
 
 @media only screen and (max-width: 425px) {
     .stories {
@@ -4081,7 +4067,7 @@ li {
 
 /* Annual Report *************** */
 .annual-report-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .Annual-Reports-card-container {
@@ -4093,7 +4079,7 @@ li {
 
 .annual-report-pic {
     padding: 20px;
-    background-color: #feffff;
+    /* background-color: #feffff; */
     border-radius: 10px;
     box-shadow: 3px 3px 10px #888888;
 }
@@ -4216,7 +4202,7 @@ button:hover {
 
 /* Gallery *************** */
 .gallery-main-container {
-    background-color: #f7f6f2;
+    /* background-color: #f7f6f2; */
 }
 
 .gallery-container {
