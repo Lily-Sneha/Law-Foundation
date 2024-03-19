@@ -541,6 +541,9 @@ ul li a {
 
 
 /*  footer  ***********/
+
+
+
 footer {
     background-color: #2d538d;
     padding: 40px 85px 0 85px;
@@ -662,11 +665,6 @@ footer {
     .nav-bar {
         padding-right: 0;
     }
-
-    /* #hamburger {
-        font-size: 14px;
-        padding: 5px;
-    } */
 
     .org-name h1 {
         font-size: 15px;
@@ -1973,9 +1971,7 @@ footer {
 
 
 /* ********** Our Impact ************** */
-.impact {
-    background-color: #f6f5ef;
-}
+
 
 .impact-main-container {
     padding: 50px 133px;
@@ -2058,22 +2054,6 @@ footer {
     background: linear-gradient(to bottom, rgb(19, 74, 131) 49%, transparent 50%);
     border-color: rgb(19, 74, 131);
 }
-
-.counter.yellow {
-    color: rgb(19, 74, 131);
-    background: linear-gradient(to bottom, rgb(19, 74, 131) 49%, transparent 50%);
-    border-color: rgb(19, 74, 131);
-}
-
-.counter.grey {
-    color: rgb(19, 74, 131);
-    background: linear-gradient(to bottom, rgb(19, 74, 131) 49%, transparent 50%);
-    border-color: rgb(19, 74, 131);
-}
-
-/* #plus {
-    color: #ffffff;
-} */
 
 @media screen and (max-width:990px) {
     .counter {
@@ -4384,5 +4364,14 @@ section .description-parent .description-child {
 
     .image-container {
         flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .footer-container {
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
     }
 }
