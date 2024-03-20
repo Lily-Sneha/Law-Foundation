@@ -2285,7 +2285,7 @@ footer {
     display: flex;
     text-align: center;
     justify-content: center;
-    background: linear-gradient(180deg, #f5f4ee, #f5f4ee);
+    /* background: linear-gradient(180deg, #f5f4ee, #f5f4ee); */
 }
 
 .journey img {
