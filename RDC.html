@@ -3,26 +3,13 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="description"
-        content="Law foundation is non-for-profit organisation, carrying out grassroot level interventions since 2016 under the Criminal Justice Fellowship Programme of Tata Institute of Social Sciences, Mumbai and registered as a Trust in 2019.">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Legal | Law Foundation</title>
-    <link rel="icon" href="./logo/law-logo.jpeg">
-
-    <!-- bootstrap link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
-        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-
-    <!-- CSS link -->
-    <link rel="stylesheet" href="style.css">
+    <!-- Swiper Css link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 
     <!-- Google font link -->
-    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;600&family=Fira+Sans+Condensed&family=Over+the+Rainbow&family=Rubik:wght@500&family=Shrikhand&family=Sofia+Sans:wght@200;300&display=swap"
-        rel="stylesheet"> -->
+
+
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,8 +17,19 @@
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
 
-    <!-- Font awesome cdn link -->
+    <!-- bootstrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+    <!--  Css Link -->
+    <link rel="stylesheet" href="./style.css">
+
+    <!-- Font awesome link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Google search console -->
+    <meta name="google-site-verification" content="gXGLglusMrD91zeZH8SD8ldXzonl0kiV-JDWcqT5PN8" />
+</head>
 
 <body>
     <div class="header">
@@ -40,13 +38,13 @@
                 <div class="foss-logo grid">
                     <a href="./index.html"><img src="./logo/law-logo.jpeg" alt="Law Foundation"></a>
                 </div>
-
                 <div class="org-name grid">
                     <a href="./index.html">
                         <h1>LAW FOUNDATION</h1>
                     </a>
                     <p>A Pathway to Justice</p>
                 </div>
+
 
                 <!-- Hamburger ********* -->
                 <div class="hamburgerLogo grid">
@@ -59,13 +57,12 @@
             <div class="nav-links" id="navLinks">
                 <ul id="navigation">
 
-                    <li class="nav list-item" id="home"><a class="home-highlight" href="./index.html">ABOUT US<i
+                    <li class="nav list-item" id="home"><a class="home-highlight" href="./about.html">ABOUT US<i
                                 class="fa-sharp fa-solid fa-caret-down home-highlight" id="drop-icon1"></i></a>
                         <ul class="list">
-                            <!-- <li><a class="links" href="./about.html">ABOUT US</a></li> -->
                             <li><a class="links" href="./ourJourney.html">Our Journey</a></li>
                             <li><a class="links" href="./ourTeam.html">Our Team</a></li>
-                            <li><a class="links" href="">Legal Status</a></li>
+                            <li><a class="links" href="./legalStatus.html">Legal Status</a></li>
                         </ul>
                     </li>
 
@@ -76,9 +73,11 @@
                             <li><a class="links" href="./SociolegalAid.html">Socio Legal Aid</a></li>
                             <li><a class="links" href="./GenderJustice.html">Gender Justice</a></li>
                             <li><a class="links" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
-                            <li><a class="links" href="./RDC.html">RDC</a></li>
+                            <li><a class="links" href="">RDC</a></li>
+
                         </ul>
                     </li>
+
 
 
                     <li class="nav list-item"><a>GET INVOLVED<i class="fa-sharp fa-solid fa-caret-down"
@@ -109,15 +108,16 @@
                 </ul>
             </div>
 
+
             <!-- ############## Second nav dropdownmenu navbar ################ -->
             <ul id="navi" style="display: none;">
                 <li class="navi2" id="about-drop"><a href="">ABOUT US<i class="fa-sharp fa-solid fa-caret-down"
                             id="drop-icon1"></i></a>
                     <ul class="list2 second-drop">
-                        <!-- <li><a class="second-link" href="./about.html">ABOUT US</a></li> -->
+                        <!-- <li><a class="second-link" href="./about.html">About Us</a></li> -->
                         <li><a class="second-link" href="./ourJourney.html">Our Journey</a></li>
                         <li><a class="second-link" href="./ourTeam.html">Our Team</a></li>
-                        <li><a class="second-link" href="">Legal Status</a></li>
+                        <li><a class="second-link" href="./legalStatus.html">Legal Status</a></li>
                     </ul>
                 </li>
 
@@ -128,9 +128,11 @@
                         <li><a class="second-link" href="./SociolegalAid.html">Socio Legal Aid</a></li>
                         <li><a class="second-link" href="./GenderJustice.html">Gender Justice</a></li>
                         <li><a class="second-link" href="./RRR.html">Release Rehabilitation Reintegration</a></li>
-                        <li><a class="second-link" href="./RDC.html">RDC</a></li>
+                        <li><a class="second-link" href="">RDC</a></li>
+
                     </ul>
                 </li>
+
 
 
 
@@ -164,80 +166,172 @@
         </nav>
     </div>
 
+    <!-- RDC section -->
+    <div class="RDC-heading">
+        <h1>Executive Description of the Research &
+            Development Centre of LAW
+            FOUNDATION</h1>
 
-    <!--  Legal Status -->
-    <div class="legal-container">
-        <div class="legal">
-            <h1 id="Legal-Status">Legal Status</h1>
 
-            <ul>
-                <li>
-                    We are a Registered organization under the
-                    Indian Trusts Act,
-                    1882, at Patna, Bihar and eligible to
-                    work in any part of India.
-                </li>
+        <section>
+            <div class="RDC-container">
+                <div class="row row-cols-lg-2 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 RDC-mission-vision">
+                    <div class="col">
+                        <h4>Mission of the RDC</h4>
+                        <p>
+                            Transformative change within the society through pioneering research and interventions, all
+                            aimed it
+                            fostering the more equitable, accountable and just society for all.
+                        </p>
 
-                <li>
-                    We have 12 A certification from Income Tax
-                    Department,
-                    Government of India.
-                </li>
+                    </div>
 
-                <li>
-                    We have 80 G certification from Income Tax
-                    Department,
-                    Government of India.
-                </li>
 
-                <li>
-                    We have Tax Deduction Account Number from Income
-                    Tax
-                    Department, Government of India.
-                </li>
-                <li>
-                    We have NGO Darpan registration Id from NITI Aayog, Government of India.
-                </li>
-            </ul>
+                    <div class="col">
+                        <h4>Vision of the RDC</h4>
 
-        </div>
+                        <p>
+                            Transformative change within the society through pioneering research and interventions, all
+                            aimed it
+                            fostering the more equitable, accountable and just society for all.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-        <div class="legalstatus-pic">
-            <img src="./photo/Lrgal Status.png" alt="Legal Status Image">
-        </div>
+        <!-- ********* -->
+        <section>
+            <div class="Core-work-of-LAW-FOUNDATION">
+                <h4>Core-work of LAW FOUNDATION </h4>
+                <p>
+                    Our core work centers on the facilitation of socio-legal aid services, extensive networking,
+                    comprehensive training, and strategic advocacy pertaining to both the custodial population and the
+                    socio-economically marginalized communities. Additionally, our work is dedicated to the
+                    rehabilitation and reintegration of vulnerable individuals and groups from socio-economically
+                    disadvantaged backgrounds.
+                </p>
+            </div>
+        </section>
+
+        <!-- ********** -->
+
+        <section>
+            <div class="Core-work-of-LAW-FOUNDATION">
+                <h4>Objective of RDC</h4>
+                <ul>
+                    <li>To conduct rigorus, multidicsiplinary research that informs evidence-based research and
+                        practices on much issues within society.</li>
+                    <li>To share research findings through reports, publications and public engagement, promoting a
+                        wider understanding of criminal justice and community development issues. </li>
+                    <li>To empower communities affected through research, interventions, support and engagement in the
+                        reform and prevention process. </li>
+                    <li>To collaborate with stakeholders, including fovernment agencies, legal experts,non profits, and
+                        communities, to liverage collective knowledge and resources for meaningful change. </li>
+                    <li> To influence policymakers and lawmakers through data-driven insights, contributing to the
+                        development of more equitable and just criminal justice policies.</li>
+                    <li>To enhance the capacity the of professionals and organizations working within the criminal
+                        justice feild through training, workshops, and knowledge-sharing initiatives.</li>
+
+                </ul>
+            </div>
+        </section>
+
+        <!-- ************ -->
+        <section>
+            <div class="Core-work-of-LAW-FOUNDATION">
+                <h4>The Leadership</h4>
+                <p>
+                    Praveen Kumar is the Director & Founder, Shubhendu Shekhar is the Co-Founder & Chief Executive
+                    Officer, and Md Quadir Ali serves as the Head of the RDC.
+                </p>
+            </div>
+        </section>
+
+        <!-- ********* -->
+
+        <section>
+            <div class="Core-work-of-LAW-FOUNDATION">
+                <h4>The Financial support by RDC</h4>
+                <p>
+                    Funding will be sought on behalf of Collaborative Research with the LAW FOUNDATION from their
+                    network and affiliated funders that aligns the Research project’s aim and objectives, with RDC
+                    providing support in the pursuit of these resources. A modest percentage (approximately 5-8%) of the
+                    obtained funding will be allocated to cover administrative expenses and to support RDC in accordance
+                    with government policies.
+                </p>
+            </div>
+        </section>
+
+        <!-- ********* -->
+        <section>
+            <div class="Core-work-of-LAW-FOUNDATION">
+                <h4>Future Plans </h4>
+                <p>
+                    We are targeting expanding research domains, forging strategic collaborations, and enhancing policy
+                    advocacy efforts, with a strong emphasis on integration, community engagement, and global outreach
+                    for impactful and equitable reforms within society
+                </p>
+            </div>
+        </section>
+
+
+        <!-- RDC core member -->
+
+        <section class="container-fluid RDC-member-section ">
+            <h1> RDC's Core Member</h1>
+            <div class=" row row-cols-1 row-cols-sm-2 row-cols-lg-3  ">
+                <div class="col RDC-member-background">
+                    <img src="./modal/team-member1.jpg" class=" modal-pic" data-toggle="modal"
+                        data-target="#modal-one"></img>
+                    <div class="team-title">
+                        <h4>Mr. Praveen Kumar</h4>
+                        <h5>Director & Founder</h5>
+                        <p>Praveen Kumar oversees fundraising, project delivery, and strategy for the Organization. His
+                            stewardship ensures the seamless execution of projects, maintains a high standard of
+                            quality, and optimizes resource allocation, reinforcing the RDC's commitment to cutting-edge
+                            research and its implications</p>
+                    </div>
+                </div>
+
+                <div class="col RDC-member-background">
+                    <img src="./modal/team-member2.jpg" class=" modal-pic" data-toggle="modal"
+                        data-target="#modal-two"></img>
+                    <div class="team-title">
+                        <h4>Shubhendu Shekhar</h4>
+                        <h5>Co-Founder</h5>
+                        <p>Shubhendu Shekhar supervises the research, project operation, team members, and
+                            communication. His leadership ensures the efficient execution of research projects,
+                            transparent communication, and strategic collaborations, ultimately driving the RDC's
+                            mission of advancing innovation and maintaining high-quality research standards. </p>
+                    </div>
+                </div>
+
+                <div class="col RDC-member-background">
+                    <img src="./modal/Quadir-Ali.png" class=" modal-pic" data-target="#modal-three"></img>
+                    <div class="team-title">
+                        <h4>Md Quadir Ali</h4>
+                        <h5>Head, RDC</h5>
+                        <p>
+                            Md Quadir Ali orchestrates the comprehensive operations of the RDC, including the design &
+                            execution of research projects, adherence to rigorous methodologies, & the pursuit of
+                            funding opportunities. He is instrumental in shaping the structure & content of reports and
+                            papers, ensuring the highest standards of academic and research excellence
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- map -->
+        <section>
+            <div class="RDC-map">
+                <h1>RDC's Map</h1>
+                <img src="./photo/Law Foundation map.png" alt="">
+            </div>
+        </section>
+
     </div>
-
-
-    <!--  Media Resource ****************** -->
-    <!-- <section class="media-resource">
-        <div class=" media-container">
-            <h1>Media and Resource Center</h1>
-            <div class="media-links-container">
-                <div class="media-links">
-                    <ul>
-                        <li><a href="./blogs.html">Blog ></a></li>
-                        <li><a href="./annualReports.html">Annual Reports ></a></li>
-                        <li><a href="./storiesOfChanges.html">Stories of Changes ></a></li>
-                    </ul>
-                </div>
-                <div class="media-links">
-                    <ul>
-                        <li><a href="./publication.html">Publications ></a></li>
-                        <li><a href="./pressRelease.html">Press Release ></a></li>
-                        <li><a href="./gallery.html">Gallery ></a></li>
-
-                    </ul>
-                </div>
-                <div class="media-links"> -->
-    <!-- <ul>
-                        <li><a href="">Publications ></a></li>
-                        <li><a href="">Press Release ></a></li>
-                        <li><a href="">Print/Online Media ></a></li>
-                    </ul> -->
-    <!-- </div>
-                            </div>
-                        </div>
-                    </section> -->
 
 
     <!-- ####################### footer ############################### -->
@@ -289,6 +383,15 @@
     </footer>
 
 
+    <!-- Refund Policy ***************** -->
+    <div class="refund-policy-container">
+        <ul>
+            <li><a href="./refund.html">Refund Policy |</a></li>
+            <li><a href="./privacy.html">Privacy Policy |</a></li>
+            <li><a href="./termsAndConditions.html">Terms And Conditions</a></li>
+        </ul>
+    </div>
+
     <div class="footer-down">
         <hr>
         <div>
@@ -309,17 +412,26 @@
         </div>
     </div>
 
+
+
     <div class="footer-info-down">
-        <!-- Js Link -->
+        <!-- Swiper JS link -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+        <!--  JS link -->
         <script src="index.js"> </script>
 
+        <!-- bootstrap JS Bundle link -->
         <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-            crossorigin="anonymous"></script>
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+            </script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
-            crossorigin="anonymous"></script>
+            integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+            </script>
     </div>
+
+
+
 </body>
 
 </html>

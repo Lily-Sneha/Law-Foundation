@@ -1736,7 +1736,6 @@ footer {
 .who-we-are-text h1 {
     text-align: center;
     padding-bottom: 20px;
-    padding-bottom: 20px;
     color: RGB(35, 72, 126);
     font-size: 30px;
 }
@@ -1760,9 +1759,6 @@ footer {
 
 
 /* Our Team ********************************* */
-.team-background-color {
-    /* background-color: #f7f6f2; */
-}
 
 .buttons-preview {
     display: flex;
@@ -3797,13 +3793,6 @@ hr {
 }
 
 /*  Print Media ******************** */
-.press-release-container {
-    /* background-color: #f7f6f2; */
-}
-
-.press-release-container {
-    /* background-color: #f7f6f1; */
-}
 
 .print-media-container {
     padding: 50px 30px;
@@ -3815,7 +3804,6 @@ hr {
 
 .print-media div {
     border: 1px solid grey;
-    /* background: #ffffff; */
     margin: 5px;
     padding: 15px;
 }
@@ -4371,5 +4359,87 @@ section .description-parent .description-child {
         width: 100%;
         bottom: 0;
         left: 0;
+    }
+}
+
+/* ########### RDC */
+.RDC-heading {
+    /* padding: 50px; */
+    padding: 0 148px;
+}
+
+.RDC-heading h1 {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.RDC-container {
+    padding: 50px 0px;
+}
+
+.RDC-mission-vision {
+    justify-content: space-around;
+}
+
+.RDC-mission-vision div {
+    border: 1px solid grey;
+    margin: 5px;
+    padding: 15px;
+}
+
+.RDC-mission-vision>div>h4 {
+    text-align: center;
+}
+
+.Core-work-of-LAW-FOUNDATION ul {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.RDC-member-section h1 {
+    padding: 50px 0 30px 0;
+    font-size: 30px;
+}
+
+.RDC-member-section div>div>div>p {
+    text-align: justify;
+}
+
+
+.RDC-member-background {
+    box-shadow: 4px 0px 9px #888888;
+    padding: 20px;
+}
+
+.RDC-member-section div>div {
+    border-radius: 10px;
+}
+
+.RDC-container>div>div>h4 {
+    font-size: 30px;
+    padding: 30px 0 0 0;
+}
+
+.Core-work-of-LAW-FOUNDATION h4 {
+    font-size: 30px;
+    padding: 30px 0 0 0;
+}
+
+.RDC-map {
+    padding: 20px 0 20px 0;
+}
+
+.RDC-map h1 {
+    font-size: 30px;
+}
+
+.RDC-map img {
+    width: 100%;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .RDC-heading {
+        padding: 0 30px;
     }
 }
