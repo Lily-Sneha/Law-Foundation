@@ -4449,4 +4449,13 @@ section .description-parent .description-child {
     .RDC-heading {
         padding: 0 30px;
     }
+
+}
+
+@media only screen and (max-width: 425px) {
+    .RDC-mission-vision {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }
