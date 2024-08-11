@@ -4349,7 +4349,7 @@ section .description-parent .description-child {
 
 @media only screen and (min-width: 1024px) {
     .footer-container {
-        position: fixed;
+        /* position: fixed; */
         width: 100%;
         bottom: 0;
         left: 0;
@@ -4451,5 +4451,143 @@ section .description-parent .description-child {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+    }
+}
+
+/* update August 2024 */
+.career-link {
+    display: flex;
+
+}
+
+.career-link a {
+    padding: 10px;
+    margin: 10px;
+    background-color: #0679c5;
+    color: #ffffff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.career-link a:hover {
+    background-color: #0679c5c3;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+    .career-link {
+        justify-content: space-around;
+    }
+}
+
+.career-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.internship-image {
+    display: flex;
+    justify-content: center;
+    background-image: url(./photo/Prison\ Visit\ 2.jpg);
+    width: 100%;
+    max-height: 500px;
+}
+
+.intern {
+    width: 100%;
+    max-width: 700px;
+}
+
+.internship-pic-intern {
+    position: relative;
+}
+
+.inter-link {
+    position: absolute;
+    display: flex;
+    justify-items: flex-start;
+    justify-content: space-between;
+    gap: 10px;
+    bottom: 10px;
+    left: 30px;
+}
+
+.inter-link p {
+    padding: 8px;
+    background: #0679c5;
+    border-radius: 10px;
+}
+
+.inter-link p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.inter-link p:hover {
+    /* background-color: #0679c5c3; */
+    background-color: RGB(35, 72, 126);
+}
+
+.internship-pic-intern img {
+    width: 100%;
+    max-width: 700px;
+}
+
+.vacancy-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Internship-contain {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Internship-div {
+    padding: 50px 20px 50px 34px;
+    width: 100%;
+    max-width: 700px;
+
+}
+
+.vacancy-head {
+    color: RGB(35, 72, 126);
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    letter-spacing: 1.5px;
+}
+
+.Internship-contain .Internship-div .vacancy-paragraph {
+    text-align: justify;
+    line-height: 1.7;
+    word-spacing: 1.5px;
+}
+
+.vacancy-head {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+/* media querry */
+
+@media only screen and (max-width: 768px) {
+    .Internship-contain {
+        flex-wrap: wrap;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .Internship-div {
+        padding: 30px 20px 30px 20px;
+    }
+
+    .Internship-contain .Internship-div .vacancy-paragraph {
+        font-size: 16px;
     }
 }
